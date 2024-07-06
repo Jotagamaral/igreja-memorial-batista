@@ -5,9 +5,9 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import About from './pages/About';
 import Events from './pages/Events';
 import Contact from './pages/Contact';
+import Jesus from './pages/Jesus';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <main className="flex-1 p-4">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/jesus" element={<Jesus />} />
             <Route path="/events" element={<Events />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
