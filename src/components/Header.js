@@ -37,7 +37,7 @@ const Header = () => {
     <>
       <header className="bg-blue-700 text-white p-5">
         <div className="flex justify-between items-center md:grid md:grid-cols-3">
-          <div className="h-10 md:ml-5 text-left">
+          <div className="h-10 md:ml-1 text-left">
             <Link to="/" onClick={scrollToTop}>
               <img src='/Igreja-memo-Logo.ico' alt="Igreja Memorial Batista" className="h-full" />
             </Link>
@@ -61,7 +61,7 @@ const Header = () => {
       <div className={`fixed top-0 w-full z-50 transition-transform duration-500 ease-in-out ${showFixedHeader ? 'opacity-100 transform translate-y-0' : 'transform -translate-y-full'}`}>
         <header className="bg-blue-700 bg-opacity-90 text-white p-5">
           <div className="flex justify-between items-center md:grid md:grid-cols-3">
-            <div className="h-10 md:ml-5 text-left">
+            <div className="h-10 md:ml-1 text-left">
               <Link to="/" onClick={scrollToTop}>
                 <img src='/Igreja-memo-Logo.ico' alt="Igreja Memorial Batista" className="h-full" />
               </Link>
