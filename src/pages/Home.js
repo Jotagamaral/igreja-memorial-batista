@@ -10,7 +10,7 @@ const Home = () => {
         <Welcome/>
       </div>
 
-      <div id="contact" className="p-5">
+      <div id="contact" className="w-full">
         <Jesus/>
       </div>
 

@@ -1,29 +1,37 @@
 import React from 'react';
+import ChurchHistory from '../components/ChurchHistory';
+import ParallaxSection from '../components/ParallaxSection';
 
 const Jesus = () => {
   return (
-    <div className="relative">
-      <div className="bg-fixed bg-center bg-cover h-screen" style={{ backgroundImage: "url('/assets/jesus-background.jpg')" }}>
-        <div className="bg-opacity-75 bg-blue-700 h-full flex items-center">
-          <div className="container mx-auto p-10 text-white">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="p-5 bg-blue-900 bg-opacity-75 rounded-md shadow-lg">
-                <h2 className="text-4xl font-semibold mb-4">Quem é Jesus</h2>
-                <p className="text-lg">
-                  Jesus Cristo é a figura central do Cristianismo, visto pelos cristãos como o Filho de Deus e Salvador da humanidade. Ele é acreditado como sendo o Messias profetizado no Antigo Testamento.
-                </p>
-              </div>
-              <div className="p-5 bg-blue-900 bg-opacity-75 rounded-md shadow-lg">
-                <h2 className="text-4xl font-semibold mb-4">Sua Importância</h2>
-                <p className="text-lg">
-                  Jesus é conhecido por seus ensinamentos de amor, perdão e redenção. Sua vida, morte e ressurreição são consideradas pelos cristãos como a base para a salvação e vida eterna.
-                </p>
-              </div>
-            </div>
-          </div>
+    <ParallaxSection backgroundImage="/assets/parallax-photo.jpg">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="p-5 bg-black bg-opacity-75 rounded-md shadow-lg transform transition-transform duration-500 hover:scale-105">
+          <ChurchHistory
+            title="Jesus Cristo"
+            description="Jesus Cristo é o Filho do Deus Vivo e o Salvador da humanidade. Ele é o Messias prometido, cuja vida e ensinamentos transformaram o mundo. Jesus é mais do que uma figura histórica; Ele é o exemplo perfeito de amor, graça e redenção, guiando-nos com Sua luz em cada passo do caminho. Venha conhecer o Jesus que nos chama para uma vida eterna de esperança e paz."
+            titleSize="text-4xl"
+            titleWeight="font-semibold"
+            titleAlign=""
+            descriptionSize="text-lg"
+            descriptionWeight="font-light"
+            descriptionAlign="text-center"
+          />
+        </div>
+        <div className="p-5 bg-black bg-opacity-75 rounded-md shadow-lg transform transition-transform duration-500 hover:scale-105">
+          <ChurchHistory
+            title="Sua Importância"
+            description="Jesus é conhecido e amado por seus profundos ensinamentos. Sua vida foi um exemplo perfeito de compaixão e serviço, tocando corações e transformando vidas. Sua morte na cruz é vista como o maior ato de amor e sacrifício, enquanto sua ressurreição nos oferece a promessa de vida eterna. Jesus nos chama a viver em comunhão com Deus, nos guiando com Sua sabedoria e graça."
+            titleSize="text-4xl"
+            titleWeight="font-semibold"
+            titleAlign=""
+            descriptionSize="text-lg"
+            descriptionWeight="font-light"
+            descriptionAlign="text-center"
+          />
         </div>
       </div>
-    </div>
+    </ParallaxSection>
   );
 };
 
