@@ -1,18 +1,33 @@
 import React from 'react';
-import WelcomeCard from '../components/WelcomeCard';
 import ChurchHistory from '../components/ChurchHistory';
 import ChurchPhotos from '../components/ChurchPhotos';
+import ParallaxSection from '../components/ParallaxSection';
+import { Link } from 'react-router-dom';
 
 const Welcome = () => {
   return (
     <div>
-      <WelcomeCard 
-        backgroundType="image" 
-        backgroundSrc={'../assets/welcome-background.jpg'}  // Passando a imagem importada
-        welcomeText="Bem-vindo à Igreja Memorial Batista" 
-      />
+      <ParallaxSection backgroundImage="/assets/welcome-background.jpg">
+        <div className="flex flex-col items-start p-10 space-y-4 text-white">
+        <ChurchHistory 
+            title="Bem-vindo à Igreja <br /> Memorial Batista"
+            description="Uma igreja viva para O Deus vivo!"
+            titleSize="text-6xl"
+            titleWeight="font-bold"
+            titleAlign="text-left"
+            descriptionAlign="text-left"
+            descriptionSize="text-lg"
+            descriptionWeight="font-bold"
+          />
+          <Link to="/contact">
+            <button className="font-montserrat font-bold bg-custom-blue text-white py-2 px-4 rounded-md hover:bg-blue-950 transition">
+              VENHA NOS CONHECER
+            </button>
+          </Link>
+        </div>
+      </ParallaxSection>
       
-      <div id="home" className="h-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div id="home" className="h-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 p-2">
         <ChurchHistory 
             title="Boas-Vindas"
             description="A Igreja Memorial Batista tem como missão divulgar a mensagem salvadora do Evangelho e levar vidas a Cristo. Nós, da família Memorial, damos as boas-vindas a todos os visitantes, convidando-os a participar da nossos eventos presencialmente ou online."
@@ -30,7 +45,7 @@ const Welcome = () => {
         />
       </div>
 
-      <div id="about" className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div id="about" className="grid grid-cols-1 md:grid-cols-2 gap-6 p-2">
         <div className='order-2 md:order-1'>
           <ChurchPhotos
             photos={[
