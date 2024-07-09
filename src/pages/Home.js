@@ -6,7 +6,7 @@ import Jesus from './Jesus';
 const Home = () => {
   return (
     <div>
-      <div id="contact" className='p-5'>
+      <div id="contact" >
         <Welcome/>
       </div>
 
