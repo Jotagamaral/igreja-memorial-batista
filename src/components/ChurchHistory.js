@@ -7,20 +7,22 @@ const ChurchHistory = ({
   titleWeight = "font-bold",
   titleAlign = "text-center",
   titleFont = "font-inter",
+  titleColor = 'text-black',
   descriptionAlign = "text-left",
   descriptionSize = "text-base",
   descriptionWeight = "font-normal",
-  descriptionFont = "font-montserrat"
+  descriptionFont = "font-montserrat",
+  descriptionColor = 'text-black'
 }) => {
   return (
     <div>
       <h2
-        className={`${titleSize} ${titleWeight} ${titleAlign} ${titleFont}`}
+        className={`${titleSize} ${titleWeight} ${titleAlign} ${titleFont} ${titleColor}`}
         dangerouslySetInnerHTML={{ __html: title }}
       ></h2>
-      <p className={`${descriptionSize} ${descriptionWeight} ${descriptionAlign} ${descriptionFont}`}>
-        {description}
-      </p>
+      <p className={`${descriptionSize} ${descriptionWeight} ${descriptionAlign} ${descriptionFont} ${descriptionColor}`}
+        dangerouslySetInnerHTML={{ __html: description }}
+      ></p>
     </div>
   );
 };

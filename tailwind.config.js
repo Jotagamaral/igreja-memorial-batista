@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       colors: {
         'custom-blue': '#00243F',
+        'custom-gold': '#CDAD7D'
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
