@@ -4,13 +4,17 @@ import ParallaxSection from '../components/ParallaxSection';
 
 const Jesus = () => {
   return (
-    <ParallaxSection backgroundImage="/assets/parallax-photo.jpg" height='75vh'>
+    <ParallaxSection 
+    backgroundImage="/assets/parallax-photo.jpg" 
+    color={'bg-custom-blue'}
+    imageOpacity={0.4}
+    >
       <div className="text-center text-white">
-        <h1 className="text-6xl font-bold mb-10 font-inter text-custom-gold">QUEM É JESUS?</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
+        <h1 className=" text-6xl font-bold mb-10 font-inter text-custom-gold">QUEM É JESUS?</h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pb-8">
           <div className="p-5 bg-white bg-opacity-5 rounded-md shadow-lg transform transition-transform duration-500 hover:scale-105 max-w-lg mx-auto">
             <ChurchHistory
-              title="Jesus Cristo"
+              title="Jesus Cristo" //PADDING NECESSÀRIO
               description="Jesus Cristo é o Filho do Deus Vivo e o Salvador da humanidade. Ele é o Messias prometido, cuja vida e ensinamentos transformaram o mundo.<br /> 
               Jesus é mais do que uma figura histórica; Ele é o exemplo perfeito de amor, graça e redenção, guiando-nos com Sua luz em cada passo do caminho. <br />
               Venha conhecer o Jesus que nos chama para uma vida eterna de esperança e paz."

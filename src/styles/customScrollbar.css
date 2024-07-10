@@ -1,0 +1,22 @@
+/* customScrollbar.css */
+
+/* Estilos para a barra de rolagem */
+::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+  height: 10px; /* Altura da barra de rolagem (para rolagem horizontal) */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Cor da trilha de rolagem */
+  border-radius: 10px; /* Borda arredondada */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Cor do polegar de rolagem */
+  border-radius: 10px; /* Borda arredondada */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Cor do polegar de rolagem ao passar o mouse */
+}
+
