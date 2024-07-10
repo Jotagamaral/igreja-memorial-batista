@@ -17,7 +17,7 @@ const ChurchHistory = ({
   return (
     <div>
       <h2
-        className={`${titleSize} ${titleWeight} ${titleAlign} ${titleFont} ${titleColor}`}
+        className={`${titleSize} ${titleWeight} ${titleAlign} ${titleFont} ${titleColor} pb-2`}
         dangerouslySetInnerHTML={{ __html: title }}
       ></h2>
       <p className={`${descriptionSize} ${descriptionWeight} ${descriptionAlign} ${descriptionFont} ${descriptionColor}`}

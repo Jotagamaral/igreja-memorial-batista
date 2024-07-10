@@ -7,7 +7,11 @@ import { Link } from 'react-router-dom';
 const Welcome = () => {
   return (
     <div>
-      <ParallaxSection backgroundImage="/assets/welcome-background.jpg" >
+      <ParallaxSection 
+      backgroundImage="/assets/welcome-background.jpg" 
+      color={'bg-black'}
+      
+      >
         <div className="flex flex-col items-start p-10 space-y-4 text-white">
         <ChurchHistory 
             title="Bem-vindo à Igreja <br /> Memorial Batista"
