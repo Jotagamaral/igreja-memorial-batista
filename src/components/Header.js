@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes, FaYoutube, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
-const Header = ({ jesusRef, igrejaRef ,cultosRef }) => {
+const Header = ({ jesusRef, igrejaRef ,cultosRef, contatoRef }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [showFixedHeader, setShowFixedHeader] = useState(false);
 
@@ -20,12 +20,16 @@ const Header = ({ jesusRef, igrejaRef ,cultosRef }) => {
 
   const scrollToSection = (sectionRef) => {
     if (sectionRef && sectionRef.current) {
+      const yOffset = -70;
+      const y = sectionRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      
       window.scrollTo({
-        top: sectionRef.current.offsetTop,
+        top: y,
         behavior: 'smooth',
       });
     }
   };
+  
 
   useEffect(() => {
     const handleScroll = () => {
@@ -63,9 +67,9 @@ const Header = ({ jesusRef, igrejaRef ,cultosRef }) => {
               <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(jesusRef); }} className="text-white no-underline hover:underline">Jesus</a></li>
                  <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(igrejaRef); }} className="text-white no-underline hover:underline whitespace-nowrap">A Igreja</a></li> 
               <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(cultosRef); }} className="text-white no-underline hover:underline">Cultos</a></li>
+              <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(contatoRef); }} className="text-white no-underline hover:underline">Contato</a></li>
               <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(cultosRef); }} className="text-white no-underline hover:underline">Ministérios</a></li>
               <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(cultosRef); }} className="text-white no-underline hover:underline">Mídias</a></li>
-              <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(cultosRef); }} className="text-white no-underline hover:underline">Contato</a></li>
             </ul>
           </nav>
           <div className="hidden md:flex space-x-4 justify-end">
@@ -101,9 +105,9 @@ const Header = ({ jesusRef, igrejaRef ,cultosRef }) => {
               <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(jesusRef); }} className="text-white no-underline hover:underline">Jesus</a></li>
               <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(igrejaRef); }} className="text-white no-underline hover:underline whitespace-nowrap">A Igreja</a></li>    
               <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(cultosRef); }} className="text-white no-underline hover:underline">Cultos</a></li>
+              <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(contatoRef); }} className="text-white no-underline hover:underline">Contato</a></li>
               <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(cultosRef); }} className="text-white no-underline hover:underline">Ministérios</a></li>
               <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(cultosRef); }} className="text-white no-underline hover:underline">Mídias</a></li>
-              <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(cultosRef); }} className="text-white no-underline hover:underline">Contato</a></li>
             </ul>
             </nav>
             <div className="hidden md:flex space-x-4 justify-end">

@@ -24,7 +24,7 @@ const Jesus = () => {
               titleColor="text-custom-gold"
               descriptionSize="text-base"
               descriptionWeight="font-light"
-              descriptionAlign="text-left"
+              descriptionAlign="text-justify	"
               descriptionColor="text-white"
             />
           </div>
@@ -38,7 +38,7 @@ const Jesus = () => {
               titleColor="text-custom-gold"
               descriptionSize="text-base"
               descriptionWeight="font-light"
-              descriptionAlign="text-left"
+              descriptionAlign="text-justify"
               descriptionColor="text-white"
             />
           </div>
