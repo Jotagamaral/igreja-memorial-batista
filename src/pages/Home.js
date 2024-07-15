@@ -4,7 +4,7 @@ import Welcome from './Welcome';
 import Jesus from './Jesus';
 import Cultos from './Cultos';
 import Igreja from './Igreja';
-import Contato from './Contato'
+import Contato from './Contato';
 
 const Home = forwardRef((props, ref) => {
   return (
