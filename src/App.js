@@ -14,6 +14,7 @@ function App() {
   const jesusRef = useRef(null);
   const igrejaRef = useRef(null);
   const cultosRef = useRef(null);
+  const contatoRef = useRef(null);
 
 
   return (
@@ -23,13 +24,14 @@ function App() {
         jesusRef={jesusRef}
         igrejaRef={igrejaRef} 
         cultosRef={cultosRef} 
+        contatoRef={contatoRef}
         />
 
         <main className="flex-1">
           <Routes>
             <Route 
             path="/" 
-            element={<Home ref={[jesusRef, igrejaRef, cultosRef]} />} />
+            element={<Home ref={[jesusRef, igrejaRef, cultosRef, contatoRef]} />} />
 
             <Route path="/events" element={<Events />} />
             <Route path="/contact" element={<Contact />} />

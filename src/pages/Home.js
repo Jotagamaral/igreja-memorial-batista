@@ -1,10 +1,10 @@
 // src/pages/Home.js
 import React, { forwardRef } from 'react';
-import SocialMedia from '../components/SocialMedia';
 import Welcome from './Welcome';
 import Jesus from './Jesus';
 import Cultos from './Cultos';
 import Igreja from './Igreja';
+import Contato from './Contato'
 
 const Home = forwardRef((props, ref) => {
   return (
@@ -25,8 +25,8 @@ const Home = forwardRef((props, ref) => {
         <Cultos />
       </div>
 
-      <div className="col-span-1 md:col-span-2 flex justify-center">
-        <SocialMedia />
+      <div id="contato" ref={ref[3]}>
+        <Contato />
       </div>
     </div>
   );
