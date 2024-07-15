@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useRef } from 'react';
 import './index.css';
 import Header from './components/Header';
@@ -7,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Events from './pages/Events';
 import Contact from './pages/Contact';
+import Ministerios from './pages/Ministerios'; // Importe a nova página
 
 import './styles/customScrollbar.css';
 
@@ -16,23 +16,23 @@ function App() {
   const cultosRef = useRef(null);
   const contatoRef = useRef(null);
 
-
   return (
     <Router>
       <div className="flex flex-col min-h-screen text-center custom-scrollbar">
         <Header 
-        jesusRef={jesusRef}
-        igrejaRef={igrejaRef} 
-        cultosRef={cultosRef} 
-        contatoRef={contatoRef}
+          jesusRef={jesusRef}
+          igrejaRef={igrejaRef} 
+          cultosRef={cultosRef} 
+          contatoRef={contatoRef}
         />
 
         <main className="flex-1">
           <Routes>
             <Route 
-            path="/" 
-            element={<Home ref={[jesusRef, igrejaRef, cultosRef, contatoRef]} />} />
-
+              path="/" 
+              element={<Home ref={[jesusRef, igrejaRef, cultosRef, contatoRef]} />} 
+            />
+            <Route path="/ministerios" element={<Ministerios />} /> {/* Adicione a nova rota */}
             <Route path="/events" element={<Events />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

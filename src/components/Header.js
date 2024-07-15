@@ -1,11 +1,12 @@
-// src/components/Header.js
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { FaBars, FaTimes, FaYoutube, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
-const Header = ({ jesusRef, igrejaRef ,cultosRef, contatoRef }) => {
+const Header = ({ jesusRef, igrejaRef, cultosRef, contatoRef }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [showFixedHeader, setShowFixedHeader] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -29,7 +30,16 @@ const Header = ({ jesusRef, igrejaRef ,cultosRef, contatoRef }) => {
       });
     }
   };
-  
+
+  const handleScrollToSection = (e, sectionRef) => {
+    e.preventDefault();
+    if (location.pathname !== "/") {
+      navigate("/", { replace: true });
+      setTimeout(() => scrollToSection(sectionRef), 1000); // Ajuste o tempo se necessário
+    } else {
+      scrollToSection(sectionRef);
+    }
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -63,13 +73,13 @@ const Header = ({ jesusRef, igrejaRef ,cultosRef, contatoRef }) => {
           </div>
           <nav className={`col-span-1 ${isOpen ? 'block' : 'hidden'} md:flex md:justify-center`}>
             <ul className="flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-8 font-inter">
-              <li><Link to="/" onClick={scrollToTop} className="text-white no-underline hover:underline">Home</Link></li>
-              <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(jesusRef); }} className="text-white no-underline hover:underline">Jesus</a></li>
-                 <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(igrejaRef); }} className="text-white no-underline hover:underline whitespace-nowrap">A Igreja</a></li> 
-              <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(cultosRef); }} className="text-white no-underline hover:underline">Cultos</a></li>
-              <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(contatoRef); }} className="text-white no-underline hover:underline">Contato</a></li>
-              <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(cultosRef); }} className="text-white no-underline hover:underline">Ministérios</a></li>
-              <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(cultosRef); }} className="text-white no-underline hover:underline">Mídias</a></li>
+              <li><Link to="/" onClick={scrollToTop} className={`text-white no-underline hover:underline ${location.pathname === '/' ? 'font-bold' : ''}`}>Home</Link></li>
+              <li><Link to="/" onClick={(e) => handleScrollToSection(e, jesusRef)} className={`text-white no-underline hover:underline ${location.pathname === '/' ? 'font-bold' : ''}`}>Jesus</Link></li>
+              <li><a href="#igreja" onClick={(e) => handleScrollToSection(e, igrejaRef)} className={`text-white no-underline hover:underline ${location.pathname === '/' ? 'font-bold' : ''} whitespace-nowrap`}>A Igreja</a></li>
+              <li><a href="#cultos" onClick={(e) => handleScrollToSection(e, cultosRef)} className={`text-white no-underline hover:underline ${location.pathname === '/' ? 'font-bold' : ''}`}>Cultos</a></li>
+              <li><a href="#contato" onClick={(e) => handleScrollToSection(e, contatoRef)} className={`text-white no-underline hover:underline ${location.pathname === '/' ? 'font-bold' : ''}`}>Contato</a></li>
+              <li><Link to="/ministerios" className={`text-white no-underline hover:underline ${location.pathname === '/ministerios' ? 'font-bold' : ''}`}>Ministérios</Link></li>
+              <li><a href="#midias" onClick={(e) => handleScrollToSection(e, cultosRef)} className={`text-white no-underline hover:underline ${location.hash === '#midias' ? 'font-bold' : ''}`}>Mídias</a></li>
             </ul>
           </nav>
           <div className="hidden md:flex space-x-4 justify-end">
@@ -100,15 +110,15 @@ const Header = ({ jesusRef, igrejaRef ,cultosRef, contatoRef }) => {
               </button>
             </div>
             <nav className={`col-span-1 ${isOpen ? 'block' : 'hidden'} md:flex md:justify-center`}>
-            <ul className="flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-8 font-inter">
-              <li><Link to="/" onClick={scrollToTop} className="text-white no-underline hover:underline">Home</Link></li>
-              <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(jesusRef); }} className="text-white no-underline hover:underline">Jesus</a></li>
-              <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(igrejaRef); }} className="text-white no-underline hover:underline whitespace-nowrap">A Igreja</a></li>    
-              <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(cultosRef); }} className="text-white no-underline hover:underline">Cultos</a></li>
-              <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(contatoRef); }} className="text-white no-underline hover:underline">Contato</a></li>
-              <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(cultosRef); }} className="text-white no-underline hover:underline">Ministérios</a></li>
-              <li><a href="#jesus" onClick={(e) => { e.preventDefault(); scrollToSection(cultosRef); }} className="text-white no-underline hover:underline">Mídias</a></li>
-            </ul>
+              <ul className="flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-8 font-inter">
+                <li><Link to="/" onClick={scrollToTop} className={`text-white no-underline hover:underline ${location.pathname === '/' ? 'font-bold' : ''}`}>Home</Link></li>
+                <li><Link to="#jesus" onClick={(e) => handleScrollToSection(e, jesusRef)} className={`text-white no-underline hover:underline ${location.pathname === '/' ? 'font-bold' : ''}`}>Jesus</Link></li>
+                <li><Link to="#igreja" onClick={(e) => handleScrollToSection(e, igrejaRef)} className={`text-white no-underline hover:underline ${location.pathname === '/' ? 'font-bold' : ''} whitespace-nowrap`}>A Igreja</Link></li>
+                <li><Link to="#cultos" onClick={(e) => handleScrollToSection(e, cultosRef)} className={`text-white no-underline hover:underline ${location.pathname === '/' ? 'font-bold' : ''}`}>Cultos</Link></li>
+                <li><Link to="#contato" onClick={(e) => handleScrollToSection(e, contatoRef)} className={`text-white no-underline hover:underline ${location.pathname === '/' ? 'font-bold' : ''}`}>Contato</Link></li>
+                <li><Link to="/ministerios" className={`text-white no-underline hover:underline ${location.pathname === '/ministerios' ? 'font-bold' : ''}`}>Ministérios</Link></li>
+                <li><Link to="#midias" onClick={(e) => handleScrollToSection(e, cultosRef)} className={`text-white no-underline hover:underline ${location.hash === '#midias' ? 'font-bold' : ''}`}>Mídias</Link></li>
+              </ul>
             </nav>
             <div className="hidden md:flex space-x-4 justify-end">
               <a href="https://www.youtube.com/@imbb" target="_blank" rel="noopener noreferrer" className="text-white">
