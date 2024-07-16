@@ -79,8 +79,8 @@ const Header = ({ jesusRef, igrejaRef, cultosRef, contatoRef }) => {
 
   const getLinkClass = (section) => {
     return activeSection === section
-      ? 'text-white font-bold border-b-2 border-white no-underline hover:underline'
-      : 'text-white no-underline hover:underline';
+      ? 'text-white font-bold border-b-2 border-white rounded-sm no-underline '
+      : 'text-white no-underline hover:text-custom-gold';
   };
   
 
