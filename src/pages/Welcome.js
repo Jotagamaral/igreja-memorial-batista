@@ -1,6 +1,6 @@
 import React from 'react';
 import ChurchHistory from '../components/ChurchHistory';
-import ChurchPhotos from '../components/ChurchPhotos';
+//import ChurchPhotos from '../components/ChurchPhotos';
 import ParallaxSection from '../components/ParallaxSection';
 import { Link } from 'react-router-dom';
 
@@ -33,7 +33,7 @@ const Welcome = () => {
         </div>
       </ParallaxSection>
       
-      <div id="home" className="h-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 p-2 ">
+      {/* <div id="home" className="h-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 p-2 ">
         <ChurchHistory 
             title="Boas-Vindas"
             description="A Igreja Memorial Batista tem como missão divulgar a mensagem salvadora do Evangelho e levar vidas a Cristo. Nós, da família Memorial, damos as boas-vindas a todos os visitantes, convidando-os a participar da nossos eventos presencialmente ou online."
@@ -71,7 +71,7 @@ const Welcome = () => {
             descriptionWeight="font-light"
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
