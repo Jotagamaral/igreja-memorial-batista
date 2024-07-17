@@ -12,6 +12,10 @@ const Header = ({ jesusRef, igrejaRef, cultosRef, contatoRef }) => {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -23,7 +27,7 @@ const Header = ({ jesusRef, igrejaRef, cultosRef, contatoRef }) => {
     if (sectionRef && sectionRef.current) {
       const yOffset = -70;
       const y = sectionRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset;
-      
+
       window.scrollTo({
         top: y,
         behavior: 'smooth',
@@ -33,6 +37,7 @@ const Header = ({ jesusRef, igrejaRef, cultosRef, contatoRef }) => {
 
   const handleScrollToSection = (e, sectionRef) => {
     e.preventDefault();
+    closeMenu();
     if (location.pathname !== "/") {
       navigate("/", { replace: true });
       setTimeout(() => scrollToSection(sectionRef), 1000); // Ajuste o tempo se necessário
@@ -50,7 +55,7 @@ const Header = ({ jesusRef, igrejaRef, cultosRef, contatoRef }) => {
         { id: 'cultos', ref: cultosRef },
         { id: 'contato', ref: contatoRef },
       ];
-  
+
       let currentSection = 'home';
       for (let i = 0; i < sections.length; i++) {
         const section = sections[i];
@@ -64,12 +69,13 @@ const Header = ({ jesusRef, igrejaRef, cultosRef, contatoRef }) => {
       }
       setActiveSection(currentSection);
     };
-  
+
     if (location.pathname === '/') {
       window.addEventListener('scroll', handleScroll);
       handleScroll(); // Run once on mount to set the initial active section
     } else {
-      setActiveSection(location.pathname === '/ministerios' ? 'ministerios' : 'home');
+      const path = location.pathname.replace('/', '');
+      setActiveSection(path || 'home');
     }
 
     return () => {
@@ -82,11 +88,10 @@ const Header = ({ jesusRef, igrejaRef, cultosRef, contatoRef }) => {
       ? 'text-white font-bold border-b-2 border-white rounded-sm no-underline '
       : 'text-white no-underline hover:text-custom-gold';
   };
-  
 
   return (
     <header className="bg-custom-blue text-white p-5 fixed top-0 w-full z-50">
-      <div className="grid grid-cols-3 items-center">
+      <div className="flex justify-between items-center">
         <div className="h-10 md:ml-1 text-left">
           <Link to="/" onClick={scrollToTop}>
             <img src='/Igreja-memo-Logo-navbar.ico' alt="Igreja Memorial Batista" className="h-full scale-150 pl-4" />
@@ -97,16 +102,16 @@ const Header = ({ jesusRef, igrejaRef, cultosRef, contatoRef }) => {
             {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
           </button>
         </div>
-        <nav className={`col-span-1 ${isOpen ? 'block' : 'hidden'} md:flex md:justify-center`}>
-          <ul className="flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-8 font-inter">
+        <nav className={`fixed top-16 left-0 w-full bg-custom-blue border-t border-gray-200 md:static md:border-0 ${isOpen ? 'block' : 'hidden'} md:flex md:justify-center`}>
+          <ul className="flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-6 font-inter p-4 md:p-0">
             <li><Link to="/" onClick={scrollToTop} className={getLinkClass('home')}>Home</Link></li>
             <li><a href="#jesus" onClick={(e) => handleScrollToSection(e, jesusRef)} className={getLinkClass('jesus')}>Jesus</a></li>
-            <li><a href="#igreja" onClick={(e) => handleScrollToSection(e, igrejaRef)} className={`${getLinkClass('igreja')} whitespace-nowrap`}>A Igreja</a></li> 
+            <li><a href="#igreja" onClick={(e) => handleScrollToSection(e, igrejaRef)} className={`${getLinkClass('igreja')} whitespace-nowrap`}>A Igreja</a></li>
             <li><a href="#cultos" onClick={(e) => handleScrollToSection(e, cultosRef)} className={getLinkClass('cultos')}>Cultos</a></li>
             <li><a href="#contato" onClick={(e) => handleScrollToSection(e, contatoRef)} className={getLinkClass('contato')}>Contato</a></li>
             <li><Link to="/ministerios" className={getLinkClass('ministerios')}>Ministérios</Link></li>
-            <li><a href="#midias" onClick={(e) => handleScrollToSection(e, cultosRef)} className={getLinkClass('midias')}>Mídias</a></li>
-          </ul> 
+            <li><Link to="/midias" className={getLinkClass('midias')}>Mídias</Link></li>
+          </ul>
         </nav>
         <div className="hidden md:flex space-x-4 justify-end">
           <a href="https://www.youtube.com/@imbb" target="_blank" rel="noopener noreferrer" className="text-white">

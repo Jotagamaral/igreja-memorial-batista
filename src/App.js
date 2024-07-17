@@ -1,12 +1,11 @@
 import React, { useRef } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './index.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import Events from './pages/Events';
-import Contact from './pages/Contact';
-import Ministerios from './pages/Ministerios'; // Importe a nova página
+import Ministerios from './pages/Ministerios';
+import Midias from './pages/Midias';
 
 import './styles/customScrollbar.css';
 
@@ -32,9 +31,8 @@ function App() {
               path="/" 
               element={<Home ref={[jesusRef, igrejaRef, cultosRef, contatoRef]} />} 
             />
-            <Route path="/ministerios" element={<Ministerios />} /> {/* Adicione a nova rota */}
-            <Route path="/events" element={<Events />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/ministerios" element={<Ministerios />} /> 
+            <Route path="/midias" element={<Midias />} /> 
           </Routes>
         </main>
         <Footer />
