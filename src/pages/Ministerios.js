@@ -42,6 +42,7 @@ const Ministerios = () => {
           <CardMinisterio title="Informação" description="Descrição do ministério" />
           <CardMinisterio title="Integração e Comunhão" description="Descrição do ministério" />
           <CardMinisterio title="Juventude" description="Descrição do ministério" />
+          <CardMinisterio title="Missões" description="Descrição do ministério" />
           <CardMinisterio title="Mulher Cristã em missão" description="Descrição do ministério" />
           <CardMinisterio title="Música" description="Descrição do ministério" />
           <CardMinisterio title="Oração" description="Descrição do ministério" />

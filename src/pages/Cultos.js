@@ -1,11 +1,12 @@
+// src/pages/Cultos.js
 import React from 'react';
 import ChurchHistory from '../components/ChurchHistory';
 
 const Cultos = () => {
   return (
-    <div className="p-16 pb-0 bg-gray-100">
+    <div className="p-16 pb-0 bg-gray-100 min-h-screen flex flex-col">
       {/* Seção superior com duas colunas */}
-      <div className='pl-4 border-l-2 border-black'>
+      <div className='pl-4 border-l-2 border-black flex-grow'>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 border-b-2 border-black">
           <div className="flex flex-col justify-center items-start p-4">
             <ChurchHistory 
@@ -35,8 +36,8 @@ const Cultos = () => {
         </div>
       
         {/* Seção inferior com quatro colunas */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-          <div className="flex flex-col items-start border-r-2 border-black">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 flex-grow">
+          <div className="flex flex-col items-start border-r-2 border-black flex-grow">
             <ChurchHistory 
               title="Quarta"
               description="19h30 - Culto de oração"
@@ -50,7 +51,7 @@ const Cultos = () => {
               descriptionColor='text-black'
             />
           </div>
-          <div className="flex flex-col items-start border-r-2 border-black">
+          <div className="flex flex-col items-start border-r-2 border-black flex-grow">
             <ChurchHistory 
               title="Sexta"
               description="20 - Culto dos Adolescentes + PG"
@@ -64,11 +65,11 @@ const Cultos = () => {
               descriptionColor='text-black'
             />
           </div>
-          <div className="flex flex-col items-start border-r-2 border-black">
+          <div className="flex flex-col items-start border-r-2 border-black flex-grow">
             <ChurchHistory 
               title="Sábado"
               description="16h - Culto em LIBRAS <br /> <br />
-                          19h Culto da Juventude"
+                          19h - Culto da Juventude"
               titleSize="text-xl"
               titleWeight="font-bold"
               titleAlign="text-left"
@@ -79,7 +80,7 @@ const Cultos = () => {
               descriptionColor='text-black'
             />
           </div>
-          <div className="flex flex-col items-start border-r-2 border-black pb-20">
+          <div className="flex flex-col items-start border-r-2 border-black flex-grow pb-20">
             <ChurchHistory 
               title="Domingo"
               description="10h15 - Culto dominical <br />
