@@ -15,7 +15,13 @@ module.exports = {
         inter: ['Inter', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
       },
+      aspectRatio: {
+        '9/16': '9 / 16',
+        '4/5': '4 / 5',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }
