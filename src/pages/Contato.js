@@ -12,7 +12,7 @@ const Contato = () => {
       </div>
       <div className="flex flex-col justify-around p-8 bg-custom-white space-y-0">
         <div className="flex items-center">
-          <FaPhone className="text-2xl text-custom-blue mr-2" />
+        <FaPhone className="text-2xl text-custom-blue mr-2 transform scale-x-[-1]" />
           <span className="text-xl font-montserrat font-bold">Telefone: (61) 3244-8806</span>
         </div>
         <div className="flex items-center">

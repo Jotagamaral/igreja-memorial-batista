@@ -46,7 +46,14 @@ const Midias = () => {
               <li>Cortes dos louvores ministrados</li>
               <li>Cultos antigos</li>
             </ul>
+
+            <a 
+          href="https://www.youtube.com/@ministeriocrescerimbb" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className=" hover:text-custom-blue hover:underline transition duration-300">
             <h1 className="text-2xl text-justify font-inter font-bold mb-4">+Canal do Ministério Crescer</h1>
+            </a>
             <p className='text-justify font-inter'>
               Inscreva-se no canal de nosso Ministério Infantil e acompanhe histórias, louvores e muita diversão para as
               crianças. Junte-se a nós!
