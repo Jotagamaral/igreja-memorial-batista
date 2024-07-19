@@ -83,10 +83,16 @@ const Midias = () => {
           <img src="/assets/Midia-photo_3.jpg" alt="Foto de evento" className="w-full h-auto mb-4 object-cover" />
           <h1 className="text-2xl text-justify font-inter font-bold mb-4">ACOMPANHE TODOS OS EVENTOS DA MEMORIAL</h1>
           
-          <a href="#boletim" className="flex items-center text-black text-justify font-montserrat font-bold no-underline mb-2 hover:text-custom-blue hover:underline">
+          <a href="https://drive.google.com/drive/folders/16VFcUdYmtAEDpM241JeG9rmuXe2pvYZa?usp=drive_link"
+             target="_blank"
+             rel="noopener noreferrer"
+             className="flex items-center text-black text-justify font-montserrat font-bold no-underline mb-2 hover:text-custom-blue hover:underline">
             <FaBook size={32} className="mr-2"/>Acesse nosso boletim para avisos e mensagens pastorais
           </a>
-          <a href="#calendario" className="flex items-center text-black text-justify font-montserrat font-bold no-underline hover:text-custom-blue hover:underline">
+          <a href="https://drive.google.com/file/d/1spqBdF6IcoCz8ZoRKZZTK8x_Wxdh8dXe/view?usp=drive_link"
+             target="_blank"
+             rel="noopener noreferrer" 
+             className="flex items-center text-black text-justify font-montserrat font-bold no-underline hover:text-custom-blue hover:underline">
             <FaCalendarAlt size={32} className="mr-2"/>Acesse o calendário mensal de nossa igreja
           </a>
         </div>
