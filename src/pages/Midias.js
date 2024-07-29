@@ -9,7 +9,7 @@ const Midias = () => {
 
   return (
     <div className="min-h-screen">
-      <div className="flex flex-col md:flex-row mt-12">
+      <div className="flex flex-col md:flex-row mt-12 max-w-screen-2xl mx-auto">
         {/* Primeira área */}
         <div className="flex-1 bg-white p-8">
           <div className="p-4">
@@ -59,7 +59,7 @@ const Midias = () => {
             </p>
             <br />
             <a 
-              href="https://www.youtube.com/@ministeriocrescerimbb" 
+              href="https://www.youtube.com/@juventude_memorial" 
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-custom-blue hover:underline transition duration-300">
