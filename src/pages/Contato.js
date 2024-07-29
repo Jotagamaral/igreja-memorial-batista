@@ -3,31 +3,31 @@ import { FaPhone, FaWhatsapp, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa'
 
 const Contato = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
-      <div
-        className="flex items-center justify-center bg-cover bg-center"
-        style={{ backgroundImage: 'url(/assets/Contact-photo.jpg)', minHeight: '75vh' }}
-      >
-        <h1 className="text-white text-7xl font-inter font-bold">Contato</h1>
-      </div>
-      <div className="flex flex-col justify-around p-8 bg-custom-white space-y-0">
-        <div className="flex items-center">
-        <FaPhone className="text-2xl text-custom-blue mr-2 transform scale-x-[-1]" />
-          <span className="text-xl font-montserrat font-bold">Telefone: (61) 3244-8806</span>
+    <div
+      className="flex flex-col items-center justify-center min-h-screen bg-cover bg-center text-white"
+      style={{ backgroundImage: 'url(/assets/Contact-photo.jpg)' }}
+    >
+      <h1 className="text-7xl font-inter font-bold mb-8">Contato</h1>
+      <div className="bg-black bg-opacity-50 p-8 rounded-lg space-y-6 text-center w-11/12 md:w-2/3 lg:w-1/2">
+        <div className="flex flex-col items-center space-y-4">
+          <div className="flex items-center">
+            <FaPhone className="text-2xl mr-2 transform scale-x-[-1]" />
+            <span className="text-xl font-montserrat font-bold">Telefone: (61) 3244-8806</span>
+          </div>
+          <div className="flex items-center">
+            <FaWhatsapp className="text-3xl mr-2" />
+            <span className="text-xl font-montserrat font-bold">WhatsApp: (61) 99105-2219</span>
+          </div>
+          <div className="flex items-center">
+            <FaEnvelope className="text-3xl mr-2" />
+            <span className="text-xl font-montserrat font-bold">E-mail: memorial@imbb.org.br</span>
+          </div>
+          <div className="flex items-center">
+            <FaMapMarkerAlt className="text-3xl mr-2" />
+            <span className="text-xl font-montserrat font-bold">Endereço: SGAS 905 Sul, Brasília - DF Cep: 70390-050</span>
+          </div>
         </div>
-        <div className="flex items-center">
-          <FaWhatsapp className="text-3xl text-custom-blue mr-2" />
-          <span className="text-xl font-montserrat font-bold">WhatsApp: (61) 99105-2219</span>
-        </div>
-        <div className="flex items-center">
-          <FaEnvelope className="text-3xl text-custom-blue mr-2" />
-          <span className="text-xl font-montserrat font-bold">E-mail: memorial@imbb.org.br</span>
-        </div>
-        <div className="flex items-center">
-          <FaMapMarkerAlt className="text-3xl text-custom-blue mr-2" />
-          <span className="text-xl font-montserrat font-bold">Endereço: SGAS 905 Sul, Brasília - DF Cep: 70390-050</span>
-        </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center text-center">
           <span className="text-xl font-montserrat font-bold">
             Para acompanhar mais da nossa igreja faça parte da nossa comunidade no WhatsApp:
           </span>

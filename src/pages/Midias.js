@@ -26,10 +26,10 @@ const Midias = () => {
               </div>
             </div>
             <a 
-            href="https://www.youtube.com/@imbb" 
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-custom-blue text-white font-montserrat font-bold my-4 py-2 px-4 rounded-full inline-block text-center hover:bg-blue-900 transition duration-300">Acesse o canal da Memorial</a>
+              href="https://www.youtube.com/@imbb" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-custom-blue text-white font-montserrat font-bold my-4 py-2 px-4 rounded-full inline-block text-center hover:bg-blue-900 transition duration-300">Acesse o canal da Memorial</a>
           </div>
         </div>
         
@@ -46,43 +46,53 @@ const Midias = () => {
               <li>Cortes dos louvores ministrados</li>
               <li>Cultos antigos</li>
             </ul>
-
             <a 
-          href="https://www.youtube.com/@ministeriocrescerimbb" 
-          target="_blank"
-          rel="noopener noreferrer"
-          className=" hover:text-custom-blue hover:underline transition duration-300">
-            <h1 className="text-2xl text-justify font-inter font-bold mb-4">+Canal do Ministério Crescer</h1>
+              href="https://www.youtube.com/@ministeriocrescerimbb" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-custom-blue hover:underline transition duration-300">
+              <h1 className="text-2xl text-justify font-inter font-bold mb-4">+Canal do Ministério Crescer</h1>
             </a>
             <p className='text-justify font-inter'>
               Inscreva-se no canal de nosso Ministério Infantil e acompanhe histórias, louvores e muita diversão para as
               crianças. Junte-se a nós!
+            </p>
+            <br />
+            <a 
+              href="https://www.youtube.com/@ministeriocrescerimbb" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-custom-blue hover:underline transition duration-300">
+              <h1 className="text-2xl text-justify font-inter font-bold mb-4">+Canal da Juventude</h1>
+            </a>
+            <p className='text-justify font-inter'>
+              Inscreva-se no nosso canal do YouTube e junte-se à nossa juventude para fortalecer sua fé, compartilhar momentos 
+              incríveis e crescer espiritualmente juntos!
             </p>
           </div>
         </div>
       </div>
         
       {/* Terceira área */}
-      <div className="flex flex-col md:flex-row mb-8">
+      <div className="flex flex-col items-center mb-8">
         <div className="w-full md:w-3/5 p-4">
           <h1 className="text-xl text-justify font-montserrat font-bold mb-4">
             Confira os momentos especiais de nossa igreja no nosso Flickr! Veja fotos de eventos, cultos e atividades, e
             sinta-se parte da nossa família. Acompanhe cada passo da família memorial.
           </h1>
           <a 
-          href="https://www.flickr.com/photos/142102771@N03/albums/" 
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-custom-blue text-white font-montserrat font-bold py-1 px-4 rounded-full mb-4 inline-block text-center hover:bg-blue-900 transition duration-300">Veja mais fotos</a>
-          <div className="flex space-x-4">
+            href="https://www.flickr.com/photos/142102771@N03/albums/" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-custom-blue text-white font-montserrat font-bold py-1 px-4 rounded-full mb-4 inline-block text-center hover:bg-blue-900 transition duration-300">Veja mais fotos</a>
+          <div className="flex space-x-4 justify-center">
             <img src="/assets/Midia-photo_1.jpg" alt="Foto 1" className="w-1/2 aspect-4/5 object-cover" />
             <img src="/assets/Midia-photo_2.jpg" alt="Foto 2" className="w-1/2 aspect-4/5 object-cover" />
           </div>
         </div>
-        <div className="w-full md:w-2/5 p-4 px-8">
+        <div className="w-full md:w-2/5 p-4 px-8 mt-8">
           <img src="/assets/Midia-photo_3.jpg" alt="Foto de evento" className="w-full h-auto mb-4 object-cover" />
           <h1 className="text-2xl text-justify font-inter font-bold mb-4">ACOMPANHE TODOS OS EVENTOS DA MEMORIAL</h1>
-          
           <a href="https://drive.google.com/drive/folders/16VFcUdYmtAEDpM241JeG9rmuXe2pvYZa?usp=drive_link"
              target="_blank"
              rel="noopener noreferrer"
