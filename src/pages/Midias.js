@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react';
-import { FaBook, FaCalendarAlt } from "react-icons/fa";
+import ChurchHistory from '../components/ChurchHistory';
+import Card from '../components/Card';
 
 const Midias = () => {
   useEffect(() => {
     // Scroll to top when the component mounts
-    window.scrollTo(0, 0);
+    //window.scrollTo(0, 0);
   }, []);
 
   return (
@@ -72,40 +73,79 @@ const Midias = () => {
           </div>
         </div>
       </div>
+
+      {/* Nova área de cards */}
+      <div className='bg-[#EBEBEB]'>
+        <div className="flex flex-col md:flex-row max-w-screen-xl mx-auto gap-8 p-8">
+          {/* Card com foto de fundo */}
+          <Card BackgroundImage="/assets/church_midia.jpg" className="w-[20rem] h-[25rem]" />
+          
+          {/* Card com informações */}
+          <Card BackgroundColor="#FFFFFF" className="w-[20rem] h-[25rem]">
+            <div className="flex flex-col justify-between p-8 rounded-2xl">
+              <div>
+                <ChurchHistory
+                  title="Flickr da IMB"
+                  description="O Flickr é uma plataforma online de compartilhamento de fotos e vídeos, que permite aos usuários armazenar, organizar, buscar e compartilhar suas imagens e vídeos de alta qualidade. <br /> <br /> Se você ama fotografia e quer conhecer mais a memorial, não deixe de acessar o Flickr e explorar o vasto acervo de imagens contando o cotidiano de nossa igreja."
+                  titleSize="text-5xl"
+                  titleWeight="font-bold"
+                  titleAlign="text-left"
+                  titleColor="text-[#0067CB]"
+                  descriptionSize="text-base"
+                  descriptionWeight="font-light"
+                  descriptionAlign="text-justify"
+                  descriptionColor="text-[#191919]"
+                />
+              </div>
+              <a 
+                href="https://www.flickr.com" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#E2E2EB] text-[#0067CB] font-inter font-thin py-2 px-4 rounded-lg hover:bg-[#d8d8d8] transition duration-300 mt-4 self-start">
+                ACESSE O FLICKR
+              </a>
+            </div>
+          </Card>
+        </div>
+      </div>
+
+      {/* Nova área de cards com balões na borda inferior direita */}
+      <div className='bg-white py-12'>
+
+        <div className='max-w-screen-xl mx-auto'>
+          <h1 className="text-2xl text-justify font-inter font-bold pl-8">Acesse mais conteúdos</h1>
         
-      {/* Terceira área */}
-      <div className="flex flex-col items-center mb-8">
-        <div className="w-full md:w-3/5 p-4">
-          <h1 className="text-xl text-justify font-montserrat font-bold mb-4">
-            Confira os momentos especiais de nossa igreja no nosso Flickr! Veja fotos de eventos, cultos e atividades, e
-            sinta-se parte da nossa família. Acompanhe cada passo da família memorial.
-          </h1>
-          <a 
-            href="https://www.flickr.com/photos/142102771@N03/albums/" 
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-custom-blue text-white font-montserrat font-bold py-1 px-4 rounded-full mb-4 inline-block text-center hover:bg-blue-900 transition duration-300">Veja mais fotos</a>
-          <div className="flex space-x-4 justify-center">
-            <img src="/assets/Midia-photo_1.jpg" alt="Foto 1" className="w-1/2 aspect-4/5 object-cover" />
-            <img src="/assets/Midia-photo_2.jpg" alt="Foto 2" className="w-1/2 aspect-4/5 object-cover" />
+          <div className="flex flex-col md:flex-row gap-8 p-8">
+            {/* Card 1 */}
+            <Card BackgroundImage="/assets/card_midia_1.jpg" className="w-[20rem] h-[25rem]">
+              <div className="w-[20rem] flex flex-col absolute -bottom-10 right-0 p-4 bg-[#04B1D9]  rounded-lg shadow-md">
+                <h1 className="self-start font-inter font-bold text-black text-left mb-2">Acesse os nossos boletins dominicais</h1>
+                <a 
+                  href="https://drive.google.com/drive/folders/16VFcUdYmtAEDpM241JeG9rmuXe2pvYZa?usp=drive_link"
+                  target="_blank"
+                  rel="noopener noreferrer" 
+                  className=" self-start font-inter font-bold text-black hover:underline">
+                  Veja mais {'>'}
+                </a>
+              </div>
+            </Card>
+            
+            {/* Card 2 */}
+            <Card BackgroundImage="/assets/card_midia_2.jpg" className="w-[20rem] h-[25rem]">
+            <div className="w-[20rem] flex flex-col absolute -bottom-10 right-0 p-4 bg-[#CDDCE7]  rounded-lg shadow-md">
+                <h1 className="self-start font-inter font-bold text-black text-left mb-2">Veja  o calendário de atividades da memorial</h1>
+                <a 
+                  href="https://drive.google.com/file/d/1spqBdF6IcoCz8ZoRKZZTK8x_Wxdh8dXe/view?usp=drive_link"
+                  target="_blank"
+                  rel="noopener noreferrer" 
+                  className=" self-start font-inter font-bold text-black hover:underline">
+                 Não perca nada {'>'}
+                </a>
+              </div>
+            </Card>
           </div>
         </div>
-        <div className="w-full md:w-2/5 p-4 px-8 mt-8">
-          <img src="/assets/Midia-photo_3.jpg" alt="Foto de evento" className="w-full h-auto mb-4 object-cover" />
-          <h1 className="text-2xl text-justify font-inter font-bold mb-4">ACOMPANHE TODOS OS EVENTOS DA MEMORIAL</h1>
-          <a href="https://drive.google.com/drive/folders/16VFcUdYmtAEDpM241JeG9rmuXe2pvYZa?usp=drive_link"
-             target="_blank"
-             rel="noopener noreferrer"
-             className="flex items-center text-black text-justify font-montserrat font-bold no-underline mb-2 hover:text-custom-blue hover:underline">
-            <FaBook size={32} className="mr-2"/>Acesse nosso boletim para avisos e mensagens pastorais
-          </a>
-          <a href="https://drive.google.com/file/d/1spqBdF6IcoCz8ZoRKZZTK8x_Wxdh8dXe/view?usp=drive_link"
-             target="_blank"
-             rel="noopener noreferrer" 
-             className="flex items-center text-black text-justify font-montserrat font-bold no-underline hover:text-custom-blue hover:underline">
-            <FaCalendarAlt size={32} className="mr-2"/>Acesse o calendário mensal de nossa igreja
-          </a>
-        </div>
+
       </div>
     </div>
   );

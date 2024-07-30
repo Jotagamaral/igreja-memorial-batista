@@ -5,7 +5,7 @@ const Contato = () => {
   return (
     <div
       className="flex flex-col items-center justify-center min-h-screen bg-cover bg-center text-white"
-      style={{ backgroundImage: 'url(/assets/Contact-photo.jpg)' }}
+      style={{ backgroundImage: 'url(/assets/contato.jpg)' }}
     >
       <h1 className="text-7xl font-inter font-bold mb-8">Contato</h1>
       <div className="bg-black bg-opacity-50 p-8 rounded-lg space-y-6 text-center w-11/12 md:w-2/3 lg:w-1/2">
