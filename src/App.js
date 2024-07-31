@@ -7,11 +7,13 @@ import Home from './pages/Home';
 import Ministerios from './pages/Ministerios';
 import Midias from './pages/Midias';
 
+
 import './styles/customScrollbar.css';
+import Igreja from './pages/Igreja';
 
 function App() {
   const jesusRef = useRef(null);
-  const igrejaRef = useRef(null);
+  const memorialRef = useRef(null);
   const cultosRef = useRef(null);
   const contatoRef = useRef(null);
 
@@ -20,7 +22,7 @@ function App() {
       <div className="flex flex-col min-h-screen text-center custom-scrollbar">
         <Header 
           jesusRef={jesusRef}
-          igrejaRef={igrejaRef} 
+          memorialRef={memorialRef} 
           cultosRef={cultosRef} 
           contatoRef={contatoRef}
         />
@@ -29,10 +31,11 @@ function App() {
           <Routes>
             <Route 
               path="/" 
-              element={<Home ref={[jesusRef, igrejaRef, cultosRef, contatoRef]} />} 
+              element={<Home ref={[jesusRef, memorialRef, cultosRef, contatoRef]} />} 
             />
             <Route path="/ministerios" element={<Ministerios />} /> 
-            <Route path="/midias" element={<Midias />} /> 
+            <Route path="/midias" element={<Midias />} />
+            <Route path="/igreja" element={<Igreja />}/> 
           </Routes>
         </main>
         <Footer />

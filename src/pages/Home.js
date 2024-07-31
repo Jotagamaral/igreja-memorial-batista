@@ -3,7 +3,7 @@ import React, { forwardRef } from 'react';
 import Welcome from './Welcome';
 import Jesus from './Jesus';
 import Cultos from './Cultos';
-import Igreja from './Igreja';
+import Memorial from './Memorial';
 import Contato from './Contato';
 
 const Home = forwardRef((props, ref) => {
@@ -18,7 +18,7 @@ const Home = forwardRef((props, ref) => {
       </div>
 
       <div id="igreja" ref={ref[1]}>
-        <Igreja />
+        <Memorial />
       </div>
 
       <div id="cultos" ref={ref[2]}>
