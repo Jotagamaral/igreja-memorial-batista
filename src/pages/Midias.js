@@ -5,7 +5,7 @@ import Card from '../components/Card';
 const Midias = () => {
   useEffect(() => {
     // Scroll to top when the component mounts
-    //window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
   }, []);
 
   return (
