@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { FaBars, FaTimes, FaYoutube, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
-const Header = ({ jesusRef, igrejaRef, cultosRef, contatoRef }) => {
+const Header = ({ jesusRef, memorialRef, cultosRef, contatoRef }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
   const location = useLocation();
@@ -51,7 +51,7 @@ const Header = ({ jesusRef, igrejaRef, cultosRef, contatoRef }) => {
       const sections = [
         { id: 'home', ref: null },
         { id: 'jesus', ref: jesusRef },
-        { id: 'igreja', ref: igrejaRef },
+        { id: 'memorial', ref: memorialRef },
         { id: 'cultos', ref: cultosRef },
         { id: 'contato', ref: contatoRef },
       ];
@@ -81,7 +81,7 @@ const Header = ({ jesusRef, igrejaRef, cultosRef, contatoRef }) => {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [location.pathname, jesusRef, igrejaRef, cultosRef, contatoRef]);
+  }, [location.pathname, jesusRef, memorialRef, cultosRef, contatoRef]);
 
   const getLinkClass = (section) => {
     return activeSection === section
@@ -106,9 +106,10 @@ const Header = ({ jesusRef, igrejaRef, cultosRef, contatoRef }) => {
           <ul className="flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-6 font-inter p-4 md:p-0">
             <li><Link to="/" onClick={scrollToTop} className={getLinkClass('home')}>Home</Link></li>
             <li><a href="#jesus" onClick={(e) => handleScrollToSection(e, jesusRef)} className={getLinkClass('jesus')}>Jesus</a></li>
-            <li><a href="#igreja" onClick={(e) => handleScrollToSection(e, igrejaRef)} className={`${getLinkClass('igreja')} whitespace-nowrap`}>A Igreja</a></li>
+            <li><a href="#igreja" onClick={(e) => handleScrollToSection(e, memorialRef)} className={`${getLinkClass('memorial')} whitespace-nowrap`}>Memorial</a></li>
             <li><a href="#cultos" onClick={(e) => handleScrollToSection(e, cultosRef)} className={getLinkClass('cultos')}>Cultos</a></li>
             <li><a href="#contato" onClick={(e) => handleScrollToSection(e, contatoRef)} className={getLinkClass('contato')}>Contato</a></li>
+            <li><Link to="/igreja" className={getLinkClass('igreja')}>A Igreja</Link></li>
             <li><Link to="/ministerios" className={getLinkClass('ministerios')}>Ministérios</Link></li>
             <li><Link to="/midias" className={getLinkClass('midias')}>Mídias</Link></li>
           </ul>
