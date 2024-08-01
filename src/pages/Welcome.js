@@ -1,19 +1,26 @@
 import React from 'react';
 import ChurchHistory from '../components/ChurchHistory';
-//import ChurchPhotos from '../components/ChurchPhotos';
 import ParallaxSection from '../components/ParallaxSection';
 import { Link } from 'react-router-dom';
+import { useInView } from 'react-intersection-observer';
 
 const Welcome = () => {
+  const { ref, inView } = useInView({
+    triggerOnce: false,
+    threshold: 0,
+  });
+
   return (
     <div className='pt-20'>
       <ParallaxSection 
-      backgroundVideo={"/assets/Site_video.mp4" }
-      color={'bg-black'}
-      
+        backgroundVideo={"/assets/Site_video.mp4"}
+        color={'bg-black'}
       >
-        <div className="flex flex-col items-start p-10 space-y-4 text-white">
-        <ChurchHistory 
+        <div
+          className={`flex flex-col items-start p-10 space-y-4 text-white transition-opacity duration-1000 ${inView ? 'opacity-100' : 'opacity-0'}`}
+          ref={ref}
+        >
+          <ChurchHistory 
             title="Bem-vindo à Igreja <br /> Memorial Batista"
             description="Uma igreja viva para O Deus vivo!"
             titleSize="text-6xl"
