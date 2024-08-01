@@ -15,7 +15,7 @@ const Memorial = () => {
         descriptionWeight="font-bold"
         descriptionColor='text-white'
       />
-      <div className="bg-custom-blue bg-opacity-85 py-8 mt-20 max-w-screen-lg mx-auto">
+      <div className="bg-custom-blue bg-opacity-85 py-8 mt-20 max-w-screen-lg mx-auto rounded-lg">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 md:px-8">
           <div>
             <ChurchHistory
