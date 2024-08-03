@@ -6,10 +6,8 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Ministerios from './pages/Ministerios';
 import Midias from './pages/Midias';
-
-
-import './styles/customScrollbar.css';
 import Igreja from './pages/Igreja';
+import './styles/customScrollbar.css';
 
 function App() {
   const jesusRef = useRef(null);
@@ -26,16 +24,15 @@ function App() {
           cultosRef={cultosRef} 
           contatoRef={contatoRef}
         />
-
         <main className="flex-1">
           <Routes>
             <Route 
               path="/" 
-              element={<Home ref={[jesusRef, memorialRef, cultosRef, contatoRef]} />} 
+              element={<Home refs={{ jesusRef, memorialRef, cultosRef, contatoRef }} />} 
             />
             <Route path="/ministerios" element={<Ministerios />} /> 
             <Route path="/midias" element={<Midias />} />
-            <Route path="/igreja" element={<Igreja />}/> 
+            <Route path="/igreja" element={<Igreja />} /> 
           </Routes>
         </main>
         <Footer />

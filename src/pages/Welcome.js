@@ -1,14 +1,39 @@
 import React from 'react';
 import ChurchHistory from '../components/ChurchHistory';
 import ParallaxSection from '../components/ParallaxSection';
-import { Link } from 'react-router-dom';
 import { useInView } from 'react-intersection-observer';
+import { useNavigate, useLocation } from 'react-router-dom';
 
-const Welcome = () => {
+const Welcome = ({ cultosRef }) => {
   const { ref, inView } = useInView({
     triggerOnce: false,
     threshold: 0,
   });
+
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const scrollToSection = (sectionRef) => {
+    if (sectionRef && sectionRef.current) {
+      const yOffset = -70;
+      const y = sectionRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+      window.scrollTo({
+        top: y,
+        behavior: 'smooth',
+      });
+    }
+  };
+
+  const handleScrollToCultos = (e) => {
+    e.preventDefault();
+    if (location.pathname !== "/") {
+      navigate("/", { replace: true });
+      setTimeout(() => scrollToSection(cultosRef), 1000); // Ajuste o tempo se necessário
+    } else {
+      scrollToSection(cultosRef);
+    }
+  };
 
   return (
     <div className='pt-20'>
@@ -32,11 +57,12 @@ const Welcome = () => {
             descriptionWeight="font-bold"
             descriptionColor='text-white'
           />
-          <Link to="/contact">
-            <button className="font-montserrat font-bold bg-custom-blue text-white py-2 px-4 rounded-md hover:bg-blue-950 transition">
-              VENHA NOS CONHECER
-            </button>
-          </Link>
+          <button 
+            onClick={handleScrollToCultos}
+            className="font-montserrat font-bold bg-custom-blue text-white py-2 px-4 rounded-md hover:bg-blue-950 transition"
+          >
+            VENHA NOS CONHECER
+          </button>
         </div>
       </ParallaxSection>
     </div>

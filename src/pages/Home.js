@@ -1,35 +1,32 @@
-// src/pages/Home.js
-import React, { forwardRef } from 'react';
+import React from 'react';
 import Welcome from './Welcome';
 import Jesus from './Jesus';
 import Cultos from './Cultos';
 import Memorial from './Memorial';
 import Contato from './Contato';
 
-const Home = forwardRef((props, ref) => {
+const Home = ({ refs }) => {
+  const { jesusRef, memorialRef, cultosRef, contatoRef } = refs;
+
   return (
     <div>
       <div id="home">
-        <Welcome />
+        <Welcome cultosRef={cultosRef} />
       </div>
-
-      <div id="jesus" ref={ref[0]}>
+      <div id="jesus" ref={jesusRef}>
         <Jesus />
       </div>
-
-      <div id="igreja" ref={ref[1]}>
+      <div id="igreja" ref={memorialRef}>
         <Memorial />
       </div>
-
-      <div id="cultos" ref={ref[2]}>
+      <div id="cultos" ref={cultosRef}>
         <Cultos />
       </div>
-
-      <div id="contato" ref={ref[3]}>
+      <div id="contato" ref={contatoRef}>
         <Contato />
       </div>
     </div>
   );
-});
+};
 
 export default Home;
