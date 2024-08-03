@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Card from '../components/Card';
 import ChurchHistory from '../components/ChurchHistory';
 
 const Igreja = () => {
+  useEffect(() => {
+    // Scroll to top when the component mounts
+    window.scrollTo(0, 0);
+  }, [])
+
+
   return (
     <div className="min-h-screen py-16 bg-[#F5F5F5]">
       <div className="max-w-screen-xl mx-auto p-8 flex flex-col md:flex-row gap-8">
