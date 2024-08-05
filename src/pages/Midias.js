@@ -109,7 +109,7 @@ const Midias = () => {
       <div className='bg-[#EBEBEB]'>
         <div className="flex flex-col md:flex-row max-w-screen-xl mx-auto gap-8 p-8">
           {/* Card com foto de fundo */}
-          <Card BackgroundImage="/assets/church_midia.jpg" className="w-[20rem] h-[25rem]" />
+          <Card BackgroundImage="/assets/midias_assets/church_midia.jpg" className="w-[20rem] h-[25rem]" />
           
           {/* Card com informações */}
           <Card BackgroundColor="#FFFFFF" className="w-[20rem] h-[25rem]">
@@ -148,7 +148,7 @@ const Midias = () => {
         
           <div className="flex flex-col md:flex-row gap-8 p-8">
             {/* Card 1 */}
-            <Card BackgroundImage="/assets/card_midia_1.jpg" className="w-[20rem] h-[25rem]">
+            <Card BackgroundImage="/assets/midias_assets/card_midia_1.jpg" className="w-[20rem] h-[25rem]">
               <div className="w-[20rem] flex flex-col absolute -bottom-10 right-0 p-4 bg-[#04B1D9]  rounded-lg shadow-md">
                 <h1 className="self-start font-inter font-bold text-black text-left mb-2">Acesse os nossos boletins dominicais</h1>
                 <a 
@@ -162,7 +162,7 @@ const Midias = () => {
             </Card>
             
             {/* Card 2 */}
-            <Card BackgroundImage="/assets/card_midia_2.jpg" className="w-[20rem] h-[25rem]">
+            <Card BackgroundImage="/assets/midias_assets/card_midia_2.jpg" className="w-[20rem] h-[25rem]">
             <div className="w-[20rem] flex flex-col absolute -bottom-10 right-0 p-4 bg-[#CDDCE7]  rounded-lg shadow-md">
                 <h1 className="self-start font-inter font-bold text-black text-left mb-2">Veja  o calendário de atividades da memorial</h1>
                 <a 

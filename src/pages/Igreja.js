@@ -37,19 +37,19 @@ const Igreja = () => {
             <h3 className="text-2xl font-inter font-bold mb-4">Conselho Pastoral</h3>
             <div className="flex flex-wrap gap-4">
               <div className="flex-1 text-center">
-                <img src="/assets/PR_David_Pereira.jpg" alt="Pr. David Pereira" className="w-full h-auto max-w-[150px] max-h-[200px] mx-auto mb-2 rounded-md object-cover" />
+                <img src="/assets/igreja_assets/PR_David_Pereira.jpg" alt="Pr. David Pereira" className="w-full h-auto max-w-[150px] max-h-[200px] mx-auto mb-2 rounded-md object-cover" />
                 <p className="font-montserrat font-thin">Pr. David Pereira</p>
               </div>
               <div className="flex-1 text-center">
-                <img src="/assets/PR_Francisco_Menezes.jpg" alt="Pr. Francisco Menezes" className="w-full h-auto max-w-[150px] max-h-[200px] mx-auto mb-2 rounded-md  object-cover" />
+                <img src="/assets/igreja_assets/PR_Francisco_Menezes.jpg" alt="Pr. Francisco Menezes" className="w-full h-auto max-w-[150px] max-h-[200px] mx-auto mb-2 rounded-md  object-cover" />
                 <p className="font-montserrat font-thin">Pr. Francisco Menezes</p>
               </div>
               <div className="flex-1 text-center">
-                <img src="/assets/PR_Neander_Marques.jpg" alt="Pr. Neander Marques" className="w-full h-auto max-w-[150px] max-h-[200px] mx-auto mb-2 rounded-md object-cover" />
+                <img src="/assets/igreja_assets/PR_Neander_Marques.jpg" alt="Pr. Neander Marques" className="w-full h-auto max-w-[150px] max-h-[200px] mx-auto mb-2 rounded-md object-cover" />
                 <p className="font-montserrat font-thin">Pr. Neander Marques</p>
               </div>
               <div className="flex-1 text-center">
-                <img src="/assets/MM_Henrique_Lino.png" alt="MM Henrique Lino" className="w-full  max-w-[150px] max-h-[200px] mx-auto mb-2 rounded-md object-cover" />
+                <img src="/assets/igreja_assets/MM_Henrique_Lino.png" alt="MM Henrique Lino" className="w-full  max-w-[150px] max-h-[200px] mx-auto mb-2 rounded-md object-cover" />
                 <p className="font-montserrat font-thin">MM. Henrique Lino</p>
               </div>
             </div>
@@ -60,19 +60,19 @@ const Igreja = () => {
             <h3 className="text-2xl font-inter font-bold mb-4">Líderes das congregações</h3>
             <div className="flex flex-wrap gap-4">
               <div className="flex-1 text-center">
-                <img src="/assets/PR_Paulo.jpg" alt="Pr. Paulo" className="w-full h-auto max-w-[150px] max-h-[200px] mx-auto mb-2 rounded-md object-cover" />
+                <img src="/assets/igreja_assets/PR_Paulo.jpg" alt="Pr. Paulo" className="w-full h-auto max-w-[150px] max-h-[200px] mx-auto mb-2 rounded-md object-cover" />
                 <p className="font-montserrat font-thin">Pr. Paulo</p>
               </div>
               <div className="flex-1 text-center">
-                <img src="/assets/PR_Renato.jpg" alt="Pr. Renato Goes" className="w-full h-auto max-w-[150px] max-h-[200px] mx-auto mb-2 rounded-md  object-cover" />
+                <img src="/assets/igreja_assets/PR_Renato.jpg" alt="Pr. Renato Goes" className="w-full h-auto max-w-[150px] max-h-[200px] mx-auto mb-2 rounded-md  object-cover" />
                 <p className="font-montserrat font-thin">Pr. Renato Goes</p>
               </div>
               <div className="flex-1 text-center">
-                <img src="/assets/PR_Manoel.jpg" alt="Pr. Manoel" className="w-full h-auto max-w-[150px] max-h-[200px] mx-auto mb-2 rounded-md object-cover" />
+                <img src="/assets/igreja_assets/PR_Manoel.jpg" alt="Pr. Manoel" className="w-full h-auto max-w-[150px] max-h-[200px] mx-auto mb-2 rounded-md object-cover" />
                 <p className="font-montserrat font-thin">Pr. Manoel</p>
               </div>
               <div className="flex-1 text-center">
-                <img src="/assets/PR_Cleber.jpg" alt="Pr.Cleber" className="w-full  max-w-[150px] max-h-[200px] mx-auto mb-2 rounded-md object-cover" />
+                <img src="/assets/igreja_assets/PR_Cleber.jpg" alt="Pr.Cleber" className="w-full  max-w-[150px] max-h-[200px] mx-auto mb-2 rounded-md object-cover" />
                 <p className="font-montserrat font-thin">Pr.Cleber</p>
               </div>
             </div>
@@ -86,28 +86,28 @@ const Igreja = () => {
 
         <Card BackgroundColor="#FFFFFF">
           <div className="p-8 rounded-lg text-center">
-            <img src="/assets/CGR_Cavalcante.jpg" alt="Congregação 1" className="w-full  object-cover rounded-md mb-4" />
+            <img src="/assets/igreja_assets/CGR_Cavalcante.jpg" alt="Congregação 1" className="w-full  object-cover rounded-md mb-4" />
             <h4 className="text-xl font-bold mb-2">CAVALCANTE - GO</h4>
             <p className="text-gray-700 text-justify">A igreja trabalha na cidade de Cavalcante desde 2013 em parceria com a childfund Brasil. A congregação da memorial naquela cidade é liderada pelo Pr. Paulo e Missionária Lídia.</p>
           </div>
         </Card>
         <Card BackgroundColor="#FFFFFF">
           <div className="p-8 rounded-lg text-center">
-            <img src="/assets/CGR_Riacho_fundo_II.jpg" alt="Congregação 2" className="w-full  object-cover rounded-md mb-4" />
+            <img src="/assets/igreja_assets/CGR_Riacho_fundo_II.jpg" alt="Congregação 2" className="w-full  object-cover rounded-md mb-4" />
             <h4 className="text-xl font-bold mb-2">RIACHO FUNDO II</h4>
             <p className="text-gray-700 text-justify">A igreja trabalha na cidade de Cavalcante desde 2013 em parceria com a childfund Brasil. A congregação da memorial naquela cidade é liderada pelo Pr. Paulo e Missionária Lídia.</p>
           </div>
         </Card>
         <Card BackgroundColor="#FFFFFF">
           <div className="p-8 rounded-lg text-center">
-            <img src="/assets/CGR_Jardim_Mangueiral.jpg" alt="Congregação 3" className="w-full  object-cover rounded-md mb-4" />
+            <img src="/assets/igreja_assets/CGR_Jardim_Mangueiral.jpg" alt="Congregação 3" className="w-full  object-cover rounded-md mb-4" />
             <h4 className="text-xl font-bold mb-2">JARDIM MANGUEIRAL</h4>
             <p className="text-gray-700 text-justify">A igreja trabalha na cidade de Cavalcante desde 2013 em parceria com a childfund Brasil. A congregação da memorial naquela cidade é liderada pelo Pr. Paulo e Missionária Lídia.</p>
           </div>
         </Card>
         <Card BackgroundColor="#FFFFFF">
           <div className="p-8 rounded-lg text-center">
-            <img src="/assets/CGR_Vale_do_Amanhecer.jpg" alt="Congregação 4" className="w-full  object-cover rounded-md mb-4" />
+            <img src="/assets/igreja_assets/CGR_Vale_do_Amanhecer.jpg" alt="Congregação 4" className="w-full  object-cover rounded-md mb-4" />
             <h4 className="text-xl font-bold mb-2">VALE DO AMANHECER</h4>
             <p className="text-gray-700 text-justify">A igreja trabalha na cidade de Cavalcante desde 2013 em parceria com a childfund Brasil. A congregação da memorial naquela cidade é liderada pelo Pr. Paulo e Missionária Lídia.</p>
           </div>
