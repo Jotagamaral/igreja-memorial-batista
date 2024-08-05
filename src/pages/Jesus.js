@@ -16,7 +16,7 @@ const Jesus = () => {
 
   return (
     <ParallaxSection 
-      backgroundImage="/assets/parallax-photo.jpg" 
+      backgroundImage="/assets/jesus_assets/parallax-photo.jpg" 
       color={'bg-custom-blue'}
       imageOpacity={0.4}
     >

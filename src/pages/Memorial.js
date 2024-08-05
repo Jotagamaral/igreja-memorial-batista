@@ -3,7 +3,7 @@ import ChurchHistory from '../components/ChurchHistory';
 
 const Memorial = () => {
   return (
-    <div className="bg-cover bg-center bg-no-repeat flex flex-col pt-20 px-10" style={{ backgroundImage: 'url(/assets/Igreja-section-photo.jpg)', backgroundSize: 'cover', minHeight: '100vh' }}>
+    <div className="bg-cover bg-center bg-no-repeat flex flex-col pt-20 px-10" style={{ backgroundImage: 'url(/assets/memorial_assets/Igreja-section-photo.jpg)', backgroundSize: 'cover', minHeight: '100vh' }}>
       <ChurchHistory 
         title="A IGREJA MEMORIAL <br /> BATISTA"
         titleSize="text-6xl"

@@ -38,11 +38,11 @@ const Welcome = ({ cultosRef }) => {
   return (
     <div className='pt-20'>
       <ParallaxSection 
-        backgroundVideo={"/assets/Site_video.mp4"}
+        backgroundVideo={"/assets/welcome_assets/Site_video.mp4"}
         color={'bg-black'}
       >
         <div
-          className={`flex flex-col items-start p-10 space-y-4 text-white transition-opacity duration-1000 ${inView ? 'opacity-100' : 'opacity-0'}`}
+          className={`flex flex-col items-center p-10 space-y-4 text-white transition-opacity duration-1000 ${inView ? 'opacity-100' : 'opacity-0'}`}
           ref={ref}
         >
           <ChurchHistory 
@@ -50,16 +50,16 @@ const Welcome = ({ cultosRef }) => {
             description="Uma igreja viva para O Deus vivo!"
             titleSize="text-6xl"
             titleWeight="font-bold"
-            titleAlign="text-left"
-            titleColor='text-white'
-            descriptionAlign="text-left"
+            titleAlign="text-center"
+            titleColor='text-white text-opacity-50'
+            descriptionAlign="text-center"
             descriptionSize="text-lg"
             descriptionWeight="font-bold"
             descriptionColor='text-white'
           />
           <button 
             onClick={handleScrollToCultos}
-            className="font-montserrat font-bold bg-custom-blue text-white py-2 px-4 rounded-md hover:bg-blue-950 transition"
+            className="font-montserrat font-bold bg-custom-blue bg-opacity-70 text-white py-2 px-4 rounded-md hover:bg-blue-950 transition"
           >
             VENHA NOS CONHECER
           </button>
