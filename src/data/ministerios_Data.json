@@ -1,0 +1,132 @@
+[
+    {
+      "title": "Ministério de Ação Social",
+      "lider": "Maria das Graças Sandoval Bibas",
+      "email": "mariabibasster@gmail.com",
+      "tel": "(61) 3244-8806",
+      "description": "Planeja e executa assistência social para congregações e comunidade vulnerável. Atendimento social, orientação a gestantes e bazar. Quintas-feiras, 14h-17h30.",
+      "image": "/assets/ministerios_assets/Ministerio_de_Acao_Social.png"
+    },
+    {
+      "title": "Ministério de Apoio Emocional",
+      "lider": "",
+      "email": "",
+      "tel": "",
+      "description": "",
+      "image": "/assets/ministerios_assets/Ministerio_de_Apoio_Emocional.png"
+    },
+    {
+      "title": "Ministério de Comunicação",
+      "lider": "Alcinélia Sepúlveda Brito Barreto",
+      "email": "comunicacao@imbb.org.br",
+      "tel": "(61) 99982-6053",
+      "description": "Responsável pela divulgação das atividades da igreja, nas mídias sociais, manutenção das informações no site, produção de vídeo de avisos e demais mídias veiculadas no culto para atender aos Ministérios da IMB, também é responsável pela Recepção e Introdução que ocorre durante os cultos, acolhendo o visitante e saudando-o no momento oportuno. Tem no seu quadro de voluntário: fotógrafos, editores de vídeo, editores de texto, introdutores, locutores, dentre outros.",
+      "image": "/assets/ministerios_assets/Ministerio_de_Comunicacao.png"
+    },
+    {
+      "title": "Ministério Crescer",
+      "lider": "Djorrane Diniz",
+      "email": "ministeriocrescer.imbb@gmail.com",
+      "tel": "",
+      "description": "O ministério crescer discipula e orienta crianças no caminho do Senhor, apoiando famílias na formação espiritual. Atividades lúdicas e educativas aos domingos.",
+      "image": "/assets/ministerios_assets/Ministerio_Crescer.png"
+    },
+    {
+      "title": "Conselho Diaconal",
+      "lider": "Dermeval Farias Gomes Filho",
+      "email": "dermevalfarias@yahoo.com.br",
+      "tel": "(61) 99298-4505",
+      "description": "Diáconos e diaconisas da Igreja Memorial Batista, eleitos entre os membros, apoiam atividades eclesiásticas, promovem comunhão e organizam a Ceia do Senhor.",
+      "image": "assets/ministerios_assets/bg.png"
+    },
+    {
+      "title": "Educação e Capacitação Cristã",
+      "lider": "",
+      "email": "",
+      "tel": "",
+      "description": "",
+      "image": "/assets/ministerios_assets/Educacao_e_Capacitacao_Crista.png"
+    },
+    {
+      "title": "Ministério com Famílias",
+      "lider": "",
+      "email": "",
+      "tel": "",
+      "description": "",
+      "image": "/assets/ministerios_assets/Ministerio_com_Familias.png"
+    },
+    {
+      "title": "Ministério com Terceira Idade",
+      "lider": "",
+      "email": "",
+      "tel": "assets/ministerios_assets/bg.png",
+      "description": "",
+      "image": "/assets/ministerios_assets/Ministerio_com_Terceira_Idade.png"
+    },
+    {
+      "title": "Ministério de Informação",
+      "lider": "",
+      "email": "",
+      "tel": "",
+      "description": "",
+      "image": "/assets/ministerios_assets/Ministerio_de_Informacao.png"
+    },
+    {
+      "title": "Ministério de Integração e Comunhão",
+      "lider": "",
+      "email": "",
+      "tel": "",
+      "description": "",
+      "image": "/assets/ministerios_assets/Ministerio_de_Integracao_e_Comunhao.png"
+    },
+    {
+      "title": "Ministério com Juventude",
+      "lider": "",
+      "email": "",
+      "tel": "",
+      "description": "",
+      "image": "/assets/ministerios_assets/Ministerio_com_Juventude.png"
+    },
+    {
+      "title": "Ministério de Missões",
+      "lider": "",
+      "email": "",
+      "tel": "",
+      "description": "",
+      "image": "assets/ministerios_assets/bg.png"
+    },
+    {
+      "title": "Ministério Mulher Cristã em Missão",
+      "lider": "",
+      "email": "",
+      "tel": "",
+      "description": "",
+      "image": "/assets/ministerios_assets/Ministerio_Mulher_Crista_em_Missao.png"
+    },
+    {
+      "title": "Ministério de Música",
+      "lider": "",
+      "email": "",
+      "tel": "",
+      "description": "",
+      "image": "/assets/ministerios_assets/Ministerio_de_Musica.png"
+    },
+    {
+      "title": "Ministério de Oração",
+      "lider": "",
+      "email": "",
+      "tel": "",
+      "description": "",
+      "image": "/assets/ministerios_assets/Ministerio_de_Oracao.png"
+    },
+    {
+      "title": "Ministério com Surdos",
+      "lider": "Mônica Teixeira Gonçalves Accioli",
+      "email": "",
+      "tel": "",
+      "description": "O Ministério com Surdos tem intérpretes voluntários de Libras para evangelizar e apoiar surdos. Atendimento de segunda a sexta, auxiliando em consultas e demandas.",
+      "image": "/assets/ministerios_assets/Ministerio_com_Surdos.png"
+    }
+
+]
+  

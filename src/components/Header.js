@@ -93,9 +93,10 @@ const Header = ({ jesusRef, memorialRef, cultosRef, contatoRef }) => {
     <header className="bg-custom-blue text-white p-5 fixed top-0 w-full z-50">
       <div className="flex justify-between items-center">
         <div className="h-10 md:ml-1 text-left">
-          <Link to="/" onClick={scrollToTop}>
-            <img src='/Igreja-memo-Logo-navbar.png' alt="Igreja Memorial Batista" className="h-full scale-110 pl-4" />
-          </Link>
+        <Link to="/" onClick={scrollToTop}>
+          <img src='/Igreja-memo-Logo-navbar.ico' alt="Igreja Memorial Batista" className="max-w-full max-h-full h-auto object-contain scale-150 pl-4" />
+        </Link>
+
         </div>
         <div className="md:hidden">
           <button onClick={toggleMenu}>

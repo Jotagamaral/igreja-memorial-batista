@@ -1,0 +1,61 @@
+{
+    "conselhoPastoral": [
+      {
+        "name": "Pr. David Pereira",
+        "image": "/assets/igreja_assets/PR_David_Pereira.jpg"
+      },
+      {
+        "name": "Pr. Francisco Menezes",
+        "image": "/assets/igreja_assets/PR_Francisco_Menezes.jpg"
+      },
+      {
+        "name": "Pr. Neander Marques",
+        "image": "/assets/igreja_assets/PR_Neander_Marques.jpg"
+      },
+      {
+        "name": "MM. Henrique Lino",
+        "image": "/assets/igreja_assets/MM_Henrique_Lino.png"
+      }
+    ],
+    "lideresCongregacoes": [
+      {
+        "name": "Pr. Paulo",
+        "image": "/assets/igreja_assets/PR_Paulo.jpg"
+      },
+      {
+        "name": "Pr. Renato Goes",
+        "image": "/assets/igreja_assets/PR_Renato.jpg"
+      },
+      {
+        "name": "Pr. Manoel",
+        "image": "/assets/igreja_assets/PR_Manoel.jpg"
+      },
+      {
+        "name": "Pr. Cleber",
+        "image": "/assets/igreja_assets/PR_Cleber.jpg"
+      }
+    ],
+    "congregacoes": [
+      {
+        "name": "CAVALCANTE - GO",
+        "image": "/assets/igreja_assets/CGR_Cavalcante.jpg",
+        "description": "A igreja trabalha na cidade de Cavalcante desde 2013 em parceria com a childfund Brasil. A congregação da memorial naquela cidade é liderada pelo Pr. Paulo e Missionária Lídia."
+      },
+      {
+        "name": "RIACHO FUNDO II",
+        "image": "/assets/igreja_assets/CGR_Riacho_fundo_II.jpg",
+        "description": "A igreja trabalha na cidade de Cavalcante desde 2013 em parceria com a childfund Brasil. A congregação da memorial naquela cidade é liderada pelo Pr. Paulo e Missionária Lídia."
+      },
+      {
+        "name": "JARDIM MANGUEIRAL",
+        "image": "/assets/igreja_assets/CGR_Jardim_Mangueiral.jpg",
+        "description": "A igreja trabalha na cidade de Cavalcante desde 2013 em parceria com a childfund Brasil. A congregação da memorial naquela cidade é liderada pelo Pr. Paulo e Missionária Lídia."
+      },
+      {
+        "name": "VALE DO AMANHECER",
+        "image": "/assets/igreja_assets/CGR_Vale_do_Amanhecer.jpg",
+        "description": "A igreja trabalha na cidade de Cavalcante desde 2013 em parceria com a childfund Brasil. A congregação da memorial naquela cidade é liderada pelo Pr. Paulo e Missionária Lídia."
+      }
+    ]
+  }
+  
