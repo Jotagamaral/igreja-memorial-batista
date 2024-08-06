@@ -44,25 +44,22 @@ const Ministerios = () => {
           ))}
         </div>
 
-        <div className="text-center py-8">
-          <ChurchHistory
-            title="Deseja se tornar voluntário?"
-            description=""
-            titleSize="text-4xl"
-            titleWeight="font-bold"
-            titleAlign="text-center"
-            titleFont="font-inter"
-            titleColor="text-custom-blue"
-          />
+        <div className="text-center py-8 bg-gray-200">
+          <div className="max-w-screen-lg mx-auto">
+            <div className="mb-4">
+              <h2 className="text-4xl font-bold text-custom-blue font-inter">DESEJA SE TORNAR,</h2>
+              <h2 className="text-6xl font-bold text-custom-blue font-inter">VOLUNTÁRIO?</h2>
+            </div>
+            <a
+              href="https://form.jotform.com/230955606462661"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-2 bg-custom-blue text-white text-lg font-montserrat font-bold rounded-3xl hover:bg-blue-900 transition duration-300 inline-block"
+            >
+              Preencha o formulário
+            </a>
+          </div>
         </div>
-        <a
-          href="https://form.jotform.com/230955606462661"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="px-4 py-2 bg-custom-blue text-white text-lg font-montserrat font-bold rounded-3xl hover:bg-blue-900 transition duration-300"
-        >
-          Preencha o formulário
-        </a>
       </div>
     </>
   );
