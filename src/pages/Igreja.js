@@ -73,6 +73,22 @@ const Igreja = () => {
           </Card>
         ))}
       </div>
+
+      <div className="max-w-screen-lg mx-auto">
+        <div className="mb-4">
+          <h2 className="text-4xl font-bold text-custom-blue font-inter">Deseja conhecer nossas congregações?</h2>
+        </div>
+        <a
+          href="https://chat.whatsapp.com/BqjJhcW0fMMFwYYKL57233"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-8 py-2 bg-custom-blue text-white text-lg font-montserrat font-bold rounded-3xl hover:bg-blue-900 transition duration-300 inline-block"
+        >
+          Converse conosco
+        </a>
+      </div>
+
+
     </div>
   );
 };

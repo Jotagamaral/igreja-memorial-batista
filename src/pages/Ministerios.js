@@ -44,10 +44,10 @@ const Ministerios = () => {
           ))}
         </div>
 
-        <div className="text-center py-8 bg-gray-200">
+        <div className="text-center py-8 bg-custom-white">
           <div className="max-w-screen-lg mx-auto">
             <div className="mb-4">
-              <h2 className="text-4xl font-bold text-custom-blue font-inter">DESEJA SE TORNAR,</h2>
+              <h2 className="text-4xl font-bold text-custom-blue font-inter">DESEJA SE TORNAR</h2>
               <h2 className="text-6xl font-bold text-custom-blue font-inter">VOLUNTÁRIO?</h2>
             </div>
             <a

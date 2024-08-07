@@ -36,10 +36,11 @@ const Welcome = ({ cultosRef }) => {
   };
 
   return (
-    <div className='pt-20'>
+    <div className=''>
       <ParallaxSection 
-        backgroundVideo={"/assets/welcome_assets/Site_video.mp4"}
-        color={'bg-black'}
+        backgroundImage=""
+        backgroundVideo="/assets/welcome_assets/Site_video.mp4"
+        color="bg-black"
       >
         <div
           className={`flex flex-col items-center p-10 space-y-4 text-white transition-opacity duration-1000 ${inView ? 'opacity-100' : 'opacity-0'}`}
