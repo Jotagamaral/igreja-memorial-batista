@@ -1,0 +1,18 @@
+[
+  {
+    "dia": "Quarta",
+    "atividades": ["19h30 - Culto de Oração"]
+  },
+  {
+    "dia": "Sexta",
+    "atividades": ["20h - Culto dos Adolescentes + PG"]
+  },
+  {
+    "dia": "Sábado",
+    "atividades": ["16h - Culto em LIBRAS", "19h - Culto da Juventude"]
+  },
+  {
+    "dia": "Domingo",
+    "atividades": ["10h15 - Culto Matutino", "10h15 - Culto Ministério Crescer", "19h - Culto Noturno"]
+  }
+]

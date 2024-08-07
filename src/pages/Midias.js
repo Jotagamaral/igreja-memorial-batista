@@ -10,100 +10,47 @@ const Midias = () => {
 
   return (
     <div className="min-h-screen bg-[#EBEBEB]">
-      <div className="flex flex-col md:flex-row mt-12 max-w-screen-xl mx-auto">
-        {/* Primeira área */}
-        <div className="flex-1 pt-16 px-4">
-          
-            <h1 className="text-5xl text-left font-inter font-bold mb-4">Assista aos cultos ao vivo e outros conteúdos!</h1>
-            <div className="flex justify-center">
-              <div className="w-full aspect-w-16 aspect-h-9">
-                <iframe 
-                  className="w-full h-full" 
-                  src="https://www.youtube.com/embed/rRlgU5KSx4M?si=1DWJugaE_LONhvMi&amp;start=3254" 
-                  title="YouTube video player" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  referrerPolicy="strict-origin-when-cross-origin" 
-                  allowFullScreen></iframe>
-              </div>
-            </div>
-            <a 
-              href="https://www.youtube.com/@imbb" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-custom-blue text-white font-montserrat font-bold my-4 py-2 px-4 rounded-full inline-block text-center hover:bg-blue-900 transition duration-300">Acesse o canal da Memorial</a>
-          
-        </div>
-        
-        {/* Segunda área */}
-        <div className="flex-1 py-16 p-8">
-
+      <div className="flex flex-col md:flex-row mt-16 max-w-screen-xl mx-auto items-center justify-center">
+        <div className="flex-1 p-8">
           <div className="rounded-2xl bg-white shadow-lg p-8">
-            <h1 className="text-2xl text-justify font-inter font-bold mb-4">Veja as transmissões</h1>
+            <h1 className="text-2xl text-justify font-inter font-bold mb-4">Acompanhe a memorial no YouTube</h1>
             <p className="mb-4 text-justify font-montserrat">
               Acesse nosso canal no YouTube e assista nossos cultos e muitos outros conteúdos como:
             </p>
-            <ul className="list-disc list-inside mb-6 text-justify text- font-montserrat">
+            <ul className="list-disc list-inside mb-6 text-justify font-montserrat">
               <li>Escola bíblica dominical online</li>
               <li>Cortes das mensagens</li>
               <li>Cortes dos louvores ministrados</li>
               <li>Cultos antigos</li>
+              <li>Cultos da Juventude</li>
             </ul>
+            <div className="text-left">  {/* Adicionando esta div para alinhar o botão à esquerda */}
+              <a 
+                href="https://www.youtube.com/@juventude_memorial" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#E2E2EB] text-[#0067CB] font-inter font-thin py-2 px-4 rounded-lg hover:bg-[#d8d8d8] transition duration-300 mt-4">
+                INSCREVA-SE
+              </a>
+            </div>  
           </div>
+        </div>
 
-          <br />
-
-          <div className="flex flex-col justify-between p-8 rounded-2xl bg-white shadow-lg">
-                  <ChurchHistory
-                    title="Canal do Ministério Crescer"
-                    description="Inscreva-se no canal de nosso Ministério Infantil e acompanhe histórias, louvores e muita diversão para as
-              crianças. Junte-se a nós!"
-                    titleSize="text-2xl"
-                    titleWeight="font-bold"
-                    titleAlign="text-left"
-                    titleColor="text-black"
-                    descriptionSize="text-base"
-                    descriptionWeight="font-light"
-                    descriptionAlign="text-justify"
-                    descriptionColor="text-[#191919]"
-                  />
-                <a 
-                  href="https://www.youtube.com/@ministeriocrescerimbb" 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-[#E2E2EB] text-[#0067CB] font-inter font-thin py-2 px-4 rounded-lg hover:bg-[#d8d8d8] transition duration-300 mt-4 self-start">
-                  INSCREVA-SE
-                </a>
-          </div>
-
-          <br/>
-
-          <div className="flex flex-col justify-between p-8 rounded-2xl bg-white shadow-lg">
-                  <ChurchHistory
-                    title="Canal da Juventude"
-                    description="Inscreva-se no nosso canal do YouTube e junte-se à nossa juventude para fortalecer sua fé, compartilhar momentos 
-              incríveis e crescer espiritualmente juntos!"
-                    titleSize="text-2xl"
-                    titleWeight="font-bold"
-                    titleAlign="text-left"
-                    titleColor="text-black"
-                    descriptionSize="text-base"
-                    descriptionWeight="font-light"
-                    descriptionAlign="text-justify"
-                    descriptionColor="text-[#191919]"
-                  />
-                <a 
-                  href="https://www.youtube.com/@juventude_memorial" 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-[#E2E2EB] text-[#0067CB] font-inter font-thin py-2 px-4 rounded-lg hover:bg-[#d8d8d8] transition duration-300 mt-4 self-start">
-                  INSCREVA-SE
-                </a>
-          </div>
-            
-
-
+        <div className="flex-1 pr-8">
+          <div className="flex justify-center">
+            <div className="w-full aspect-w-16 aspect-h-9">
+              <iframe 
+                className="w-full h-full" 
+                src="https://www.youtube.com/embed/rRlgU5KSx4M?si=1DWJugaE_LONhvMi&amp;start=3254" 
+                title="YouTube video player" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerPolicy="strict-origin-when-cross-origin" 
+                allowFullScreen></iframe>
+            </div>
+          </div> 
         </div>
       </div>
+
 
       {/* Nova área de cards */}
       <div className='bg-[#EBEBEB]'>
