@@ -100,13 +100,14 @@ const Header = ({ jesusRef, memorialRef, cultosRef }) => {
       <div className="flex justify-between items-center">
         <div className="h-10 md:ml-1 text-left">
           <Link to="/" onClick={scrollToTop}>
-            <img src='/Igreja-memo-Logo-navbar.ico' alt="Igreja Memorial Batista" className="max-w-full max-h-full h-auto object-contain scale-150 pl-4" />
+            <img src='/Igreja-memo-Logo-navbar.ico' alt="Logo Igreja Memorial Batista" className="max-w-full max-h-full h-auto object-contain scale-150 pl-4" />
           </Link>
         </div>
         <div className="md:hidden">
-          <button onClick={toggleMenu}>
+          <button onClick={toggleMenu} aria-label={isOpen ? "Fechar menu" : "Abrir menu"}>
             {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
           </button>
+
         </div>
         <nav className={`fixed top-16 left-0 w-full border-t border-gray-200 md:static md:border-0 ${isOpen ? 'block' : 'hidden'} md:flex md:justify-center`}>
           <ul className="flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-6 font-inter p-4 md:p-0">
@@ -120,13 +121,13 @@ const Header = ({ jesusRef, memorialRef, cultosRef }) => {
           </ul>
         </nav>
         <div className="hidden md:flex space-x-4 justify-end">
-          <a href="https://www.youtube.com/@imbb" target="_blank" rel="noopener noreferrer" className="text-white">
+          <a href="https://www.youtube.com/@imbb" target="_blank" rel="noopener noreferrer" aria-label="Visite nosso canal no YouTube" className="text-white">
             <FaYoutube size={24} />
           </a>
-          <a href="https://www.instagram.com/igrejamemorialbatista?igsh=MWozNzYwZzdzYWo1Mg==" target="_blank" rel="noopener noreferrer" className="text-white">
+          <a href="https://www.instagram.com/igrejamemorialbatista?igsh=MWozNzYwZzdzYWo1Mg==" target="_blank" rel="noopener noreferrer" aria-label="Visite nosso perfil no Instagram" className="text-white">
             <FaInstagram size={24} />
           </a>
-          <a href="https://chat.whatsapp.com/BqjJhcW0fMMFwYYKL57233" target="_blank" rel="noopener noreferrer" className="text-white">
+          <a href="https://chat.whatsapp.com/BqjJhcW0fMMFwYYKL57233" target="_blank" rel="noopener noreferrer" aria-label="Entre em contato pelo WhatsApp" className="text-white">
             <FaWhatsapp size={24} />
           </a>
         </div>

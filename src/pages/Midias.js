@@ -25,13 +25,16 @@ const Midias = () => {
               <li>Cultos da Juventude</li>
             </ul>
             <div className="text-left">  {/* Adicionando esta div para alinhar o botão à esquerda */}
-              <a 
-                href="https://www.youtube.com/@juventude_memorial" 
+              <a
+                href="https://www.youtube.com/@imbb"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#E2E2EB] text-[#0067CB] font-inter font-thin py-2 px-4 rounded-lg hover:bg-[#d8d8d8] transition duration-300 mt-4">
+                aria-label="Inscreva-se no canal do YouTube da Igreja Memorial"
+                className="bg-[#E2E2EB] text-[#0067CB] font-inter font-thin py-2 px-4 rounded-lg hover:bg-[#d8d8d8] transition duration-300 mt-4"
+              >
                 INSCREVA-SE
               </a>
+
             </div>  
           </div>
         </div>
