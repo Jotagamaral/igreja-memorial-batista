@@ -96,21 +96,20 @@ const Header = ({ jesusRef, memorialRef, cultosRef }) => {
   };
 
   return (
-    <header className={`fixed top-0 w-full z-50 transition-colors duration-1000 ${isTransparent && activeSection === 'home' ? 'bg-transparent' : 'bg-custom-blue'} text-white p-5`}>
+    <header className={`fixed top-0 w-full z-50 transition-colors duration-500 ${isTransparent && activeSection === 'home' ? 'bg-transparent' : 'bg-custom-blue'} text-white p-3 md:p-5`}>
       <div className="flex justify-between items-center">
-        <div className="h-10 md:ml-1 text-left">
+        <div className="h-10 md:h-12 text-left">
           <Link to="/" onClick={scrollToTop}>
-            <img src='/Igreja-memo-Logo-navbar.ico' alt="Logo Igreja Memorial Batista" className="max-w-full max-h-full h-auto object-contain scale-150 pl-4" />
+            <img src='/Igreja-memo-Logo-navbar.ico' alt="Logo Igreja Memorial Batista" className="h-full object-contain scale-150 pl-2 md:pl-4" />
           </Link>
         </div>
         <div className="md:hidden">
           <button onClick={toggleMenu} aria-label={isOpen ? "Fechar menu" : "Abrir menu"}>
             {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
           </button>
-
         </div>
-        <nav className={`fixed top-16 left-0 w-full border-t border-gray-200 md:static md:border-0 ${isOpen ? 'block' : 'hidden'} md:flex md:justify-center`}>
-          <ul className="flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-6 font-inter p-4 md:p-0">
+        <nav className={`fixed top-16 left-0 w-full border-t border-gray-200 bg-custom-blue md:bg-transparent md:static md:border-0 ${isOpen ? 'block' : 'hidden'} md:flex md:justify-center`}>
+          <ul className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-6 font-inter p-4 md:p-0">
             <li><Link to="/" onClick={scrollToTop} className={getLinkClass('home')}>Home</Link></li>
             <li><a href="#jesus" onClick={(e) => handleScrollToSection(e, jesusRef)} className={getLinkClass('jesus')}>Jesus</a></li>
             <li><a href="#igreja" onClick={(e) => handleScrollToSection(e, memorialRef)} className={`${getLinkClass('memorial')} whitespace-nowrap`}>Memorial</a></li>
