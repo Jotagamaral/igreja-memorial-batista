@@ -1,61 +1,92 @@
 {
-    "conselhoPastoral": [
-      {
-        "name": "Pr. David Pereira",
-        "image": "/assets/igreja_assets/PR_David_Pereira.jpg"
-      },
-      {
-        "name": "Pr. Francisco Menezes",
-        "image": "/assets/igreja_assets/PR_Francisco_Menezes.jpg"
-      },
-      {
-        "name": "Pr. Neander Marques",
-        "image": "/assets/igreja_assets/PR_Neander_Marques.jpg"
-      },
-      {
-        "name": "MM. Henrique Lino",
-        "image": "/assets/igreja_assets/MM_Henrique_Lino.png"
-      }
-    ],
-    "lideresCongregacoes": [
-      {
-        "name": "Pr. Paulo",
-        "image": "/assets/igreja_assets/PR_Paulo.jpg"
-      },
-      {
-        "name": "Pr. Renato Goes",
-        "image": "/assets/igreja_assets/PR_Renato.jpg"
-      },
-      {
-        "name": "Pr. Manoel",
-        "image": "/assets/igreja_assets/PR_Manoel.jpg"
-      },
-      {
-        "name": "Pr. Cleber",
-        "image": "/assets/igreja_assets/PR_Cleber.jpg"
-      }
-    ],
-    "congregacoes": [
-      {
-        "name": "CAVALCANTE - GO",
-        "image": "/assets/igreja_assets/CGR_Cavalcante.jpg",
-        "description": "A igreja trabalha na cidade de Cavalcante desde 2013 em parceria com a childfund Brasil. A congregação da memorial naquela cidade é liderada pelo Pr. Paulo e Missionária Lídia."
-      },
-      {
-        "name": "RIACHO FUNDO II",
-        "image": "/assets/igreja_assets/CGR_Riacho_fundo_II.jpg",
-        "description": "A igreja trabalha na cidade de Cavalcante desde 2013 em parceria com a childfund Brasil. A congregação da memorial naquela cidade é liderada pelo Pr. Paulo e Missionária Lídia."
-      },
-      {
-        "name": "JARDIM MANGUEIRAL",
-        "image": "/assets/igreja_assets/CGR_Jardim_Mangueiral.jpg",
-        "description": "A igreja trabalha na cidade de Cavalcante desde 2013 em parceria com a childfund Brasil. A congregação da memorial naquela cidade é liderada pelo Pr. Paulo e Missionária Lídia."
-      },
-      {
-        "name": "VALE DO AMANHECER",
-        "image": "/assets/igreja_assets/CGR_Vale_do_Amanhecer.jpg",
-        "description": "A igreja trabalha na cidade de Cavalcante desde 2013 em parceria com a childfund Brasil. A congregação da memorial naquela cidade é liderada pelo Pr. Paulo e Missionária Lídia."
-      }
-    ]
-  }
-  
+  "conselhoPastoral": [
+    {
+      "name": "Pr. David Pereira",
+      "image": "/assets/igreja_assets/PR_David_Pereira.jpg"
+    },
+    {
+      "name": "Pr. Francisco Menezes",
+      "image": "/assets/igreja_assets/PR_Francisco_Menezes.jpg"
+    },
+    {
+      "name": "Pr. Neander Marques",
+      "image": "/assets/igreja_assets/PR_Neander_Marques.jpg"
+    },
+    {
+      "name": "MM. Henrique Lino",
+      "image": "/assets/igreja_assets/MM_Henrique_Lino.png"
+    }
+  ],
+  "textosLateral": [
+    {
+      "name": "Conselho Pastoral",
+      "titulo": "",
+      "conteudo": "O Conselho Pastoral é composto pelo colegiado dos pastores que lideram a Igreja Memorial Batista. É formado pelos pastores: Titular,  Líder do Ministério de Integração e Comunhão,  Líder do Ministério de Missões,  Líder do Ministério com Juventude e Ministro de Música."
+    },
+    {
+      "name": "Pr. David Pereira",
+      "titulo": "Pastor Titular",
+      "conteudo": "David Pereira atua ministerialmente na Igreja Memorial Batista desde março de 2019. É teólogo formado pelo Seminário Teológico Batista do Sul do Brasil, no Rio de Janeiro/RJ, e exerce o ministério integral. Casado com Adriana Campos Pereira, é pai de Isabela e Felipe. Implantou o discipulado na Memorial em 2023 e tem acompanhado a expansão dos Pequenos Grupos, como instrumento de propagação do evangelho e cumprimento do IDE de JESUS. Ele é o líder do Conselho Pastoral da Memorial e o Presidente da IGREJA. Tem como atribuição principal liderar espiritualmente a igreja e conduzir o rebanho."
+    },
+    {
+      "name": "Pr. Francisco Menezes",
+      "titulo": "Ministro de Integração e Comunhão",
+      "conteudo": "Francisco atua ministerialmente na IMB desde 2012. É teólogo formado pelo Seminário Teológico Batista do Sul do Brasil, no Rio de Janeiro/RJ, e exerce o ministério integral. Casado com Izane Menezes, é pai de Ana Raquel, Priscila e Pedro. Atua no Ministério de Integração e Comunhão, apoiando o Conselho Pastoral com visitas à membresia, atividades que envolvam a comunidade memorial, acolhimento, dentre outras."
+    },
+    {
+      "name": "Pr. Neander Marques",
+      "titulo": "Ministro com a Juventude",
+      "conteudo": "Neander Marques atua ministerialmente na IMB desde 2020. É teólogo formado pela faculdade Batista mineira, e exerce seu ministério integral. Casado com Djorrane Diniz. Atua no Conselho Pastoral com as atividades voltadas à juventude da IMB. Seu Ministério tem trabalhado com adolescentes, jovens e jovens adultos (LIFT), de forma a apoiar essa fase tão importante na vida cristã."
+    },
+    {
+      "name": "MM. Henrique Lino",
+      "titulo": "Ministro de Música",
+      "conteudo": "Henrique Lino atua ministerialmente na IMB desde 2015. É formado em música sacra, pelo Seminário Teológico Batista do Norte do Brasil, em Recife/PE, e exerce seu ministério integral. Casado com Daniele Fortuna, pai de Lara e Luísa. Atua no Conselho Pastoral liderando a música na IMB. Organiza as atividades musicais, corais, escalas de musicistas, coros, bandas e é responsável pela ordem do culto. Tem como responsabilidade atuar alinhado com os pastores do Conselho Pastoral que são responsáveis pela liturgia dos cultos."
+    },
+    {
+      "name": "Vago",
+      "titulo": "Ministro de Missões",
+      "conteudo": "Atualmente o cargo está vago. A atuação do Ministro de Missões é voltada ao apoio às congregações, às campanhas de evangelização e missões e apoio ao Conselho Pastoral no que se refere a Missões e Evangelismo."
+    }
+  ],
+  "lideresCongregacoes": [
+    {
+      "name": "Pr. Paulo",
+      "image": "/assets/igreja_assets/PR_Paulo.jpg"
+    },
+    {
+      "name": "Pr. Renato Goes",
+      "image": "/assets/igreja_assets/PR_Renato.jpg"
+    },
+    {
+      "name": "Pr. Manoel",
+      "image": "/assets/igreja_assets/PR_Manoel.png"
+    },
+    {
+      "name": "Pr. Cleber",
+      "image": "/assets/igreja_assets/PR_Cleber.jpg"
+    }
+  ],
+  "congregacoes": [
+    {
+      "name": "CAVALCANTE - GO",
+      "image": "/assets/igreja_assets/CGR_Cavalcante.jpg",
+      "description": "A congregação em Cavalcante foi inaugurada em agosto/2020 e é pastoreada pelo Pr. Paulo Dias e Missionária Lídia, da Junta de Missões Nacionais, desde sua implantação. Atualmente, as atividades são desenvolvidas: Terça-feira: 19h30 - Estudo bíblico, Quarta-feira: 19h30 - Culto de oração, Quinta-feira: 19h30 - Pequenos Grupos, Sexta-feira: 19h30 - Estudo nas casas, Sábado: 19h30 - Culto da juventude, Domingo 9h - EBD 19h - Culto."
+    },
+    {
+      "name": "RIACHO FUNDO II",
+      "image": "/assets/igreja_assets/CGR_Riacho_fundo_II.jpg",
+      "description": "A congregação da IMB em Riacho Fundo II, inaugurada em fevereiro/2005, é pastoreada pelo Pr. Manoel Pereira de Oliveira desde 2008. As atividades atualmente são desenvolvidas às Quartas-feiras 20h - Ensaio Musical, Quintas-feiras 20h - Culto de Oração, Sextas-feiras 20h - Reunião dos Pequenos Grupos dos adolescentes e 25+, aos Sábados 7h - Culto de Oração Matinal e aos Domingos 9h - Escola Bíblica, 10h15 - Culto e 19h - Culto."
+    },
+    {
+      "name": "JARDIM MANGUEIRAL",
+      "image": "/assets/igreja_assets/CGR_Jardim_Mangueiral.jpg",
+      "description": "A congregação da IMB em Jardins Mangueiral, inaugurada em 31/07/2021, é pastoreada pelo Pr. Renato Goes Damasceno. As atividades atualmente são desenvolvidas às Quartas-feiras 19h30 - Culto de Oração e aos Domingos 10h - Escola Bíblica e 19h - Culto."
+    },
+    {
+      "name": "VALE DO AMANHECER",
+      "image": "/assets/igreja_assets/CGR_Vale_do_Amanhecer.jpg",
+      "description": "A congregação no Vale do Amanhecer foi inaugurada em 2011 e é pastoreada pelo Pr. Cleber Sousa Rodrigues, Missionário de Missões Nacionais, desde julho de 2018. Além da plantação de igreja num bairro espírita, o objetivo é a criação de um centro de referência de cuidado integral na comunidade, que atualmente tem aulas de karatê e de música. Agenda da Semana - Quarta: Culto de oração - 19h30, Sexta: Pequenos Grupos - 19h, Sábado: Pequenos Grupos - 18h, Domingo: EBD 9h e Culto 18h30."
+    }
+  ]
+}

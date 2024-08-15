@@ -20,7 +20,7 @@ const Footer = () => {
         <p>Endereço: SGAS 905 Sul, Brasília - DF</p>
         <p>Cep: 70390-050</p>
       </div>
-      <div className="absolute bottom-5 right-5">
+      <div className="absolute bottom-5 right-5 hidden md:block">
         <Link to="/" onClick={scrollToTop}>
           <img src='/Igreja-memo-Logo-navbar.ico' alt="Igreja Memorial Batista" className="h-10" />
         </Link>
