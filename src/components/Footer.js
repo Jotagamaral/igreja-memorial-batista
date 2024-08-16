@@ -12,7 +12,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-custom-blue text-white text-left p-5 flex justify-between items-start relative">
-      <div className="pl-10">
+      <div className="md:pl-10">
         <h1 className="text-2xl font-bold">Contato</h1>
         <p>Telefone: (61) 3244-8806</p>
         <p>WhatsApp: (61) 99105-2219</p>

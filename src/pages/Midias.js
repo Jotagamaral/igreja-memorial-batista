@@ -39,7 +39,7 @@ const Midias = () => {
           </div>
         </div>
 
-        <div className="flex-1 pr-8">
+        <div className="flex-1 pr-8 hidden md:block">
           <div className="flex justify-center">
             <div className="w-full aspect-w-16 aspect-h-9">
               <iframe 
