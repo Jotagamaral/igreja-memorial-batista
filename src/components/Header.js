@@ -41,7 +41,7 @@ const Header = ({ jesusRef, memorialRef, cultosRef }) => {
     closeMenu();
     if (location.pathname !== "/") {
       navigate("/", { replace: true });
-      setTimeout(() => scrollToSection(sectionRef), 1000);
+      setTimeout(() => scrollToSection(sectionRef), 1000); // Ajuste o tempo se necessário
     } else {
       scrollToSection(sectionRef);
     }
@@ -78,7 +78,7 @@ const Header = ({ jesusRef, memorialRef, cultosRef }) => {
 
     if (location.pathname === '/') {
       window.addEventListener('scroll', handleScroll);
-      handleScroll();
+      handleScroll(); // Run once on mount to set the initial active section
     } else {
       const path = location.pathname.replace('/', '');
       setActiveSection(path || 'home');
@@ -91,14 +91,14 @@ const Header = ({ jesusRef, memorialRef, cultosRef }) => {
 
   const getLinkClass = (section) => {
     return activeSection === section
-      ? 'text-white font-bold border-b-2 border-white rounded-sm no-underline'
+      ? 'text-white font-bold border-b-2 border-white rounded-sm no-underline '
       : 'text-white no-underline hover:text-custom-gold';
   };
 
   return (
     <header className={`fixed top-0 w-full z-50 transition-colors duration-500 ${isTransparent && activeSection === 'home' ? 'bg-transparent' : 'bg-custom-blue'} text-white p-3 md:p-5`}>
       <div className="flex justify-between items-center">
-        <div className="h-10 md:h-12 text-left w-full max-w-xs">
+        <div className="h-10 md:h-12 text-left">
           <Link to="/" onClick={scrollToTop}>
             <img src='/Igreja-memo-Logo-navbar.ico' alt="Logo Igreja Memorial Batista" className="h-full object-contain pl-2 md:pl-4" />
           </Link>
