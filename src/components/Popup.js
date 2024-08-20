@@ -23,7 +23,7 @@ const Popup = () => {
 
   return (
     <div
-      className={`fixed bottom-4 left-4 bg-white p-4 rounded-lg shadow-lg max-w-md z-50 transform transition-all duration-1000 
+      className={`fixed bottom-4 md:left-4 bg-white bg-opacity-70 p-4 rounded-lg shadow-lg  h-auto z-50 transform transition-all duration-1000 
       ${animateIn && !animateOut ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-[-20px]'}
       ${animateOut ? 'opacity-0 translate-x-[-40px]' : ''}`}
     >
@@ -36,9 +36,9 @@ const Popup = () => {
       <img
         src="/assets/popup_assets/caravana.jpeg"
         alt="Aviso"
-        className="w-full h-32 object-cover rounded-lg"
+        className="w-1/2 h-1/4 mx-auto object-cover rounded-lg"
       />
-      <div className="mt-2">
+      <div className="mt-2 ">
         <h3 className="font-inter font-bold text-[#437d6f]">Amazônia 2025</h3>
         <p className="font-montserrat text-black mb-4">Caravana missionária da IMB</p>
         <a 

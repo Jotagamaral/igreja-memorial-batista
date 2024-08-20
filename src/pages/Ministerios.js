@@ -32,6 +32,7 @@ const Ministerios = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 py-8 px-4 md:px-8 lg:px-16 w-full max-w-screen-xl mx-auto">
           {ministeriosData.map((ministerio, index) => (
+            ministerio.description && ministerio.image && 
             <CardMinisterio
               key={index}
               title={ministerio.title}
@@ -41,6 +42,7 @@ const Ministerios = () => {
               description={ministerio.description}
               image={ministerio.image}
             />
+            
           ))}
         </div>
 

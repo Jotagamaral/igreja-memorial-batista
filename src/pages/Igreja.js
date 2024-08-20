@@ -7,55 +7,57 @@ const Igreja = () => {
   const [textoAtual, setTextoAtual] = useState(0);
   const [isFading, setIsFading] = useState(false);
   const [progress, setProgress] = useState(0);
+  const [pastorSelecionado, setPastorSelecionado] = useState(null); // Estado para o pastor selecionado
 
   useEffect(() => {
-    // Scroll to top when the component mounts
     window.scrollTo(0, 0);
-  }, []); // This effect runs only once, when the component mounts
+  }, []);
 
   useEffect(() => {
-    // Função para alternar entre os textos
+
+
     const alternarTexto = () => {
       setIsFading(true);
       setTimeout(() => {
         setTextoAtual((prevTextoAtual) => (prevTextoAtual + 1) % igrejaData.textosLateral.length);
         setIsFading(false);
-      }, 500); // Tempo igual ao da transição
+      }, 500);
     };
 
-    // Configurar intervalo para alternar textos a cada 3 segundos
-    const intervalo = setInterval(() => {
-      alternarTexto();
-      setProgress((prevProgress) => {
-        const newProgress = (prevProgress + (100 / igrejaData.textosLateral.length));
-        return newProgress >= 100 ? 100 : newProgress;
-      });
-    }, 3000);
+    if (!pastorSelecionado) {
+     
+      
+      
+      const intervalo = setInterval(() => {
+        alternarTexto();
+        setProgress((prevProgress) => {
+          const newProgress = (prevProgress + (100 / igrejaData.textosLateral.length));
+          return newProgress >= 100 ? 100 : newProgress;
+        });
+      }, 10000);
+      
+      const ajustarProgresso = () => {
+        if (textoAtual === igrejaData.textosLateral.length - 1) {
+          setProgress(100);
+        } else {
+          setProgress((textoAtual + 1) * (100 / igrejaData.textosLateral.length));
+        }
+      };
+      
+      ajustarProgresso();
+      
+      
+      
+      return () => clearInterval(intervalo);
+    }
+  }, [textoAtual, pastorSelecionado]);
 
-    // Ajustar progresso quando o texto final estiver sendo exibido
-    const ajustarProgresso = () => {
-      if (textoAtual === igrejaData.textosLateral.length - 1) {
-        setProgress(100);
-      } else {
-        setProgress((textoAtual + 1) * (100 / igrejaData.textosLateral.length));
-      }
-    };
-
-    // Recalcular o progresso sempre que o textoAtual mudar
-    ajustarProgresso();
-
-    // Limpar intervalo ao desmontar o componente
-    return () => clearInterval(intervalo);
-  }, [textoAtual]);
-
-  const texto = igrejaData.textosLateral[textoAtual];
+  const texto = pastorSelecionado ? igrejaData.textosLateral[pastorSelecionado] : igrejaData.textosLateral[textoAtual]; // Use pastorSelecionado se houver
 
   return (
     <div className="min-h-screen py-14 md:py-16 bg-[#F5F5F5]">
       <div className="max-w-screen-xl mx-auto p-4 md:p-8 flex flex-col md:flex-row gap-8">
-        {/* Card com informações na parte esquerda */}
         <Card BackgroundColor="#FFFFFF">
-          {/* Barra de Progresso */}
           <div className="relative h-2 bg-gray-300 mt-4">
             <div
               className="absolute h-full bg-custom-blue transition-all rounded-xl duration-1000"
@@ -66,19 +68,16 @@ const Igreja = () => {
             <h1 className={`text-2xl md:text-4xl font-bold font-inter text-left text-custom-blue transition-opacity duration-500 ${!isFading ? 'opacity-100' : 'opacity-0'}`}>
               {texto.name}
             </h1>
-
             <h3 className={`text-lg md:text-xl font-bold font-montserrat text-left text-black transition-opacity duration-500 ${!isFading ? 'opacity-100' : 'opacity-0'}`}>
-              {texto.titulo}
+              {texto.titulo } {/* Mostra título ou role do pastor */}
             </h3>
             <p className={`text-base md:text-lg font-base font-montserrat text-justify text-[#191919] mt-4 transition-opacity duration-500 ${!isFading ? 'opacity-100' : 'opacity-0'}`}>
-              {texto.conteudo}
+              {texto.conteudo} {/* Mostra conteúdo ou descrição do pastor */}
             </p>
           </div>
         </Card>
 
-        {/* Área com duas divs na parte direita */}
         <div className="flex flex-col gap-4 md:gap-8">
-          {/* Div 1 */}
           <div className="bg-white p-4 md:p-8 rounded-lg shadow-md">
             <h3 className="text-xl md:text-2xl font-inter font-bold mb-4">Conselho Pastoral</h3>
             <div className="flex flex-wrap gap-4 justify-center">
@@ -87,17 +86,23 @@ const Igreja = () => {
                   key={index}
                   className="w-1/2 sm:w-1/3 lg:w-1/5 text-center"
                   initial={{ scale: 1 }}
-                  animate={{ scale: textoAtual === index + 1 ? 1.1 : 1 }}
+                  animate={{ scale: (pastorSelecionado - 1 === index|| textoAtual - 1 === index) ? 1.1 : 1 }}
                   transition={{ duration: 0.5 }}
+                  onMouseEnter={() => setPastorSelecionado(index + 1)} // Define o pastor selecionado
+                  onMouseLeave={() => setPastorSelecionado(null)} // Limpa o pastor selecionado
                 >
-                  <img src={pastor.image} alt={pastor.name} className="w-full h-auto max-w-[100px] md:max-w-[150px] max-h-[150px] md:max-h-[200px] mx-auto mb-2 rounded-md object-cover" />
+                  <img 
+                    src={pastor.image} 
+                    alt={pastor.name} 
+                    className="w-full h-auto max-w-[100px] md:max-w-[150px] max-h-[150px] md:max-h-[200px] mx-auto mb-2 rounded-md object-cover" 
+                  />
                   <p className="font-montserrat font-thin">{pastor.name}</p>
                 </motion.div>
               ))}
             </div>
+
           </div>
 
-          {/* Div 2 */}
           <div className="bg-white p-4 md:p-8 rounded-lg shadow-md">
             <h3 className="text-xl md:text-2xl font-inter font-bold mb-4">Líderes das Congregações</h3>
             <div className="flex flex-wrap gap-4 justify-center">
@@ -112,7 +117,6 @@ const Igreja = () => {
         </div>
       </div>
 
-      {/* Nova Seção de Cards */}
       <h1 className="text-3xl md:text-5xl font-bold text-center mt-8">Conheça as Nossas Congregações</h1>
       <div className="max-w-screen-xl mx-auto p-4 md:p-8 grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-8">
         {igrejaData.congregacoes.map((congregacao, index) => (
@@ -126,7 +130,6 @@ const Igreja = () => {
         ))}
       </div>
 
-      {/* Seção de Chamada para Ação */}
       <div className="text-center py-8 px-4">
         <div className="max-w-screen-lg mx-auto">
           <div className="mb-4">
