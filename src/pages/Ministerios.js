@@ -12,7 +12,7 @@ const Ministerios = () => {
     <>
       <div className="bg-custom-white">
         <div className="flex flex-col items-center">
-          <div className="text-center mt-16 py-8 px-4">
+          <div className="text-center mt-16 py-8 px-4 md:px-8 lg:px-16 w-full">
             <ChurchHistory
               title="Conheça nossos ministérios"
               description="São muitas as formas de servir ao Senhor em nossa igreja!"
@@ -30,7 +30,7 @@ const Ministerios = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 py-8 px-4 max-w-screen-xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 py-8 px-4 md:px-8 lg:px-16 w-full max-w-screen-xl mx-auto">
           {ministeriosData.map((ministerio, index) => (
             <CardMinisterio
               key={index}
@@ -44,7 +44,7 @@ const Ministerios = () => {
           ))}
         </div>
 
-        <div className="text-center py-8 bg-custom-white px-4">
+        <div className="text-center py-8 bg-custom-white px-4 md:px-8 lg:px-16 w-full">
           <div className="max-w-screen-lg mx-auto">
             <div className="mb-4">
               <h2 className="text-3xl md:text-4xl font-bold text-custom-blue font-inter">DESEJA SE TORNAR</h2>

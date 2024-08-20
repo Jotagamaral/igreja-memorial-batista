@@ -9,6 +9,11 @@ const Igreja = () => {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
+    // Scroll to top when the component mounts
+    window.scrollTo(0, 0);
+  }, []); // This effect runs only once, when the component mounts
+
+  useEffect(() => {
     // Função para alternar entre os textos
     const alternarTexto = () => {
       setIsFading(true);
