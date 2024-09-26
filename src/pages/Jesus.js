@@ -83,8 +83,8 @@ const Jesus = () => {
                 title="Sua Importância"
                 description={
                   isMobile && activeText !== 2
-                    ? `Jesus é conhecido e amado por seus profundos ensinamentos. Sua vida foi um exemplo perfeito de compaixão e serviço...`
-                    : `Jesus é conhecido e amado por seus profundos ensinamentos. Sua vida foi um exemplo perfeito de compaixão e serviço, tocando corações e transformando vidas. Sua morte na cruz é vista como o maior ato de amor e sacrifício, enquanto sua ressurreição nos oferece a promessa de vida eterna. Jesus nos chama a viver em comunhão com Deus, nos guiando com Sua sabedoria e graça.`
+                    ? `Jesus é conhecido e amado por Seus profundos ensinamentos. Sua vida foi um exemplo perfeito de compaixão e serviço...`
+                    : `Jesus é conhecido e amado por Seus profundos ensinamentos. Sua vida foi um exemplo perfeito de compaixão e serviço, tocando corações e transformando vidas. Sua morte na cruz é vista como o maior ato de amor e sacrifício, enquanto Sua ressurreição nos oferece a promessa de vida eterna. Jesus nos chama a viver em comunhão com Deus, nos guiando com Sua sabedoria e graça.`
                 }
                 titleSize="text-2xl md:text-4xl"
                 titleWeight="font-bold"
