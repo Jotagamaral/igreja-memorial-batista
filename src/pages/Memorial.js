@@ -23,7 +23,7 @@ const Memorial = () => {
           <div>
             <ChurchHistory
               title="HISTÓRIA"
-              description="A Igreja Memorial Batista de Brasília foi fundada com a missão de ser um farol de fé e esperança na capital do Brasil. Desde sua inauguração em Julho de 1960, tem desempenhado um papel vital na comunidade, oferecendo apoio espiritual, programas educacionais e serviços comunitários. Ao longo dos anos, a igreja cresceu e se tornou um ponto de encontro para aqueles que buscam fortalecer sua fé e se envolver em atividades de adoração e serviço cristão."
+              description="A Igreja Memorial Batista de Brasília foi fundada com a missão de ser um farol de fé e esperança na capital do Brasil. Desde sua inauguração em julho de 1960, tem desempenhado um papel vital na comunidade, oferecendo apoio espiritual, programas educacionais e serviços comunitários. Ao longo dos anos, a igreja cresceu e se tornou um ponto de encontro para aqueles que buscam fortalecer sua fé e se envolver em atividades de adoração e serviço cristão."
               titleSize="text-xl md:text-2xl"
               titleAlign="text-left italic"
               titleColor="text-white"
