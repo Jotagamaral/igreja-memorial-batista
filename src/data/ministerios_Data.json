@@ -37,7 +37,7 @@
       "email": "dermevalfarias@yahoo.com.br",
       "tel": "(61) 99298-4505",
       "description": "Na Igreja Memorial Batista, os diáconos e as diaconisas são eleitos entre os seus membros e integram o Conselho Diaconal. Possuem as seguintes competências: Apoiar a lgreja e seus ministérios nas atividades eclesiásticas; promover a paz, a comunhão e o bem-estar dos membros da Igreja;organizar os elementos da Ceia do Senhor e auxiliar a sua distribuição; assistir os membros, ajudando-os a se integrarem nas atividades da lgreja; zelar pela manutenção da ordem nas dependências do templo nos horários dos cultos. dedicam a tratar da remuneração dos pastores e ministros da Igreja, da avaliação do Pastor Titular e dos Ministros-Auxiliares e assumem outras funções que a Assembleia da Igreja lhes atribuir.",
-      "image": ""
+      "image": "/assets/ministerios_assets/Conselho_Diaconal.jpeg"
     },
     {
       "title": "Educação e Capacitação Cristã",
@@ -57,10 +57,10 @@
     },
     {
       "title": "Ministério com Terceira Idade",
-      "lider": "",
-      "email": "",
-      "tel": "assets/ministerios_assets/bg.png",
-      "description": "",
+      "lider": "Maria do Céu Melo Mestrinho",
+      "email": "mariadoceumestrinho@gmail.com",
+      "tel": "(61) 99965-1836",
+      "description": "Nossa Missão como Ministério com Terceira Idade (Gente de Vida Contente - GVC), é promover ações que dignifiquem a pessoa do Idoso, oferecendo-lhe condições de melhorar a sua qualidade de vida. Para tanto, usa pessoas qualificadas em diversas áreas, oferecendo ao Idoso, orientação necessária para viver bem, em que pese a idade avançada em que se encontra,inclusive, conhecimento bíblico e seu  crescimento espiritual. Também, oferece momentos de enlevo através do Projeto Cultura & Arte, com apresentação de Filmes, Concertos de Música erudita, Canto, Poesia, e Exposição de Pintura. Oferece lazer em forma de viagens de passeio. A partir de 2025, pretende ampliar as suas atividades, realizando Viagens Missionárias e Eventos pró 'Ação Evangelizadora' das Congregações.",
       "image": "/assets/ministerios_assets/Ministerio_com_Terceira_Idade.png"
     },
     {
@@ -89,11 +89,11 @@
     },
     {
       "title": "Ministério de Missões",
-      "lider": "",
-      "email": "",
-      "tel": "",
-      "description": "",
-      "image": ""
+      "lider": "Pr. David Pereira",
+      "email": "missões@imbb.org.br ",
+      "tel": "(61) 3244-8806",
+      "description": "Cabe ao Ministério de Evangelismo e Missões mobilizar a igreja para se envolver na obra missionária desde a evangelização local, por meio da promoção de atividades evangelísticas da igreja no Distrito Federal e entorno, a implantação de frente missionárias e pontos de pregação, bem como no Brasil e no mundo, fomentando o despertamento de vocacionados, o envio ao campo, o cuidado e sustento de missionários possibilitando, assim, a expansão do reino de Deus aqui, ali e além, até que Ele venha.",
+      "image": "/assets/ministerios_assets/Ministerio_de_Missoes.jpeg"
     },
     {
       "title": "Ministério Mulher Cristã em Missão",
