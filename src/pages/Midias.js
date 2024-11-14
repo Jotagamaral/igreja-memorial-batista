@@ -19,6 +19,7 @@ const Midias = () => {
             </p>
             <ul className="list-disc list-inside mb-6 text-justify font-montserrat">
               <li>Escola bíblica dominical online</li>
+              <li>Transmissão ao vivo dos cultos</li>
               <li>Cortes das mensagens</li>
               <li>Cortes dos louvores ministrados</li>
               <li>Cultos antigos</li>
@@ -32,7 +33,7 @@ const Midias = () => {
                 aria-label="Inscreva-se no canal do YouTube da Igreja Memorial"
                 className="bg-[#E2E2EB] text-[#0067CB] font-inter font-thin py-2 px-4 rounded-lg hover:bg-[#d8d8d8] transition duration-300 mt-4"
               >
-                INSCREVA-SE
+                ACESSE O CANAL DA IGREJA
               </a>
 
             </div>  
@@ -44,7 +45,7 @@ const Midias = () => {
             <div className="w-full aspect-w-16 aspect-h-9">
               <iframe 
                 className="w-full h-full" 
-                src="https://www.youtube.com/embed/rRlgU5KSx4M?si=1DWJugaE_LONhvMi&amp;start=3254" 
+                src="https://www.youtube.com/embed/UGCEN9I-GV4?si=cdrihf5d-Wm2Htfl" 
                 title="YouTube video player" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                 referrerPolicy="strict-origin-when-cross-origin" 

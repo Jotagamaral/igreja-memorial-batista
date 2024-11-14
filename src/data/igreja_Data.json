@@ -13,6 +13,10 @@
       "image": "/assets/igreja_assets/PR_Neander_Marques.jpg"
     },
     {
+      "name": "Pr. Maurício Salles",
+      "image": "/assets/igreja_assets/PR_Mauricio_Salles.jpeg"
+    },
+    {
       "name": "MM. Henrique Lino",
       "image": "/assets/igreja_assets/MM_Henrique_Lino.png"
     }
@@ -37,6 +41,11 @@
       "name": "Pr. Neander Marques",
       "titulo": "Ministro com a Juventude",
       "conteudo": "Neander Marques atua ministerialmente na IMB desde 2020. É teólogo formado pela Faculdade Batista de Minas Gerais e exerce seu ministério integral. Atua no Conselho Pastoral com as atividades voltadas à juventude da IMB. Seu Ministério tem trabalhado com adolescentes, jovens e jovens adultos (LIFT), de forma a apoiar essa fase tão importante na vida cristã."
+    },
+    {
+      "name": "Pr. Maurício Salles",
+      "titulo": "Pastor do Crescer",
+      "conteudo": "Pr. Maurício Salles Alves, casado com  Joyce, com dois filhos Enzo e Igor, assumiu o Ministério Infantil da Memorial Batista com a coordenação do CRESCER no dia 27/10/2024. Mais de 16 anos de experiência com trabalhos diferenciados de Ministério com Crianças. Consultor para implantação de Ministérios com Crianças e Desenvolvimento de Líderes. É Bacharel em Teologia - Faculdades Batista do Paraná. Tecnólogo em Análise e Desenvolvimento de Sistemas - UCB, MBA em Governança de TI e graduando em Psicologia. Atua como estrategista na criação de materiais e aplicações práticas de evangelização de crianças através do movimento Crianças para Jesus."
     },
     {
       "name": "MM. Henrique Lino",

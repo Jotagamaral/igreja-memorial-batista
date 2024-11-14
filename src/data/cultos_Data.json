@@ -1,18 +1,22 @@
 [
   {
-    "dia": "Quarta",
+    "dia": "TERÇA",
+    "atividades": ["15h30 - Ministério Mulher Cristã em Missão"]
+  },
+  {
+    "dia": "QUARTA",
     "atividades": ["19h30 - Culto de Oração"]
   },
   {
-    "dia": "Sexta",
+    "dia": "SEXTA",
     "atividades": ["20h - Culto dos Adolescentes + PG"]
   },
   {
-    "dia": "Sábado",
+    "dia": "SÁBADO",
     "atividades": ["16h - Culto em LIBRAS", "19h - Culto da Juventude"]
   },
   {
-    "dia": "Domingo",
+    "dia": "DOMINGO",
     "atividades": ["10h15 - Culto Matutino", "10h15 - Culto Ministério Crescer", "19h - Culto Noturno"]
   }
 ]
