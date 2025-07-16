@@ -2,23 +2,27 @@
   "conselhoPastoral": [
     {
       "name": "Pr. David Pereira",
-      "image": "/assets/igreja_assets/PR_David_Pereira.jpg"
+      "image": "/assets/igreja_assets/conselho_Pastoral/PR_David_Pereira.jpg"
     },
     {
       "name": "Pr. Francisco Menezes",
-      "image": "/assets/igreja_assets/PR_Francisco_Menezes.jpg"
+      "image": "/assets/igreja_assets/conselho_Pastoral/PR_Francisco_Menezes.jpg"
     },
     {
       "name": "Pr. Neander Marques",
-      "image": "/assets/igreja_assets/PR_Neander_Marques.jpg"
+      "image": "/assets/igreja_assets/conselho_Pastoral/PR_Neander_Marques.jpg"
     },
     {
       "name": "Pr. Maurício Salles",
-      "image": "/assets/igreja_assets/PR_Mauricio_Salles.jpeg"
+      "image": "/assets/igreja_assets/conselho_Pastoral/PR_Mauricio_Salles.jpg"
+    },
+    {
+      "name": "Pr. Matheus Maemo",
+      "image": "/assets/igreja_assets/conselho_Pastoral/PR_Matheus_Maemo.jpg"
     },
     {
       "name": "MM. Henrique Lino",
-      "image": "/assets/igreja_assets/MM_Henrique_Lino.png"
+      "image": "/assets/igreja_assets/conselho_Pastoral/MM_Henrique_Lino.png"
     }
   ],
   "textosLateral": [
@@ -48,53 +52,53 @@
       "conteudo": "Pr. Maurício Salles Alves, casado com  Joyce, com dois filhos Enzo e Igor, assumiu o Ministério Infantil da Memorial Batista com a coordenação do CRESCER no dia 27/10/2024. Mais de 16 anos de experiência com trabalhos diferenciados de Ministério com Crianças. Consultor para implantação de Ministérios com Crianças e Desenvolvimento de Líderes. É Bacharel em Teologia - Faculdades Batista do Paraná. Tecnólogo em Análise e Desenvolvimento de Sistemas - UCB, MBA em Governança de TI e graduando em Psicologia. Atua como estrategista na criação de materiais e aplicações práticas de evangelização de crianças através do movimento Crianças para Jesus."
     },
     {
+      "name": "Pr. Matheus Maemo",
+      "titulo": "Ministro de Missões",
+      "conteudo": "Atualmente o cargo está vago. A atuação do Ministro de Missões é voltada ao apoio às congregações, às campanhas de evangelização e missões e apoio ao Conselho Pastoral no que se refere a Missões e Evangelismo."
+    },
+    {
       "name": "MM. Henrique Lino",
       "titulo": "Ministro de Música",
       "conteudo": "Henrique Lino atua ministerialmente na IMB desde 2015. É formado em música sacra pelo Seminário Teológico Batista do Norte do Brasil, em Recife/PE, e exerce seu ministério integral. Atua no Conselho Pastoral liderando a música na IMB. Organiza as atividades musicais, corais, escalas de musicistas, coros, bandas e é responsável pela ordem do culto. Tem como responsabilidade atuar alinhado com os pastores do Conselho Pastoral."
-    },
-    {
-      "name": "Vago",
-      "titulo": "Ministro de Missões",
-      "conteudo": "Atualmente o cargo está vago. A atuação do Ministro de Missões é voltada ao apoio às congregações, às campanhas de evangelização e missões e apoio ao Conselho Pastoral no que se refere a Missões e Evangelismo."
     }
   ],
   "lideresCongregacoes": [
     {
       "name": "Pr. Paulo",
-      "image": "/assets/igreja_assets/PR_Paulo.jpg"
+      "image": "/assets/igreja_assets/lideres_Congregacoes/PR_Paulo.jpg"
     },
     {
       "name": "Pr. Renato Goes",
-      "image": "/assets/igreja_assets/PR_Renato.jpg"
+      "image": "/assets/igreja_assets/lideres_Congregacoes/PR_Renato.jpg"
     },
     {
       "name": "Pr. Manoel",
-      "image": "/assets/igreja_assets/PR_Manoel.png"
+      "image": "/assets/igreja_assets/lideres_Congregacoes/PR_Manoel.png"
     },
     {
       "name": "Pr. Cleber",
-      "image": "/assets/igreja_assets/PR_Cleber.jpg"
+      "image": "/assets/igreja_assets/lideres_Congregacoes/PR_Cleber.jpg"
     }
   ],
   "congregacoes": [
     {
       "name": "CAVALCANTE - GO",
-      "image": "/assets/igreja_assets/CGR_Cavalcante.jpg",
+      "image": "/assets/igreja_assets/congregacoes/CGR_Cavalcante.jpg",
       "description": "A congregação em Cavalcante foi inaugurada em agosto/2020 e é pastoreada pelo Pr. Paulo Dias e Missionária Lídia, da Junta de Missões Nacionais, desde sua implantação. Atualmente, as atividades são assim desenvolvidas: Terça-feira: 19h30 - Estudo bíblico, Quarta-feira: 19h30 - Culto de oração, Quinta-feira: 19h30 - Pequenos Grupos, Sexta-feira: 19h30 - Estudo nas casas, Sábado: 19h30 - Culto da juventude, Domingo 9h - EBD e 19h - Culto."
     },
     {
       "name": "RIACHO FUNDO II",
-      "image": "/assets/igreja_assets/CGR_Riacho_fundo_II.jpg",
+      "image": "/assets/igreja_assets/congregacoes/CGR_Riacho_fundo_II.jpg",
       "description": "A congregação da IMB em Riacho Fundo II, inaugurada em fevereiro/2005, é pastoreada pelo Pr. Manoel Pereira de Oliveira desde 2008. As atividades atualmente são desenvolvidas: às Quartas-feiras 20h - Ensaio Musical, Quintas-feiras 20h - Culto de Oração, Sextas-feiras 20h - Reunião dos Pequenos Grupos dos adolescentes e 25+, aos Sábados 7h - Culto de Oração Matinal e aos Domingos 9h - Escola Bíblica, 10h15 - Culto e 19h - Culto."
     },
     {
       "name": "JARDIM MANGUEIRAL",
-      "image": "/assets/igreja_assets/CGR_Jardim_Mangueiral.jpg",
+      "image": "/assets/igreja_assets/congregacoes/CGR_Jardim_Mangueiral.jpg",
       "description": "A congregação da IMB em Jardins Mangueiral, inaugurada em 31/07/2021, é pastoreada pelo Pr. Renato Goes Damasceno. As atividades atualmente são desenvolvidas às Quartas-feiras 19h30 - Culto de Oração e aos Domingos 10h - Escola Bíblica e 19h - Culto."
     },
     {
       "name": "VALE DO AMANHECER",
-      "image": "/assets/igreja_assets/CGR_Vale_do_Amanhecer.jpg",
+      "image": "/assets/igreja_assets/congregacoes/CGR_Vale_do_Amanhecer.jpg",
       "description": "A congregação no Vale do Amanhecer foi inaugurada em 2021 e é pastoreada pelo Pr. Cleber Sousa Rodrigues, Missionário de Missões Nacionais, desde julho de 2018. Além da plantação de igreja num bairro espírita, o objetivo é a criação de um centro de referência de cuidado integral na comunidade, que atualmente tem aulas de karatê e de música. Agenda da Semana - Quarta: Culto de oração - 19h30, Sexta: Pequenos Grupos - 19h, Sábado: Pequenos Grupos - 18h, Domingo: EBD 9h e Culto 18h30."
     }
   ]
