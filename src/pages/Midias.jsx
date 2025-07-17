@@ -42,7 +42,7 @@ const Midias = () => {
 
         <div className="flex-1 pr-8 hidden md:block">
           <div className="flex justify-center">
-            <div className="w-full aspect-w-16 aspect-h-9">
+            <div className="w-full aspect-normal">
               <iframe 
                 className="w-full h-full" 
                 src="https://www.youtube.com/embed/m0qBEjaIrKY?si=iJisvMI7Ss1x5EE9" 
@@ -121,7 +121,7 @@ const Midias = () => {
                   target="_blank"
                   rel="noopener noreferrer" 
                   className=" self-start font-inter font-bold text-black hover:underline">
-                 Não perca nada {'>'}
+                Não perca nada {'>'}
                 </a>
               </div>
             </Card>

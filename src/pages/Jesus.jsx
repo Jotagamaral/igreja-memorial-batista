@@ -34,9 +34,9 @@ const Jesus = () => {
           
           <div
             ref={ref1}
-            className={`p-4 md:p-5 bg-white bg-opacity-5 rounded-md shadow-lg max-w-lg mx-auto hover:scale-105 
+            className={`p-4 md:p-5 bg-white/5 backdrop-invert backdrop-opacity-10 rounded-md shadow-lg max-w-lg mx-auto hover:scale-105 
                         ${isMobile ? '' : 'transform transition-transform duration-1000 ease-in-out'} 
-                        ${inView1 ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}
+                        ${inView1 ? 'translate-y-0 opacity-80' : 'translate-y-20 opacity-0'}`}
           >
             <div 
               className={`transition-all duration-500 ease-in-out overflow-hidden  ${isMobile && activeText !== 1 ? 'max-h-32' : 'max-h-full'}`}
@@ -72,7 +72,7 @@ const Jesus = () => {
 
           <div
             ref={ref2}
-            className={`p-4 md:p-5 bg-white bg-opacity-5 rounded-md shadow-lg max-w-lg mx-auto hover:scale-105 
+            className={`p-4 md:p-5 bg-white/5 backdrop-invert backdrop-opacity-10 rounded-md shadow-lg max-w-lg mx-auto hover:scale-105 
                         ${isMobile ? '' : 'transform transition-transform duration-1000 ease-in-out'} 
                         ${inView2 ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}
           >

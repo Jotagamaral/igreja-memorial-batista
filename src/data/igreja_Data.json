@@ -64,8 +64,8 @@
   ],
   "lideresCongregacoes": [
     {
-      "name": "Pr. Paulo",
-      "image": "/assets/igreja_assets/lideres_Congregacoes/PR_Paulo.jpg"
+      "name": "Pr. Josivan",
+      "image": "/assets/igreja_assets/lideres_Congregacoes/PR_Josivan.png"
     },
     {
       "name": "Pr. Renato Goes",
@@ -84,11 +84,11 @@
     {
       "name": "CAVALCANTE - GO",
       "image": "/assets/igreja_assets/congregacoes/CGR_Cavalcante.jpg",
-      "description": "A congregação em Cavalcante foi inaugurada em agosto/2020 e é pastoreada pelo Pr. Paulo Dias e Missionária Lídia, da Junta de Missões Nacionais, desde sua implantação. Atualmente, as atividades são assim desenvolvidas: Terça-feira: 19h30 - Estudo bíblico, Quarta-feira: 19h30 - Culto de oração, Quinta-feira: 19h30 - Pequenos Grupos, Sexta-feira: 19h30 - Estudo nas casas, Sábado: 19h30 - Culto da juventude, Domingo 9h - EBD e 19h - Culto."
+      "description": "A congregação em Cavalcante foi inaugurada em agosto/2020 e é pastoreada pelo Pr.Josivan e Cilene, da Junta de Missões Nacionais, desde sua implantação. Atualmente, as atividades são assim desenvolvidas: Terça-feira: 19h30 - Estudo bíblico, Quarta-feira: 19h30 - Culto de oração, Quinta-feira: 19h30 - Pequenos Grupos, Sexta-feira: 19h30 - Estudo nas casas, Sábado: 19h30 - Culto da juventude, Domingo 9h - EBD e 19h - Culto."
     },
     {
       "name": "RIACHO FUNDO II",
-      "image": "/assets/igreja_assets/congregacoes/CGR_Riacho_fundo_II.jpg",
+      "image": "/assets/igreja_assets/congregacoes/CGR_Riacho_Fundo_II.jpg",
       "description": "A congregação da IMB em Riacho Fundo II, inaugurada em fevereiro/2005, é pastoreada pelo Pr. Manoel Pereira de Oliveira desde 2008. As atividades atualmente são desenvolvidas: às Quartas-feiras 20h - Ensaio Musical, Quintas-feiras 20h - Culto de Oração, Sextas-feiras 20h - Reunião dos Pequenos Grupos dos adolescentes e 25+, aos Sábados 7h - Culto de Oração Matinal e aos Domingos 9h - Escola Bíblica, 10h15 - Culto e 19h - Culto."
     },
     {
@@ -99,7 +99,7 @@
     {
       "name": "VALE DO AMANHECER",
       "image": "/assets/igreja_assets/congregacoes/CGR_Vale_do_Amanhecer.jpg",
-      "description": "A congregação no Vale do Amanhecer foi inaugurada em 2021 e é pastoreada pelo Pr. Cleber Sousa Rodrigues, Missionário de Missões Nacionais, desde julho de 2018. Além da plantação de igreja num bairro espírita, o objetivo é a criação de um centro de referência de cuidado integral na comunidade, que atualmente tem aulas de karatê e de música. Agenda da Semana - Quarta: Culto de oração - 19h30, Sexta: Pequenos Grupos - 19h, Sábado: Pequenos Grupos - 18h, Domingo: EBD 9h e Culto 18h30."
+      "description": "A frente missionária no Vale do Amanhecer foi inaugurada em 2021 e é pastoreada pelo Pr. Cleber Sousa Rodrigues, Missionário de Missões Nacionais, desde julho de 2018. Além da plantação de igreja num bairro espírita, o objetivo é a criação de um centro de referência de cuidado integral na comunidade, que atualmente tem aulas de karatê e de música. Agenda da Semana - Quarta: Culto de oração - 19h30, Sexta: Pequenos Grupos - 19h, Sábado: Pequenos Grupos - 18h, Domingo: EBD 9h e Culto 18h30."
     }
   ]
 }

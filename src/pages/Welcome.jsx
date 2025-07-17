@@ -47,16 +47,16 @@ const Welcome = ({ cultosRef }) => {
           ref={ref}
         >
           <ChurchHistory 
-            title="Bem-vindo à Igreja <br /> Memorial Batista"
-            description="Uma igreja viva para O Deus vivo!"
-            titleSize="text-3xl md:text-6xl"
-            titleWeight="font-bold"
-            titleAlign="text-center"
-            titleColor='text-white text-opacity-50'
-            descriptionAlign="text-center"
-            descriptionSize="text-base md:text-lg"
-            descriptionWeight="font-bold"
-            descriptionColor='text-white'
+            title             ="Bem-vindo à Igreja <br /> Memorial Batista"
+            description       ="Uma igreja viva para O Deus vivo!"
+            titleSize         ="text-3xl md:text-6xl"
+            titleWeight       ="font-bold"
+            titleAlign        ="text-center"
+            titleColor        ='text-white text-opacity-50'
+            descriptionAlign  ="text-center"
+            descriptionSize   ="text-base md:text-lg"
+            descriptionWeight ="font-bold"
+            descriptionColor  ='text-white'
           />
           <button 
             onClick={handleScrollToCultos}

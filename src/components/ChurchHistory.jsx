@@ -3,16 +3,16 @@ import React from 'react';
 const ChurchHistory = ({
   title,
   description,
-  titleSize = "text-2xl",
-  titleWeight = "font-bold",
-  titleAlign = "text-center",
-  titleFont = "font-inter",
-  titleColor = 'text-black',
-  descriptionAlign = "text-left",
-  descriptionSize = "text-base",
-  descriptionWeight = "font-normal",
-  descriptionFont = "font-montserrat",
-  descriptionColor = 'text-black'
+  titleSize="text-2xl",
+  titleWeight="font-bold",
+  titleAlign="text-center",
+  titleFont="font-inter",
+  titleColor='text-black',
+  descriptionAlign="text-left",
+  descriptionSize="text-base",
+  descriptionWeight="font-normal",
+  descriptionFont= "font-montserrat",
+  descriptionColor='text-black'
 }) => {
   return (
     <div>
