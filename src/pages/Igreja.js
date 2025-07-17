@@ -56,6 +56,9 @@ const Igreja = () => {
 
   return (
     <div className="min-h-screen py-14 md:py-16 bg-[#F5F5F5]">
+
+      {/* TEXTOS PASTORES E CONSELHO */ }
+
       <div className="max-w-screen-xl mx-auto p-4 md:p-8 flex flex-col md:flex-row gap-8">
         <Card BackgroundColor="#FFFFFF">
           <div className="relative h-2 bg-gray-300 mt-4">
@@ -79,38 +82,33 @@ const Igreja = () => {
 
         <div className="flex flex-col gap-4 md:gap-8 max-w-[700px]">
 
-        <div className="bg-white p-4 md:p-8 rounded-lg shadow-md">
-  <h3 className="text-xl md:text-2xl font-inter font-bold mb-4">Conselho Pastoral</h3>
-  <div className="flex flex-wrap justify-center gap-8  mx-auto"> {/* Define uma largura máxima para controlar o número de itens por linha */}
-    {igrejaData.conselhoPastoral.map((pastor, index) => (
-      <motion.div
-        key={index}
-        className="text-center" // Cada imagem ocupa 1/3 da linha em telas pequenas e médias
-        initial={{ scale: 1 }}
-        animate={{ scale: (pastorSelecionado - 1 === index || textoAtual - 1 === index) ? 1.1 : 1 }}
-        transition={{ duration: 0.5 }}
-        onMouseEnter={() => setPastorSelecionado(index + 1)} 
-        onMouseLeave={() => setPastorSelecionado(null)}
-      >
-        <img 
-          src={pastor.image} 
-          alt={pastor.name} 
-          className="w-full h-auto max-w-[100px] md:max-w-[150px] max-h-[150px] md:max-h-[200px] mx-auto mb-2 rounded-md object-cover" 
-        />
-        <p className="font-montserrat font-thin">{pastor.name}</p>
-      </motion.div>
-    ))}
-  </div>
-</div>
+          {/* CONSELHO PASTORAL */ }
 
+          <div className="bg-white p-4 md:p-8 rounded-lg shadow-md">
+            <h3 className="text-xl md:text-2xl font-inter font-bold mb-4">Conselho Pastoral</h3>
+            <div className="flex flex-wrap justify-center gap-8  mx-auto"> {/* Define uma largura máxima para controlar o número de itens por linha */}
+              {igrejaData.conselhoPastoral.map((pastor, index) => (
+                <motion.div
+                  key={index}
+                  className="text-center" // Cada imagem ocupa 1/3 da linha em telas pequenas e médias
+                  initial={{ scale: 1 }}
+                  animate={{ scale: (pastorSelecionado - 1 === index || textoAtual - 1 === index) ? 1.1 : 1 }}
+                  transition={{ duration: 0.5 }}
+                  onMouseEnter={() => setPastorSelecionado(index + 1)} 
+                  onMouseLeave={() => setPastorSelecionado(null)}
+                >
+                  <img 
+                    src={pastor.image} 
+                    alt={pastor.name} 
+                    className="w-full h-auto max-w-[100px] md:max-w-[150px] max-h-[150px] md:max-h-[200px] mx-auto mb-2 rounded-md object-cover" 
+                  />
+                  <p className="font-montserrat font-thin w-36 h-12">{pastor.name}</p>
+                </motion.div>
+              ))}
+            </div>
+          </div>
 
-
-
-
-
-
-
-
+            {/* LIDERES DAS CONGREGAÇÕES */ }
 
           <div className="bg-white p-4 md:p-8 rounded-lg shadow-md">
             <h3 className="text-xl md:text-2xl font-inter font-bold mb-4">Líderes das Congregações</h3>
@@ -125,6 +123,8 @@ const Igreja = () => {
           </div>
         </div>
       </div>
+
+      {/* CONHEÇA CONGREGAÇÕES */ }
 
       <h1 className="text-3xl md:text-5xl font-bold text-center mt-8">Conheça as Nossas Congregações</h1>
       <div className="max-w-screen-xl mx-auto p-4 md:p-8 grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-8">

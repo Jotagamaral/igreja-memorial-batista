@@ -45,7 +45,7 @@ const Midias = () => {
             <div className="w-full aspect-w-16 aspect-h-9">
               <iframe 
                 className="w-full h-full" 
-                src="https://www.youtube.com/embed/UGCEN9I-GV4?si=cdrihf5d-Wm2Htfl" 
+                src="https://www.youtube.com/embed/m0qBEjaIrKY?si=iJisvMI7Ss1x5EE9" 
                 title="YouTube video player" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                 referrerPolicy="strict-origin-when-cross-origin" 
