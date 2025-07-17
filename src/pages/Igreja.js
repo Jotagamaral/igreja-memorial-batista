@@ -126,7 +126,7 @@ const Igreja = () => {
 
       {/* CONHEÇA CONGREGAÇÕES */ }
 
-      <h1 className="text-3xl md:text-5xl font-bold text-center mt-8">Conheça as Nossas Congregações</h1>
+      <h1 className="text-3xl md:text-5xl font-bold text-center mt-8">Conheça as Nossas Congregações e Frentes Missionárias</h1>
       <div className="max-w-screen-xl mx-auto p-4 md:p-8 grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-8">
         {igrejaData.congregacoes.map((congregacao, index) => (
           <Card key={index} BackgroundColor="#FFFFFF">
