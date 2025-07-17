@@ -25,7 +25,6 @@ const Igreja = () => {
     };
 
     if (!pastorSelecionado) {
-     
       
       
       const intervalo = setInterval(() => {
