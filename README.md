@@ -80,7 +80,7 @@ As configurações de build e deploy estão definidas no arquivo `netlify.toml` 
 Feito por **João Gabriel**.
 
 -   GitHub: [@Jotagamaral](https://github.com/Jotagamaral)
--   LinkedIn: [@João Gabriel][https://www.linkedin.com/in/jotagamaral/]
+-   LinkedIn: [@João Gabriel](https://www.linkedin.com/in/jotagamaral/)
 
 ---
 
