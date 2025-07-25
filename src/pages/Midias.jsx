@@ -103,7 +103,7 @@ const Midias = () => {
               <div className="w-[20rem] flex flex-col absolute -bottom-10 right-0 p-4 bg-[#04B1D9]  rounded-lg shadow-md">
                 <h1 className="self-start font-inter font-bold text-black text-left mb-2">Acesse os nossos boletins dominicais</h1>
                 <a 
-                  href="https://drive.google.com/drive/folders/16VFcUdYmtAEDpM241JeG9rmuXe2pvYZa?usp=drive_link"
+                  href="https://drive.google.com/drive/folders/1JgtacVMeLmMHRhThxDri966GP4lyfA6g?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer" 
                   className=" self-start font-inter font-bold text-black hover:underline">
@@ -117,7 +117,7 @@ const Midias = () => {
             <div className="w-[20rem] flex flex-col absolute -bottom-10 right-0 p-4 bg-[#CDDCE7]  rounded-lg shadow-md">
                 <h1 className="self-start font-inter font-bold text-black text-left mb-2">Veja  o calendário de atividades da memorial</h1>
                 <a 
-                  href="https://drive.google.com/file/d/1spqBdF6IcoCz8ZoRKZZTK8x_Wxdh8dXe/view?usp=drive_link"
+                  href="https://drive.google.com/drive/folders/1lJ2d-pE8kfr63thi5hEGZbQpcT44GdGj?usp=sharing "
                   target="_blank"
                   rel="noopener noreferrer" 
                   className=" self-start font-inter font-bold text-black hover:underline">
