@@ -100,7 +100,7 @@ const Header = ({ jesusRef, memorialRef, cultosRef }) => {
       <div className="flex justify-between items-center">
         <div className="h-10 md:h-12 text-left">
           <Link to="/" onClick={scrollToTop}>
-            <img src='/Igreja-memo-Logo-navbar.ico' alt="Logo Igreja Memorial Batista" className="h-full object-contain pl-2 md:pl-4" />
+            <img src='/assets/logos/Primária_Direita_Vazado_Branco.ico' alt="Logo Igreja Memorial Batista" className="h-full object-contain pl-2 md:pl-4" />
           </Link>
         </div>
         <div className="md:hidden">
