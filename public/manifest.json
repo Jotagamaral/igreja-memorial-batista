@@ -3,12 +3,12 @@
   "name": "Igreja Memorial Batista",
   "icons": [
     {
-      "src": "Igreja-memo-Logo.ico",
+      "src": "/assets/logos/Secundária_Vazado_Branca.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "Igreja-memo-Logo.png",
+      "src": "/assets/logos/Secundária_Vazado_Branca.png",
       "type": "image/png",
       "sizes": "192x192"
     }

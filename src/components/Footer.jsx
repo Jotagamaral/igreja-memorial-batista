@@ -22,7 +22,7 @@ const Footer = () => {
       </div>
       <div className="absolute bottom-5 right-5 hidden md:block">
         <Link to="/" onClick={scrollToTop}>
-          <img src='/Igreja-memo-Logo-navbar.ico' alt="Igreja Memorial Batista" className="h-10" />
+          <img src='/assets/logos/Primária_Esquerda_Vazado_Branco.ico' alt="Igreja Memorial Batista" className="h-10" />
         </Link>
       </div>
     </footer>
