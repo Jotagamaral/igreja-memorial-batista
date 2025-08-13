@@ -109,7 +109,7 @@ const Header = ({ jesusRef, memorialRef, cultosRef }) => {
           </button>
         </div>
         <nav className={`fixed top-16 left-0 w-full border-t border-gray-200 bg-custom-blue md:bg-transparent md:static md:border-0 ${isOpen ? 'block' : 'hidden'} md:flex md:justify-center`}>
-          <ul className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-6 font-inter p-4 md:p-0">
+          <ul className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-6 font-arya p-4 md:p-0">
             <li><Link to="/" onClick={scrollToTop} className={getLinkClass('home')}>Home</Link></li>
             <li><a href="#jesus" onClick={(e) => handleScrollToSection(e, jesusRef)} className={getLinkClass('jesus')}>Jesus</a></li>
             <li><a href="#igreja" onClick={(e) => handleScrollToSection(e, memorialRef)} className={`${getLinkClass('memorial')} whitespace-nowrap`}>Memorial</a></li>

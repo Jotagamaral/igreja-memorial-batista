@@ -60,7 +60,7 @@ const Welcome = ({ cultosRef }) => {
           />
           <button 
             onClick={handleScrollToCultos}
-            className="font-montserrat font-bold bg-custom-blue bg-opacity-70 text-white py-2 px-4 md:py-2 md:px-6 rounded-md hover:bg-blue-950 transition"
+            className="font-poppins font-bold bg-custom-blue bg-opacity-70 text-white py-2 px-4 md:py-2 md:px-6 rounded-md hover:bg-blue-950 transition"
             aria-label="Ir para a seção de Cultos"
           >
             VENHA NOS CONHECER

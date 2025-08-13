@@ -13,11 +13,11 @@ const Midias = () => {
       <div className="flex flex-col md:flex-row mt-16 max-w-screen-xl mx-auto items-center justify-center">
         <div className="flex-1 p-8">
           <div className="rounded-2xl bg-white shadow-lg p-8">
-            <h1 className="text-2xl text-justify font-inter font-bold mb-4">Acompanhe a memorial no YouTube</h1>
-            <p className="mb-4 text-justify font-montserrat">
+            <h1 className="text-2xl text-justify font-arya font-bold mb-4">Acompanhe a memorial no YouTube</h1>
+            <p className="mb-4 text-justify font-poppins">
               Acesse nosso canal no YouTube e assista nossos cultos e muitos outros conteúdos como:
             </p>
-            <ul className="list-disc list-inside mb-6 text-justify font-montserrat">
+            <ul className="list-disc list-inside mb-6 text-justify font-poppins">
               <li>Escola bíblica dominical online</li>
               <li>Transmissão ao vivo dos cultos</li>
               <li>Cortes das mensagens</li>
@@ -31,7 +31,7 @@ const Midias = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Inscreva-se no canal do YouTube da Igreja Memorial"
-                className="bg-[#E2E2EB] text-[#0067CB] font-inter font-thin py-2 px-4 rounded-lg hover:bg-[#d8d8d8] transition duration-300 mt-4"
+                className="bg-[#E2E2EB] text-[#0067CB] font-poppins py-2 px-4 rounded-lg hover:bg-[#d8d8d8] transition duration-300 mt-4"
               >
                 ACESSE O CANAL DA IGREJA
               </a>
@@ -83,7 +83,7 @@ const Midias = () => {
                 href="https://www.flickr.com/photos/142102771@N03/page2" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#E2E2EB] text-[#0067CB] font-inter font-thin py-2 px-4 rounded-lg hover:bg-[#d8d8d8] transition duration-300 mt-4 self-start">
+                className="bg-[#E2E2EB] text-[#0067CB] font-poppins py-2 px-4 rounded-lg hover:bg-[#d8d8d8] transition duration-300 mt-4 self-start">
                 ACESSE O FLICKR
               </a>
             </div>
@@ -95,18 +95,18 @@ const Midias = () => {
       <div className='bg-[#EBEBEB] py-12'>
 
         <div className='max-w-screen-xl mx-auto'>
-          <h1 className="text-2xl text-justify font-inter font-bold pl-8">Acesse mais conteúdos</h1>
+          <h1 className="text-2xl text-justify font-arya font-bold pl-8">Acesse mais conteúdos</h1>
         
           <div className="flex flex-col md:flex-row gap-8 p-8">
             {/* Card 1 */}
             <Card BackgroundImage="/assets/midias_assets/card_midia_1.jpg" className="w-[20rem] h-[25rem]">
               <div className="w-[20rem] flex flex-col absolute -bottom-10 right-0 p-4 bg-[#04B1D9]  rounded-lg shadow-md">
-                <h1 className="self-start font-inter font-bold text-black text-left mb-2">Acesse os nossos boletins dominicais</h1>
+                <h1 className="self-start font-poppins font-bold text-black text-left mb-2">Acesse os nossos boletins dominicais</h1>
                 <a 
                   href="https://drive.google.com/drive/folders/1JgtacVMeLmMHRhThxDri966GP4lyfA6g?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer" 
-                  className=" self-start font-inter font-bold text-black hover:underline">
+                  className=" self-start font-arya font-bold text-black hover:underline">
                   Veja mais {'>'}
                 </a>
               </div>
@@ -115,12 +115,12 @@ const Midias = () => {
             {/* Card 2 */}
             <Card BackgroundImage="/assets/midias_assets/card_midia_2.jpg" className="w-[20rem] h-[25rem]">
             <div className="w-[20rem] flex flex-col absolute -bottom-10 right-0 p-4 bg-[#CDDCE7]  rounded-lg shadow-md">
-                <h1 className="self-start font-inter font-bold text-black text-left mb-2">Veja  o calendário de atividades da memorial</h1>
+                <h1 className="self-start font-poppins font-bold text-black text-left mb-2">Veja  o calendário de atividades da memorial</h1>
                 <a 
                   href="https://drive.google.com/drive/folders/1lJ2d-pE8kfr63thi5hEGZbQpcT44GdGj?usp=sharing "
                   target="_blank"
                   rel="noopener noreferrer" 
-                  className=" self-start font-inter font-bold text-black hover:underline">
+                  className=" self-start font-arya font-bold text-black hover:underline">
                 Não perca nada {'>'}
                 </a>
               </div>

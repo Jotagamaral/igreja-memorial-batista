@@ -9,13 +9,13 @@ const Cultos = () => {
         {/* Coluna da Esquerda */}
         <div className="flex-1 p-4 md:p-8">
           <div className="rounded-2xl bg-white shadow-lg p-6 md:p-8">
-            <h1 className="text-2xl md:text-3xl text-left text-custom-blue font-inter font-bold mb-4">CULTOS SEMANAIS</h1>
+            <h1 className="text-2xl md:text-3xl text-left text-custom-blue font-arya font-bold mb-4">CULTOS SEMANAIS</h1>
             <div className="text-base md:text-lg font-semibold">
               {cultosData.map((culto, index) => (
                 <div key={index} className="mb-4">
-                  <h2 className="text-xl text-left text-custom-blue font-inter font-bold">{culto.dia}</h2>
+                  <h2 className="text-xl text-left text-custom-blue font-arya font-bold">{culto.dia}</h2>
                   {culto.atividades.map((atividade, idx) => (
-                    <p key={idx} className="text-left text-sm md:text-base font-inter">{atividade}</p>
+                    <p key={idx} className="text-left text-sm md:text-base font-poppins">{atividade}</p>
                   ))}
                 </div>
               ))}
@@ -38,9 +38,9 @@ const Cultos = () => {
           </div>
 
           <div className="relative w-full h-32 md:h-40 flex flex-col items-center justify-center text-center">
-            <h1 className="font-montserrat text-custom-blue text-4xl md:text-5xl">Venha</h1>
-            <h1 className="font-montserrat text-custom-blue font-bold text-5xl md:text-7xl">CULTUAR</h1>
-            <h1 className="font-montserrat text-custom-blue text-4xl md:text-5xl">conosco!</h1>
+            <h1 className="font-arya text-custom-blue text-4xl md:text-5xl">Venha</h1>
+            <h1 className="font-arya text-custom-blue font-bold text-5xl md:text-7xl">CULTUAR</h1>
+            <h1 className="font-arya text-custom-blue text-4xl md:text-5xl">conosco!</h1>
           </div>
         </div>
 
