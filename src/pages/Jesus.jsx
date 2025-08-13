@@ -29,7 +29,7 @@ const Jesus = () => {
       imageOpacity={0.4}
     >
       <div className="text-center text-white overflow-x-hidden overflow-y-hidden">
-        <h1 className="text-3xl md:text-6xl font-bold mb-8 font-inter text-custom-gold">QUEM É JESUS?</h1>
+        <h1 className="text-3xl md:text-6xl font-bold mb-8 font-arya text-custom-gold">QUEM É JESUS?</h1>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 pb-8">
           
           <div

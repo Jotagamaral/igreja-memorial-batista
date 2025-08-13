@@ -19,12 +19,12 @@ const Ministerios = () => {
               titleSize="text-3xl md:text-4xl"
               titleWeight="font-bold"
               titleAlign="text-center"
-              titleFont="font-inter"
+              titleFont="font-arya"
               titleColor="text-custom-blue"
               descriptionAlign="text-center"
               descriptionSize="text-base md:text-lg"
               descriptionWeight="font-bold"
-              descriptionFont="font-montserrat"
+              descriptionFont="font-poppins"
               descriptionColor="text-custom-blue"
             />
           </div>
@@ -49,14 +49,14 @@ const Ministerios = () => {
         <div className="text-center py-8 bg-custom-white px-4 md:px-8 lg:px-16 w-full">
           <div className="max-w-screen-lg mx-auto">
             <div className="mb-4">
-              <h2 className="text-3xl md:text-4xl font-bold text-custom-blue font-inter">DESEJA SE TORNAR</h2>
-              <h2 className="text-5xl md:text-6xl font-bold text-custom-blue font-inter">VOLUNTÁRIO?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-custom-blue font-arya">DESEJA SE TORNAR</h2>
+              <h2 className="text-5xl md:text-6xl font-bold text-custom-blue font-arya">VOLUNTÁRIO?</h2>
             </div>
             <a
               href="https://form.jotform.com/230955606462661"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-2 md:px-8 md:py-2 bg-custom-blue text-white text-lg font-montserrat font-bold rounded-3xl hover:bg-blue-900 transition duration-300 inline-block"
+              className="px-6 py-2 md:px-8 md:py-2 bg-custom-blue text-white text-lg font-poppins font-bold rounded-3xl hover:bg-blue-900 transition duration-300 inline-block"
             >
               Preencha o formulário
             </a>

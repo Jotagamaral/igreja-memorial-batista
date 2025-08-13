@@ -1,14 +1,29 @@
 @import "tailwindcss";
 
     @theme {
-    --color-mint-500: oklch(0.72 0.11 178);
-    --color-custom-blue: #00243F;
-    --color-custom-gold: #CDAD7D;
-    --color-custom-white: #EBEBEB;
+        --color-mint-500: oklch(0.72 0.11 178);
+        --color-custom-blue: #00243F;
+        --color-custom-gold: #CDAD7D;
+        --color-custom-white: #EBEBEB;
 
-    --font-inter: 'Inter', 'sans-serif';
-    --font-montserrat: 'Montserrat', 'sans-serif';
-    --aspect-normal: 16 / 9; 
+        --font-inter: 'Inter', 'sans-serif';
+        --font-montserrat: 'Montserrat', 'sans-serif';
+        --font-poppins: 'Poppins', 'sans-serif';
+        --font-arya: 'Arya', 'sans-serif';
 
-    
+        --aspect-normal: 16 / 9; 
+    }
+
+    @font-face {
+        font-family: 'Arya';
+        src: url('../public/assets/fonts/Arya-Regular.ttf') format('ttf');
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Poppins';
+        src: url('../public/assets/fonts/Poppins-Regular.ttf') format('ttf');
+        font-weight: 400;
+        font-style: normal;
     }

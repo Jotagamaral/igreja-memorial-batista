@@ -6,12 +6,12 @@ const ChurchHistory = ({
   titleSize="text-2xl",
   titleWeight="font-bold",
   titleAlign="text-center",
-  titleFont="font-inter",
+  titleFont="font-arya",
   titleColor='text-black',
   descriptionAlign="text-left",
   descriptionSize="text-base",
   descriptionWeight="font-normal",
-  descriptionFont= "font-montserrat",
+  descriptionFont= "font-poppins",
   descriptionColor='text-black'
 }) => {
   return (
