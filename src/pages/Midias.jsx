@@ -40,7 +40,7 @@ const Midias = () => {
           </div>
         </div>
 
-        <div className="flex-1 pr-8 hidden md:block">
+        <div className="flex-1 ml-4 pr-8 hidden md:block">
           <div className="flex justify-center">
             <div className="w-full aspect-normal">
               <iframe 
@@ -58,7 +58,7 @@ const Midias = () => {
 
       {/* Nova área de cards */}
       <div className='bg-[#EBEBEB]'>
-        <div className="flex flex-col md:flex-row max-w-screen-xl mx-auto gap-8 p-8">
+        <div className="flex flex-col md:flex-row max-w-screen-xl mx-auto gap-12 p-8">
           {/* Card com foto de fundo */}
           <Card BackgroundImage="/assets/midias_assets/church_midia.jpg" className="w-[20rem] h-[25rem]" />
           
@@ -97,7 +97,7 @@ const Midias = () => {
         <div className='max-w-screen-xl mx-auto'>
           <h1 className="text-2xl text-justify font-arya font-bold pl-8">Acesse mais conteúdos</h1>
         
-          <div className="flex flex-col md:flex-row gap-8 p-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 p-8">
             {/* Card 1 */}
             <Card BackgroundImage="/assets/midias_assets/card_midia_1.jpg" className="w-[20rem] h-[25rem]">
               <div className="w-[20rem] flex flex-col absolute -bottom-10 right-0 p-4 bg-[#04B1D9]  rounded-lg shadow-md">
@@ -125,6 +125,21 @@ const Midias = () => {
                 </a>
               </div>
             </Card>
+
+            {/* Card 2 */}
+            <Card BackgroundImage="/assets/midias_assets/card_midia_3.jpg" className="w-[20rem] h-[25rem]">
+            <div className="w-[20rem] flex flex-col absolute -bottom-10 right-0 p-4 bg-[#4C719D]  rounded-lg shadow-md">
+                <h1 className="self-start font-poppins font-bold text-black text-left mb-2">Acesse ao nosso mural de avisos virtual</h1>
+                <a 
+                  href="https://drive.google.com/drive/folders/1XPmlYZkQOn4ycMTTIo7N1BneUIk895uQ"
+                  target="_blank"
+                  rel="noopener noreferrer" 
+                  className=" self-start font-arya font-bold text-black hover:underline">
+                Veja mais {'>'}
+                </a>
+              </div>
+            </Card>
+
           </div>
         </div>
 
