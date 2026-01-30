@@ -46,14 +46,13 @@ const Ministerios = () => {
                   todos os domingos às 09h.
                 </p>
                 <a
-                  href="https://www.youtube.com/@imbb"
+                  href="https://www.youtube.com/@imbb/playlists"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="EBD no YouTube da Igreja Memorial"
+                  className="px-6 py-2 border-2 border-custom-blue text-custom-blue font-poppins font-bold rounded-3xl hover:bg-custom-blue hover:text-white transition duration-300 inline-block cursor-pointer"
                 >
-                  <button className="px-6 py-2 border-2 border-custom-blue text-custom-blue font-poppins font-bold rounded-3xl hover:bg-custom-blue hover:text-white transition duration-300">
-                    Participe da nossa EBD Online!
-                  </button>
+                  Participe da nossa EBD Online!
                 </a>
                     
               </div>
