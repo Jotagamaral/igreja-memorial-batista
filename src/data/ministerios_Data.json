@@ -3,7 +3,7 @@
   "ministerios": [
     {
       "title": "Ministério de Ação Social",
-      "lider": "Maria das Graças Sandoval Bibas",
+      "coordenador": "Maria das Graças Sandoval Bibas",
       "email": "mariabibasster@gmail.com",
       "tel": "(61) 99105-2219",
       "description": "Planeja,  executa e avalia serviços de Assistência Social às Congregações, membros da igreja e pessoas da comunidade em situação de vulnerabilidade social. Abrange, segundo critérios pré-estabelecidos: atendimento social; orientação a gestantes e confecção de enxovais para bebes; confecção de roupas para crianças; bazar para apoio a Missionários e Pastores; empréstimos de equipamentos de locomoção e concessão de cestas básicas. O atendimento ocorre semanalmente às quintas-feiras das 14h às 17h30. As solicitações devem ser feitas pelo telefone ou pessoalmente.",
@@ -11,7 +11,7 @@
     },
     {
       "title": "Ministério de Apoio Emocional",
-      "lider": "Cláudia Regina Santos de Vasconcelos",
+      "coordenador": "Cláudia Regina Santos de Vasconcelos",
       "email": "crvasconce@gmail.com",
       "tel": "(61) 99982-6053",
       "description": "O Ministério de Apoio Emocional tem como objetivo contribuir na melhoria da qualidade de vida envolvendo atividades psicológicas, assistenciais e educativas nas áreas de saúde emocional; desenvolver ações voltadas para a conscientização e prevenção das doenças emocionais. Os atendimentos são apenas para dar apoio emocional e não com fim psicoterapêutico com, no máximo, três encontros.",
@@ -19,39 +19,40 @@
     },
     {
       "title": "Ministério de Comunicação",
-      "lider": "Alcinélia Sepúlveda Brito Barreto",
-      "email": "comunicacao@imbb.org.br",
+      "coordenador": "Raianne Paiva Nogueira Lamounier",
+      "email": "raiannepaiva@gmail.com",
       "tel": "(61) 99982-6053",
       "description": "Responsável pela divulgação das atividades da igreja nas mídias sociais, manutenção das informações no site, produção de vídeo de avisos e demais mídias veiculadas no culto para atender aos Ministérios da IMB. Também é responsável pela Recepção e Introdução que ocorre durante os cultos, acolhendo o visitante e saudando-o no momento oportuno. Tem no seu quadro de voluntário: fotógrafos, editores de vídeo, editores de texto, introdutores, locutores, dentre outros.",
-      "image": "/assets/ministerios_assets/ministerio_assets/Ministerio_de_Comunicacao.png"
+      "image": "/assets/ministerios_assets/ministerio_assets/Ministerio_de_Comunicacao.jpeg"
     },
     {
       "title": "Ministério Crescer",
-      "lider": "Pr. Maurício Salles",
+      "coordenador": "Pr. Maurício Salles",
       "email": "ministeriocrescer.imbb@gmail.com",
       "tel": "(61) 3244-8806",
-      "description": "O Ministério Crescer é o espaço onde a fé ganha vida no coração das crianças de 0 a 12 anos, na Igreja Memorial Batista em Brasília. Acreditamos que elas são parte essencial da igreja hoje e têm o poder de influenciar sua geração com o amor e a verdade de Jesus. Nosso compromisso é oferecer um ensino bíblico sólido e relevante, com linguagem apropriada e criativa para cada faixa etária. Aos domingos, vivemos momentos de adoração e aprendizado no nosso Grande Grupo, seguidos por encontros em pequenos grupos que aprofundam a vivência da fé. Atendemos desde o berçário (0 a 2 anos) até os pré-adolescentes em transição (12 anos). Nosso time é formado por líderes vocacionados e capacitados, que servem com alegria em áreas como recepção, lanche, louvor e ensino. Nossa visão é formar crianças apaixonadas por Jesus. Nossa missão é discipular com intencionalidade e criatividade. Temos como pilares: conhecimento bíblico, experiência com Deus, liderança servidora e o pastoreio intencional das famílais.",
+      "description": "O Ministério Crescer é o espaço onde a fé ganha vida no coração das crianças de 0 a 12 anos, na Igreja Memorial Batista em Brasília. Acreditamos que elas são parte essencial da igreja hoje e têm o poder de influenciar sua geração com o amor e a verdade de Jesus. Nosso compromisso é oferecer um ensino bíblico sólido e relevante, com linguagem apropriada e criativa para cada faixa etária. Aos domingos, vivemos momentos de adoração e aprendizado no nosso Grande Grupo, seguidos por encontros em pequenos grupos que aprofundam a vivência da fé. Atendemos desde o berçário (0 a 2 anos) até os pré-adolescentes em transição (12 anos). Nosso time é formado por líderes vocacionados e capacitados, que servem com alegria em áreas como recepção, lanche, louvor e ensino. Nossa visão é formar crianças apaixonadas por Jesus. Nossa missão é discipular com intencionalidade e criatividade. Temos como pilares: conhecimento bíblico, experiência com Deus, coordenadorança servidora e o pastoreio intencional das famílais.",
       "image": "/assets/ministerios_assets/ministerio_assets/Ministerio_Crescer.png"
     },
     {
       "title": "Conselho Diaconal",
-      "lider": "Dermeval Farias Gomes Filho",
-      "email": "dermevalfarias@yahoo.com.br",
-      "tel": "(61) 99298-4505",
+      "coordenador": "Alcinélia Sepúlvida Brito Barreto",
+      "email": "alcineliabarreto@gmail.com",
+      "tel": "(61) 98139-6012",
       "description": "Na Igreja Memorial Batista, os diáconos e as diaconisas são eleitos entre os seus membros e integram o Conselho Diaconal. Possuem as seguintes competências: Apoiar a lgreja e seus ministérios nas atividades eclesiásticas; promover a paz, a comunhão e o bem-estar dos membros da Igreja;organizar os elementos da Ceia do Senhor e auxiliar a sua distribuição; assistir os membros, ajudando-os a se integrarem nas atividades da lgreja; zelar pela manutenção da ordem nas dependências do templo nos horários dos cultos. dedicam a tratar da remuneração dos pastores e ministros da Igreja, da avaliação do Pastor Titular e dos Ministros-Auxiliares e assumem outras funções que a Assembleia da Igreja lhes atribuir.",
-      "image": "/assets/ministerios_assets/ministerio_assets/Conselho_Diaconal.jpeg"
+      "image": "/assets/ministerios_assets/ministerio_assets/Conselho_Diaconal.jpeg",
+      "presidente": true
     },
     {
       "title": "Educação e Capacitação Cristã",
-      "lider": "Sara Mariano Costa",
-      "email": "memorial@imbb.org.br",
+      "coordenador": "Pastor Alex da Costa Graçano",
+      "email": "alexgracano@gmail.com",
       "tel": "(61) 3244-8806",
       "description": "O Ministério de Educação e Capacitação Cristãs (MECC) promove o crescimento espiritual da igreja através de cursos bíblicos e da coordenação da Escola Bíblica Dominical (EBD). As aulas da EBD ocorrem todos os domingos, às 9h, com classes diversificadas para todas as idades e necessidades.As turmas incluem adolescentes, jovens, casais e até aulas em inglês e LIBRAS. Além das aulas regulares, o MECC oferece cursos para novos membros e preparação para o batismo, fortalecendo a fé tanto de novos convertidos quanto de membros experientes.Este é um espaço de aprendizado, comunhão e edificação para toda a igreja.",
-      "image": "/assets/ministerios_assets/ministerio_assets/Educacao_e_Capacitacao_Crista.png"
+      "image": "/assets/ministerios_assets/ministerio_assets/Educacao_e_Capacitacao_Crista.jpeg"
     },
     {
       "title": "Ministério com Famílias",
-      "lider": "Eduardo César Freitas da Silva e Cláudia Costa Freitas da Silva",
+      "coordenador": "Eduardo César Freitas da Silva e Cláudia Costa Freitas da Silva",
       "email": "mcfam@imbb.org.br",
       "tel": "(61) 3244-8806",
       "description": "O Ministério com Famílias (McFam) fortalece a instituição familiar, essencial na vivência cristã. Realiza atividades ao longo do ano, cursos e palestras como: Curso de Noivos, Jantar dos Namorados, Enecom (enriquecimento conjugal), Reenecom (reencontro de casais), Enevida (para solteiros, viúvos e descasados), e Classe Aliança (Escola Bíblica Dominical para casais). Tudo isso para apoiar a comunhão e o crescimento espiritual das famílias.",
@@ -59,7 +60,7 @@
     },
     {
       "title": "Ministério com Terceira Idade",
-      "lider": "Maria do Céu Melo Mestrinho",
+      "coordenador": "Maria do Céu Melo Mestrinho",
       "email": "mariadoceumestrinho@gmail.com",
       "tel": "(61) 99965-1836",
       "description": "Nossa Missão como Ministério com Terceira Idade (Gente de Vida Contente - GVC), é promover ações que dignifiquem a pessoa do Idoso, oferecendo-lhe condições de melhorar a sua qualidade de vida. Para tanto, usa pessoas qualificadas em diversas áreas, oferecendo ao Idoso, orientação necessária para viver bem, em que pese a idade avançada em que se encontra,inclusive, conhecimento bíblico e seu  crescimento espiritual. Também, oferece momentos de enlevo através do Projeto Cultura & Arte, com apresentação de Filmes, Concertos de Música erudita, Canto, Poesia, e Exposição de Pintura. Oferece lazer em forma de viagens de passeio. A partir de 2025, pretende ampliar as suas atividades, realizando Viagens Missionárias e Eventos pró 'Ação Evangelizadora' das Congregações.",
@@ -67,15 +68,15 @@
     },
     {
       "title": "Ministério de Informação",
-      "lider": "Eduardo Paixão",
-      "email": "mininfo@imbb.org.br",
+      "coordenador": "Rosber Neves Almeida Júnior",
+      "email": "rosberal@gmail.com",
       "tel": "(61) 3244-8806",
       "description": "O Ministério de Informação da Igreja Memorial Batista é dedicado a apoiar as áreas ministeriais como proclamação do Evangelho, louvor, ensino e comunhão. Com uma equipa especializada em tecnologia da informação, comunicação e multimédia, o ministério oferece serviços essenciais, incluindo sonorização, broadcasting, iluminação, gravação digital e documentação.Além disso, cuida da preservação e atualização do acervo histórico da igreja e da biblioteca, proporcionando recursos suplementares para membros e congregados. É um suporte vital para a excelência das atividades da igreja.",
       "image": "/assets/ministerios_assets/ministerio_assets/Ministerio_de_Informacao.jpg"
     },
     {
       "title": "Ministério de Integração e Comunhão",
-      "lider": "Pr. Francisco Carlos Soares de Menezes",
+      "coordenador": "Pr. Francisco Carlos Soares de Menezes",
       "email": "memorial@imbb.org.br",
       "tel": "(61) 3244-8806",
       "description": "O Ministério de Integração e Comunhão da Igreja Memorial Batista promove a sociabilidade, integração familiar, recreação e intercâmbio com outras igrejas. O objetivo é fortalecer a doutrina, evangelizar, integrar novos crentes e reintegrar os afastados. As principais áreas de atuação incluem; Grêmio Memorial Batista: Oferece atividades culturais, esportivas e recreativas. Serviço de Integração de Visitantes: Acolhe e acompanha novos visitantes, garantindo sua participação ativa nos cultos e eventos. Serviços Ágape: Focado na comunhão e amor cristão, promovendo um ambiente acolhedor para todos. Assim, o ministério é essencial para fortalecer os laços dentro da comunidade cristã.",
@@ -83,7 +84,7 @@
     },
     {
       "title": "Ministério com Juventude",
-      "lider": "Pr. Neander Marques",
+      "coordenador": "Pr. Neander Marques",
       "email": "neanderm@gmail.com",
       "tel": "(61) 99129-8156",
       "description": "O Ministério com Juventude tem como objetivo trazer as bençãos do conhecimento da Palavra de Deus para Jovens e Adolescentes. Servimos em grupos específicos para adolescentes, jovens e jovens adultos (28+) investindo no relacionamento, na adoração conjunta, discipulado e pequenos grupos e na pregação do Evangelho. Nossas principais atividades são o culto dos adolescentes e PG de jovens às sextas feiras (20 hrs), o Lift (Jovens adultos) quinzenalmente às sextas feiras e o culto com toda a juventude reunida todo sábado às 19 horas! Venha conhecer e adorar a Deus junto conosco!",
@@ -91,7 +92,7 @@
     },
     {
       "title": "Ministério de Missões",
-      "lider": "Pr. Matheus Maemo",
+      "coordenador": "Pr. Matheus Maemo",
       "email": "prmatheus@imbb.org.br",
       "tel": "(61) 98606-6050",
       "description": "O Ministério de Missões da Memorial expressa nosso compromisso com o mandamento de Jesus: “Ide, fazei discípulos de todas as nações” (Mt 28.19). Mais do que um setor da igreja, é uma visão integrada que une três frentes estratégicas: Missões, Discipulado e Evangelismo — atuando juntas para alcançar vidas, formar discípulos e expandir o Reino de Deus. Mobilizamos a igreja a ir ao encontro do próximo, discipular com amor e anunciar o evangelho com coragem. Em Missões, mobilizamos, capacitamos, enviamos e cuidamos de vocacionados e obreiros. No Discipulado, formamos líderes e promovemos crescimento espiritual. No Evangelismo, equipamos a igreja para testemunhar com ousadia. Cremos que a Grande Comissão é um mandamento que adotamos como estilo de vida. Por isso, vivemos integralmente a missão de Deus — até que Ele venha.",
@@ -99,15 +100,15 @@
     },
     {
       "title": "Ministério Mulher Cristã em Missão",
-      "lider": "Nélcia Mariana Fonseca",
-      "email": "nelciamariana@yahoo.com.br",
-      "tel": "(61) 98126-1616",
+      "coordenador": "Lúcia Regina de Oliveira Mialski",
+      "email": "lucmia@gmail.com",
+      "tel": "(61) 99213-2359",
       "description": "Mulher Cristã em Missão é voltado para o trabalho de missões feito pelas mulheres da igreja. Tem por principal característica o estímulo à oração em grupos e suprir as necessidades dos projetos missionários quando solicitado.",
       "image": "/assets/ministerios_assets/ministerio_assets/Ministerio_Mulher_Crista_em_Missao.png"
     },
     {
       "title": "Ministério de Música",
-      "lider": "Ministro de Música Antônio Henrique Lino Melo e Silva",
+      "coordenador": "Ministro de Música Antônio Henrique Lino Melo e Silva",
       "email": "ministeriodemusica@imbb.org.br",
       "tel": "(61) 3244-8806",
       "description": "O Ministério de Música da Memorial Batista visa suprir as necessidades espirituais através da música, promovendo adoração e evangelização. Com seis coros e mais de 450 voluntários, os coristas ensaiam aos sábados e cantam nos cultos de domingo. Destaques incluem o Coro Memorial (80 vozes) e outros grupos como o Coro da Juventude e Coro Madrigal. Além de apresentações locais, realizam musicais em datas especiais e já viajaram pelo Brasil e exterior levando a mensagem de Cristo.",
@@ -115,16 +116,16 @@
     },
     {
       "title": "Ministério de Oração",
-      "lider": "Rubens Barbosa da Silva",
-      "email": "memorial@imbb.org.br",
+      "coordenador": "Andra da Silva Aragão",
+      "email": "oracao@imbb.org.br",
       "tel": "(61) 3244-8806",
-      "description": "O Ministério de Oração coordena as iniciativas de oração e intercessão da igreja. De segunda a sábado, há um grupo que se reúne às 9h por videoconferência, aberto a todos que desejam participar. Também são promovidas reuniões especiais de oração, fortalecendo a comunhão e a fé da comunidade.",
+      "description": "O Ministério de Oração coordena as iniciativas de oração e intercessão da igreja. De segunda a sexta-feira por videoconferência de 8h às 9h, aberto a todos que desejarem participar.  Um grupo dedicado a interceder, buscar a presença de Deus e promover o crescimento espiritual através da oração. Suas atribuições incluem orar pelas nações, autoridades, famílias, igreja e necessidades específicas, visando o avivamento e a vontade divina. ",
       "image": "/assets/ministerios_assets/ministerio_assets/Ministerio_de_Oracao.png"
     },
     {
       "title": "Ministério com Surdos",
-      "lider": "Mônica Teixeira Gonçalves Accioli",
-      "email": "ministeriocomsurdosimb@gmail.com",
+      "coordenador": "Hellen Pereira Lima",
+      "email": "hpl.djes@gmail.com",
       "tel": "(61) 3244-8806 - Whatsapp: (61) 99589-4313",
       "description":"O Ministério com Surdos conta com intérpretes voluntários da Língua Brasileira de Sinais (Libras). A intenção é evangelizar e alcançar para Cristo os surdos da região do Plano Piloto, no Distrito Federal, e ainda auxiliá-los em várias demandas. Atendimento: A comunidade surda conta com apoio da Igreja para solucionar diversos tipos de demandas. A irmã Cintia Campos Silva, secretária do Ministério, atende de segunda a sexta-feira, das 8h às 14h horas na igreja, e auxilia os surdos com demandas relacionadas à igreja, necessidades de marcação de consultas médicas, realização de ligações telefônicas e, caso necessário, auxilia na convocação de outros voluntários intérpretes para acompanhar a pessoa surda quando for preciso. Também há atuação em aconselhamento e auxílio em estudos bíblicos e secundários.",
       "image": "/assets/ministerios_assets/ministerio_assets/Ministerio_com_Surdos.png"

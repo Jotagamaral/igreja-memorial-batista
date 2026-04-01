@@ -130,11 +130,12 @@ const Ministerios = () => {
             <CardMinisterio
               key={index}
               title={ministerio.title}
-              lider={ministerio.lider}
+              coordenador={ministerio.coordenador}
               email={ministerio.email}
               tel={ministerio.tel}
               description={ministerio.description}
               image={ministerio.image}
+              presidente={ministerio.presidente}
             />
           ))}
         </div>
