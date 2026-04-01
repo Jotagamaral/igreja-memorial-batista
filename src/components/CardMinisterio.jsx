@@ -1,6 +1,9 @@
 import React from 'react';
 
-const CardMinisterio = ({ title, description, lider, email, tel, image }) => {
+const CardMinisterio = ({ title, description, coordenador, email, tel, image, presidente = false }) => {
+
+  const labelResponsavel = presidente ? 'Presidente:' : 'Coordenador(a):';
+
   return (
     <div className="bg-white p-6 shadow-md flex flex-col justify-between rounded-lg h-full">
       <div className="flex-grow">
@@ -11,7 +14,7 @@ const CardMinisterio = ({ title, description, lider, email, tel, image }) => {
         <p className="text-justify text-base text-gray-700 font-poppins">{description}</p>
       </div>
       <div className="mt-4 text-left">
-        {lider && <p className="text-sm text-gray-700 font-poppins"><strong>Líder:</strong> {lider}</p>}
+        {coordenador && <p className="text-sm text-gray-700 font-poppins"><strong>{labelResponsavel}</strong> {coordenador}</p>}
         {email && tel && (
           <>
             <p className="text-sm text-gray-700 font-poppins"><strong>E-mail:</strong> {email}</p>
