@@ -1,8 +1,8 @@
 import React from 'react';
 
-const CardMinisterio = ({ title, description, coordenador, email, tel, image, presidente = false }) => {
+const CardMinisterio = ({ title, description, coordenador, email, tel, image, role }) => {
 
-  const labelResponsavel = presidente ? 'Presidente:' : 'Coordenador(a):';
+  const labelResponsavel = role ? `${role}:` : 'Coordenador(a):';
 
   return (
     <div className="bg-white p-6 shadow-md flex flex-col justify-between rounded-lg h-full">
