@@ -3,6 +3,7 @@
   "ministerios": [
     {
       "title": "Ministério de Ação Social",
+      "role": false,
       "coordenador": "Maria das Graças Sandoval Bibas",
       "email": "mariabibasster@gmail.com",
       "tel": "(61) 99105-2219",
@@ -10,23 +11,17 @@
       "image": "/assets/ministerios_assets/ministerio_assets/Ministerio_de_Acao_Social.png"
     },
     {
-      "title": "Ministério de Apoio Emocional",
-      "coordenador": "Cláudia Regina Santos de Vasconcelos",
-      "email": "crvasconce@gmail.com",
-      "tel": "(61) 99982-6053",
-      "description": "O Ministério de Apoio Emocional tem como objetivo contribuir na melhoria da qualidade de vida envolvendo atividades psicológicas, assistenciais e educativas nas áreas de saúde emocional; desenvolver ações voltadas para a conscientização e prevenção das doenças emocionais. Os atendimentos são apenas para dar apoio emocional e não com fim psicoterapêutico com, no máximo, três encontros.",
-      "image": "/assets/ministerios_assets/ministerio_assets/Ministerio_de_Apoio_Emocional.png"
-    },
-    {
       "title": "Ministério de Comunicação",
+      "role": false,
       "coordenador": "Raianne Paiva Nogueira Lamounier",
       "email": "raiannepaiva@gmail.com",
-      "tel": "(61) 99982-6053",
+      "tel": "(61) 99872-9564",
       "description": "Responsável pela divulgação das atividades da igreja nas mídias sociais, manutenção das informações no site, produção de vídeo de avisos e demais mídias veiculadas no culto para atender aos Ministérios da IMB. Também é responsável pela Recepção e Introdução que ocorre durante os cultos, acolhendo o visitante e saudando-o no momento oportuno. Tem no seu quadro de voluntário: fotógrafos, editores de vídeo, editores de texto, introdutores, locutores, dentre outros.",
       "image": "/assets/ministerios_assets/ministerio_assets/Ministerio_de_Comunicacao.jpeg"
     },
     {
       "title": "Ministério Crescer",
+      "role": "Líder",
       "coordenador": "Pr. Maurício Salles",
       "email": "ministeriocrescer.imbb@gmail.com",
       "tel": "(61) 3244-8806",
@@ -35,15 +30,16 @@
     },
     {
       "title": "Conselho Diaconal",
+      "role": "Presidente",
       "coordenador": "Alcinélia Sepúlvida Brito Barreto",
       "email": "alcineliabarreto@gmail.com",
       "tel": "(61) 98139-6012",
       "description": "Na Igreja Memorial Batista, os diáconos e as diaconisas são eleitos entre os seus membros e integram o Conselho Diaconal. Possuem as seguintes competências: Apoiar a lgreja e seus ministérios nas atividades eclesiásticas; promover a paz, a comunhão e o bem-estar dos membros da Igreja;organizar os elementos da Ceia do Senhor e auxiliar a sua distribuição; assistir os membros, ajudando-os a se integrarem nas atividades da lgreja; zelar pela manutenção da ordem nas dependências do templo nos horários dos cultos. dedicam a tratar da remuneração dos pastores e ministros da Igreja, da avaliação do Pastor Titular e dos Ministros-Auxiliares e assumem outras funções que a Assembleia da Igreja lhes atribuir.",
-      "image": "/assets/ministerios_assets/ministerio_assets/Conselho_Diaconal.jpeg",
-      "presidente": true
+      "image": "/assets/ministerios_assets/ministerio_assets/Conselho_Diaconal.jpeg"
     },
     {
       "title": "Educação e Capacitação Cristã",
+      "role": false,
       "coordenador": "Pastor Alex da Costa Graçano",
       "email": "alexgracano@gmail.com",
       "tel": "(61) 3244-8806",
@@ -52,6 +48,7 @@
     },
     {
       "title": "Ministério com Famílias",
+      "role": false,
       "coordenador": "Eduardo César Freitas da Silva e Cláudia Costa Freitas da Silva",
       "email": "mcfam@imbb.org.br",
       "tel": "(61) 3244-8806",
@@ -60,6 +57,7 @@
     },
     {
       "title": "Ministério com Terceira Idade",
+      "role": false,
       "coordenador": "Maria do Céu Melo Mestrinho",
       "email": "mariadoceumestrinho@gmail.com",
       "tel": "(61) 99965-1836",
@@ -68,6 +66,7 @@
     },
     {
       "title": "Ministério de Informação",
+      "role": false,
       "coordenador": "Rosber Neves Almeida Júnior",
       "email": "rosberal@gmail.com",
       "tel": "(61) 3244-8806",
@@ -76,6 +75,7 @@
     },
     {
       "title": "Ministério de Integração e Comunhão",
+      "role": "Líder",
       "coordenador": "Pr. Francisco Carlos Soares de Menezes",
       "email": "memorial@imbb.org.br",
       "tel": "(61) 3244-8806",
@@ -84,6 +84,7 @@
     },
     {
       "title": "Ministério com Juventude",
+      "role": "Líder",
       "coordenador": "Pr. Neander Marques",
       "email": "neanderm@gmail.com",
       "tel": "(61) 99129-8156",
@@ -92,6 +93,7 @@
     },
     {
       "title": "Ministério de Missões",
+      "role": "Líder",
       "coordenador": "Pr. Matheus Maemo",
       "email": "prmatheus@imbb.org.br",
       "tel": "(61) 98606-6050",
@@ -100,6 +102,7 @@
     },
     {
       "title": "Ministério Mulher Cristã em Missão",
+      "role": false,
       "coordenador": "Lúcia Regina de Oliveira Mialski",
       "email": "lucmia@gmail.com",
       "tel": "(61) 99213-2359",
@@ -108,6 +111,7 @@
     },
     {
       "title": "Ministério de Música",
+      "role": false,
       "coordenador": "Ministro de Música Antônio Henrique Lino Melo e Silva",
       "email": "ministeriodemusica@imbb.org.br",
       "tel": "(61) 3244-8806",
@@ -116,6 +120,7 @@
     },
     {
       "title": "Ministério de Oração",
+      "role": false,
       "coordenador": "Andra da Silva Aragão",
       "email": "oracao@imbb.org.br",
       "tel": "(61) 3244-8806",
@@ -124,9 +129,10 @@
     },
     {
       "title": "Ministério com Surdos",
+      "role": false,
       "coordenador": "Hellen Pereira Lima",
       "email": "hpl.djes@gmail.com",
-      "tel": "(61) 3244-8806 - Whatsapp: (61) 99589-4313",
+      "tel": "(61) 99589-4313",
       "description":"O Ministério com Surdos conta com intérpretes voluntários da Língua Brasileira de Sinais (Libras). A intenção é evangelizar e alcançar para Cristo os surdos da região do Plano Piloto, no Distrito Federal, e ainda auxiliá-los em várias demandas. Atendimento: A comunidade surda conta com apoio da Igreja para solucionar diversos tipos de demandas. A irmã Cintia Campos Silva, secretária do Ministério, atende de segunda a sexta-feira, das 8h às 14h horas na igreja, e auxilia os surdos com demandas relacionadas à igreja, necessidades de marcação de consultas médicas, realização de ligações telefônicas e, caso necessário, auxilia na convocação de outros voluntários intérpretes para acompanhar a pessoa surda quando for preciso. Também há atuação em aconselhamento e auxílio em estudos bíblicos e secundários.",
       "image": "/assets/ministerios_assets/ministerio_assets/Ministerio_com_Surdos.png"
     }
