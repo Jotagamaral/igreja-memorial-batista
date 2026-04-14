@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion'; // Importação para animação
+import { motion, AnimatePresence } from 'framer-motion'; // eslint-disable-line no-unused-vars
 import ChurchHistory from '../components/ChurchHistory';
 import CardMinisterio from '../components/CardMinisterio';
 import ministeriosData from '../data/ministerios_Data.json';
