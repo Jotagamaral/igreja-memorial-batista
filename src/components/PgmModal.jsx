@@ -10,10 +10,6 @@ const PgmModal = ({ onClose }) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-sm p-4">
       
-      {/* Contêiner Principal da Modal 
-        Note que ele agora é 'relative' e 'overflow-hidden'. 
-        A rolagem foi movida para a div interna.
-      */}
       <div className="bg-white rounded-2xl shadow-2xl w-full max-w-3xl max-h-[90vh] relative overflow-hidden flex flex-col">
         
         {/* Botão Fechar Fixo no Topo da Modal */}
@@ -25,7 +21,6 @@ const PgmModal = ({ onClose }) => {
           ✕
         </button>
 
-        {/* Área Rolável (Aqui fica o conteúdo que vai rolar) */}
         <div className="overflow-y-auto p-6 md:p-10 h-full">
           
           {/* Cabeçalho */}
@@ -59,7 +54,6 @@ const PgmModal = ({ onClose }) => {
 
           {/* Presença em Brasília e Redes */}
           <div className="grid md:grid-cols-2 gap-8 mb-8">
-            {/* Coluna 1: Regiões */}
             <div>
               <h3 className="font-bold text-gray-800 mb-3 flex items-center gap-2">
                 <span className="w-2 h-2 bg-[#006b54] rounded-full"></span>
@@ -77,7 +71,6 @@ const PgmModal = ({ onClose }) => {
               </p>
             </div>
 
-            {/* Coluna 2: Redes */}
             <div>
               <h3 className="font-bold text-gray-800 mb-3 flex items-center gap-2">
                 <span className="w-2 h-2 bg-[#006b54] rounded-full"></span>
