@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../components/Card';
 import igrejaData from '../data/igreja_Data.json';
-import { motion } from 'framer-motion';
+import { motion } from 'framer-motion'; // eslint-disable-line no-unused-vars
 
 const Igreja = () => {
   const [textoAtual, setTextoAtual] = useState(0);

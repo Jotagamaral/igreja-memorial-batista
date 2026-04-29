@@ -31,7 +31,7 @@
     {
       "title": "Conselho Diaconal",
       "role": "Presidente",
-      "coordenador": "Alcinélia Sepúlvida Brito Barreto",
+      "coordenador": "Alcinélia Sepúlveda Brito Barreto",
       "email": "alcineliabarreto@gmail.com",
       "tel": "(61) 98139-6012",
       "description": "Na Igreja Memorial Batista, os diáconos e as diaconisas são eleitos entre os seus membros e integram o Conselho Diaconal. Possuem as seguintes competências: Apoiar a lgreja e seus ministérios nas atividades eclesiásticas; promover a paz, a comunhão e o bem-estar dos membros da Igreja;organizar os elementos da Ceia do Senhor e auxiliar a sua distribuição; assistir os membros, ajudando-os a se integrarem nas atividades da lgreja; zelar pela manutenção da ordem nas dependências do templo nos horários dos cultos. dedicam a tratar da remuneração dos pastores e ministros da Igreja, da avaliação do Pastor Titular e dos Ministros-Auxiliares e assumem outras funções que a Assembleia da Igreja lhes atribuir.",
@@ -101,12 +101,12 @@
       "image": "/assets/ministerios_assets/ministerio_assets/Ministerio_de_Missoes.png"
     },
     {
-      "title": "Ministério Mulher Cristã em Missão",
+      "title": "Ministério Mulher em Missão",
       "role": false,
       "coordenador": "Lúcia Regina de Oliveira Mialski",
       "email": "lucmia@gmail.com",
       "tel": "(61) 99213-2359",
-      "description": "Mulher Cristã em Missão é voltado para o trabalho de missões feito pelas mulheres da igreja. Tem por principal característica o estímulo à oração em grupos e suprir as necessidades dos projetos missionários quando solicitado.",
+      "description": "Mulher em Missão é voltado para o trabalho de missões feito pelas mulheres da igreja. Tem por principal característica o estímulo à oração em grupos e suprir as necessidades dos projetos missionários quando solicitado.",
       "image": "/assets/ministerios_assets/ministerio_assets/Ministerio_Mulher_Crista_em_Missao.png"
     },
     {
@@ -142,7 +142,7 @@
       "image":"/assets/ministerios_assets/ebd_assets/EBD_Apresentacao.jpg"
     },
     {
-      "image":"/assets/ministerios_assets/ebd_assets/Galatas_Colossenses.jpg"
+      "image":"/assets/ministerios_assets/ebd_assets/Classe_O_Espirito_Santo_e_Voce.jpg"
     },
     {
       "image":"/assets/ministerios_assets/ebd_assets/Classe_de_Adultos.jpg"
@@ -176,6 +176,9 @@
     },
     {
       "image":"/assets/ministerios_assets/ebd_assets/Classe_Crescimento_Cristao.jpg"
+    },
+    {
+      "image":"/assets/ministerios_assets/ebd_assets/Classe_Domingo_a_Tarde.jpg"
     },
     {
       "image":"/assets/ministerios_assets/ebd_assets/EBD_Online.jpg"
