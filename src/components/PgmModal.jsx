@@ -1,16 +1,10 @@
 import React from 'react';
 
 const PgmModal = ({ onClose }) => {
-  const regions = [
-    "Asa Sul", "Asa Norte", "Sudoeste", "Noroeste", 
-    "Lago Norte", "Granja do Torto", "Jardim Botânico", 
-    "Águas Claras", "Taguatinga"
-  ];
-
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-sm p-4">
       
-      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-3xl max-h-[90vh] relative overflow-hidden flex flex-col">
+      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-4xl max-h-[90vh] relative overflow-hidden flex flex-col">
         
         {/* Botão Fechar Fixo no Topo da Modal */}
         <button
@@ -21,72 +15,21 @@ const PgmModal = ({ onClose }) => {
           ✕
         </button>
 
-        <div className="overflow-y-auto p-6 md:p-10 h-full">
+        <div className="overflow-y-auto p-4 md:p-8 h-full flex flex-col items-center">
           
-          {/* Cabeçalho */}
-          <div className="text-center mb-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#006b54] mb-2 font-inter">
-              Pequenos Grupos Multiplicadores (PGM)
-            </h2>
-            <div className="h-1 w-20 bg-[#006b54] mx-auto rounded-full"></div>
+          {/* Infográfico do PGM */}
+          <div className="w-full mb-8 flex justify-center mt-6 md:mt-2">
+            {/* IMPORTANTE: Lembre-se de colocar a imagem na sua pasta public/assets 
+                e ajustar o caminho do 'src' abaixo para o nome correto do arquivo */}
+            <img 
+              src="/assets/popup_assets/PGMs.png" 
+              alt="Infográfico dos Pequenos Grupos Multiplicadores" 
+              className="w-full h-auto object-contain rounded-xl"
+            />
           </div>
 
-          {/* Seção de Introdução e Valores */}
-          <div className="space-y-4 text-gray-700 text-sm md:text-base text-justify leading-relaxed mb-8 font-montserrat">
-            <p>
-              Os <strong>Pequenos Grupos Multiplicadores (PGM)</strong> são encontros presenciais que acontecem semanalmente nos lares, em horários definidos, conduzidos por líderes devidamente formados. Reúnem de 3 a 12 pessoas em um ambiente seguro, acolhedor e relacional, onde a Palavra de Deus é compartilhada com simplicidade e profundidade.
-            </p>
-            <p>
-              Mais do que reuniões, os PGM são espaços de comunhão, cuidado mútuo, oração e crescimento espiritual. Eles existem para possibilitar a prática saudável dos valores, do propósito e da missão que Deus nos confiou: viver a vida cristã com intencionalidade, discipular com amor e servir com generosidade.
-            </p>
-            <p className="italic text-[#006b54] font-medium text-center md:text-justify">
-              "Não se trata apenas de uma estratégia, mas de valores a serem vividos."
-            </p>
-          </div>
-
-          {/* Base Bíblica */}
-          <div className="bg-gray-50 border-l-4 border-[#006b54] p-5 mb-8 rounded-r-lg">
-            <p className="text-xs md:text-sm text-gray-600 italic leading-relaxed font-montserrat">
-              “Eles se dedicavam ao ensino dos apóstolos e à comunhão, ao partir do pão e às orações. [...] Todos os dias continuavam a reunir-se no pátio do templo. Partiam o pão em suas casas e juntos participavam das refeições, com alegria e sinceridade de coração, louvando a Deus e tendo a simpatia de todo o povo. E o Senhor lhes acrescentava diariamente os que iam sendo salvos” 
-              <span className="block mt-2 font-bold">— Atos 2:42-49</span>
-            </p>
-          </div>
-
-          {/* Presença em Brasília e Redes */}
-          <div className="grid md:grid-cols-2 gap-8 mb-8">
-            <div>
-              <h3 className="font-bold text-gray-800 mb-3 flex items-center gap-2">
-                <span className="w-2 h-2 bg-[#006b54] rounded-full"></span>
-                Presentes em diversas regiões:
-              </h3>
-              <div className="grid grid-cols-2 gap-y-1 gap-x-2 text-sm text-gray-600 font-montserrat">
-                {regions.map((region) => (
-                  <div key={region} className="flex items-center gap-2">
-                    <span className="text-[#006b54]">•</span> {region}
-                  </div>
-                ))}
-              </div>
-              <p className="text-[10px] text-gray-400 mt-3 italic">
-                * Contamos com mais de 300 membros em 35 grupos.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="font-bold text-gray-800 mb-3 flex items-center gap-2">
-                <span className="w-2 h-2 bg-[#006b54] rounded-full"></span>
-                Nossas Redes:
-              </h3>
-              <ul className="space-y-2 text-sm text-gray-700 font-bold font-inter">
-                <li className="bg-[#f0f8f6] px-3 py-2 rounded border border-[#d2ebe4]">Rede Famílias (misto)</li>
-                <li className="bg-[#f0f8f6] px-3 py-2 rounded border border-[#d2ebe4]">Rede Juventude</li>
-                <li className="bg-[#f0f8f6] px-3 py-2 rounded border border-[#d2ebe4]">Rede Mulheres</li>
-                <li className="bg-[#f0f8f6] px-3 py-2 rounded border border-[#d2ebe4]">Rede Homens</li>
-              </ul>
-            </div>
-          </div>
-
-          {/* Chamada para Ação Final */}
-          <div className="text-center bg-[#006b54] text-white p-6 rounded-2xl shadow-lg">
+          {/* Chamada para Ação Final (Formulário) */}
+          <div className="text-center bg-[#006b54] text-white p-6 rounded-2xl shadow-lg w-full max-w-3xl mb-4">
             <h3 className="text-xl font-bold mb-3 font-inter">Venha fazer parte!</h3>
             <p className="text-sm mb-6 opacity-90 font-montserrat">
               Experimente a alegria de caminhar junto, crescer na fé e viver a missão que o Senhor nos confiou.
@@ -99,11 +42,6 @@ const PgmModal = ({ onClose }) => {
             >
               Preencher Formulário de Inscrição
             </a>
-          </div>
-
-          {/* Assinatura */}
-          <div className="mt-8 flex items-center justify-center gap-3 text-[#006b54]/60 font-bold text-xs uppercase tracking-widest">
-            <span>Coordenação de Discipulado</span>
           </div>
 
         </div>
