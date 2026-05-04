@@ -74,7 +74,7 @@ const PgmModal = ({ onClose }) => {
                 </div>
                 
                 <p>
-                  Atualmente, contamos com mais de 300 membros engajados em 35 Pequenos Grupos Discipuladores, presentes em 9 regiões de Brasília: Asa Sul, Asa Norte, Sudoeste, Noroeste, Lago Norte, Granja do Torto, Jardim Botânico, Águas Claras e Taguatinga.
+                  Atualmente, contamos com mais de 300 membros engajados em 36 Pequenos Grupos Discipuladores, presentes em 9 regiões de Brasília: Asa Sul, Asa Norte, Sudoeste, Noroeste, Lago Norte, Granja do Torto, Jardim Botânico, Águas Claras e Taguatinga.
                 </p>
                 <p className="mb-4">
                   Há 4 redes em funcionamento: Rede Famílias (misto), Rede Juventude, Rede Mulheres e Rede Homens.
