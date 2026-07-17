@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../components/Card';
+import { FaMapMarkerAlt } from 'react-icons/fa';
 import igrejaData from '../data/igreja_Data.json';
 import { motion } from 'framer-motion'; // eslint-disable-line no-unused-vars
 
@@ -129,10 +130,25 @@ const Igreja = () => {
       <div className="max-w-screen-xl mx-auto p-4 md:p-8 grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-8">
         {igrejaData.congregacoes.map((congregacao, index) => (
           <Card key={index} BackgroundColor="#FFFFFF">
-            <div className="p-4 md:p-8 rounded-lg text-center">
-              <img src={congregacao.image} alt={congregacao.name} className="w-full h-48 object-cover rounded-md mb-4" />
-              <h4 className="text-lg md:text-xl font-arya font-bold mb-2">{congregacao.name}</h4>
-              <p className="text-gray-700 font-poppins text-justify">{congregacao.description}</p>
+            <div className="p-4 md:p-8 rounded-lg text-center flex flex-col justify-between h-full min-h-[420px]">
+              <div>
+                <img src={congregacao.image} alt={congregacao.name} className="w-full h-48 object-cover rounded-md mb-4" />
+                <h4 className="text-lg md:text-xl font-arya font-bold mb-2">{congregacao.name}</h4>
+                <p className="text-gray-700 font-poppins text-justify">{congregacao.description}</p>
+              </div>
+              {congregacao.addressLink && (
+                <div className="mt-6 flex justify-center">
+                  <a
+                    href={congregacao.addressLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-5 py-2.5 bg-custom-blue text-white text-sm font-poppins font-semibold rounded-full hover:bg-blue-900 transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 group"
+                  >
+                    <FaMapMarkerAlt className="text-red-500 transition-transform duration-300 group-hover:scale-120 group-hover:animate-pulse" />
+                    <span>Ver no Google Maps</span>
+                  </a>
+                </div>
+              )}
             </div>
           </Card>
         ))}
