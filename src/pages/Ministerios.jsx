@@ -43,7 +43,7 @@ const Ministerios = () => {
                   A Escola Bíblica Dominical (EBD) é o principal meio de ensino bíblico da nossa igreja. 
                   Temos classes específicas para todas as idades, onde aprofundamos 
                   o conhecimento nas Escrituras e fortalecemos a comunhão. Venha aprender mais sobre a Palavra de Deus 
-                  todos os domingos às 09h.
+                  todos os domingos às 09h e às 17h30.
                 </p>
                 <a
                   href="https://www.youtube.com/@imbb/playlists"
