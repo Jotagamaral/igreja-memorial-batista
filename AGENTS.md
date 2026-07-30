@@ -28,14 +28,18 @@ Este arquivo define as regras gerais, diretrizes de negócio e padrões técnico
 - **Descrição**: As rotas e referências de scroll mantêm a integridade da navegação.
 - **Ação**: Manter compatibilidade com `App.jsx`, `Header.jsx` e `react-router-dom` v7.
 
+### R07 - Auditoria e Correção Automática de Vulnerabilidades (NPM Audit Fix)
+- **Descrição**: Toda atualização de dependências ou processo de release deve executar a correção automática de vulnerabilidades conhecidas.
+- **Ação**: Executar `npm audit fix` como rotina antes de builds e releases para manter a segurança do repositório no GitHub limpa.
+
 ---
 
 ## 2. Habilidades Disponíveis (Skills)
 As instruções detalhadas de cada habilidade estão disponíveis na pasta `.agents/skills/`:
 - `content-management`: Gerenciamento de conteúdo nos arquivos JSON.
 - `ui-development`: Criação e estilização de componentes React com Tailwind CSS e Framer Motion.
-- `quality-audit`: Análise de linter e integridade do código.
-- `production-release`: Geração de build e empacotamento em `.rar` para produção.
+- `quality-audit`: Análise de linter, integridade do código e auditoria de vulnerabilidades.
+- `production-release`: Geração de build, verificação de vulnerabilidades e empacotamento em `.rar` para produção.
 
 ---
 
