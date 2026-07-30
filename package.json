@@ -1,13 +1,14 @@
 {
   "name": "igreja-memorial-batista",
   "private": true,
-  "version": "1.0.2",
+  "version": "1.9.10",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release": "node scripts/release.js"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",

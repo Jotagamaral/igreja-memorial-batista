@@ -61,7 +61,7 @@
       "coordenador": "Maria do Céu Melo Mestrinho",
       "email": "mariadoceumestrinho@gmail.com",
       "tel": "(61) 99965-1836",
-      "description": "Nossa Missão como Ministério com Terceira Idade (Gente de Vida Contente - GVC), é promover ações que dignifiquem a pessoa do Idoso, oferecendo-lhe condições de melhorar a sua qualidade de vida. Para tanto, usa pessoas qualificadas em diversas áreas, oferecendo ao Idoso, orientação necessária para viver bem, em que pese a idade avançada em que se encontra,inclusive, conhecimento bíblico e seu  crescimento espiritual. Também, oferece momentos de enlevo através do Projeto Cultura & Arte, com apresentação de Filmes, Concertos de Música erudita, Canto, Poesia, e Exposição de Pintura. Oferece lazer em forma de viagens de passeio. A partir de 2025, pretende ampliar as suas atividades, realizando Viagens Missionárias e Eventos pró 'Ação Evangelizadora' das Congregações.",
+      "description": "Nossa Missão como Ministério com Terceira Idade (Grupo de Vivência e Convivência - GVC), é promover ações que dignifiquem a pessoa do Idoso, oferecendo-lhe condições de melhorar a sua qualidade de vida. Para tanto, usa pessoas qualificadas em diversas áreas, oferecendo ao Idoso, orientação necessária para viver bem, em que pese a idade avançada em que se encontra,inclusive, conhecimento bíblico e seu  crescimento espiritual. Também, oferece momentos de enlevo através do Projeto Cultura & Arte, com apresentação de Filmes, Concertos de Música erudita, Canto, Poesia, e Exposição de Pintura. Oferece lazer em forma de viagens de passeio. A partir de 2025, pretende ampliar as suas atividades, realizando Viagens Missionárias e Eventos pró 'Ação Evangelizadora' das Congregações.",
       "image": "/assets/ministerios_assets/ministerio_assets/Ministerio_com_Terceira_Idade.png"
     },
     {
@@ -74,7 +74,7 @@
       "image": "/assets/ministerios_assets/ministerio_assets/Ministerio_de_Informacao.jpg"
     },
     {
-      "title": "Ministério de Integração e Comunhão",
+      "title": "Ministério de Integração e Comunhão", 
       "role": "Líder",
       "coordenador": "Pr. Francisco Carlos Soares de Menezes",
       "email": "memorial@imbb.org.br",
@@ -142,7 +142,7 @@
       "image":"/assets/ministerios_assets/ebd_assets/EBD_Apresentacao.jpg"
     },
     {
-      "image":"/assets/ministerios_assets/ebd_assets/Classe_O_Espirito_Santo_e_Voce.jpg"
+      "image":"/assets/ministerios_assets/ebd_assets/Classe_Miniauditorio.jpg"
     },
     {
       "image":"/assets/ministerios_assets/ebd_assets/Classe_de_Adultos.jpg"
@@ -157,28 +157,28 @@
       "image":"/assets/ministerios_assets/ebd_assets/Classe_Vida_Crista.jpg"
     },
     {
-      "image":"/assets/ministerios_assets/ebd_assets/Classe_Seitas_e_Heresias.jpg"
+      "image":"/assets/ministerios_assets/ebd_assets/Classe_Cristologia.jpg"
     },
     {
       "image":"/assets/ministerios_assets/ebd_assets/Classe_Vivendo_como_Discipulo.jpg"
     },
     {
-      "image":"/assets/ministerios_assets/ebd_assets/Classe_Escatologia_Biblica.jpg"
+      "image":"/assets/ministerios_assets/ebd_assets/Classe_Historia_da_Igreja.jpg"
     },
     {
       "image":"/assets/ministerios_assets/ebd_assets/Classe_Alianca_com_Deus.jpg"
     },
     {
-      "image":"/assets/ministerios_assets/ebd_assets/Classe_Bilingue_em_Ingles.jpg"
+      "image":"/assets/ministerios_assets/ebd_assets/Classe_de_Apocalipse.jpg"
     },
     {
       "image":"/assets/ministerios_assets/ebd_assets/Classe_Bilingue_em_Libras.jpg"
     },
     {
-      "image":"/assets/ministerios_assets/ebd_assets/Classe_Crescimento_Cristao.jpg"
+      "image":"/assets/ministerios_assets/ebd_assets/Classe_Domingo_a_Tarde.jpg"
     },
     {
-      "image":"/assets/ministerios_assets/ebd_assets/Classe_Domingo_a_Tarde.jpg"
+      "image":"/assets/ministerios_assets/ebd_assets/Classe_Crescimento_Cristao.jpg"
     },
     {
       "image":"/assets/ministerios_assets/ebd_assets/EBD_Online.jpg"
