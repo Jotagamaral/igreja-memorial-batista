@@ -126,7 +126,7 @@ const Midias = () => {
               </div>
             </Card>
 
-            {/* Card 2 */}
+            {/* Card 3 */}
             <Card BackgroundImage="/assets/midias_assets/card_midia_3.jpg" className="w-[20rem] h-[25rem]">
             <div className="w-[20rem] flex flex-col absolute -bottom-10 right-0 p-4 bg-[#4C719D]  rounded-lg shadow-md">
                 <h1 className="self-start font-poppins font-bold text-black text-left mb-2">Acesse ao nosso mural de avisos virtual</h1>
@@ -136,6 +136,20 @@ const Midias = () => {
                   rel="noopener noreferrer" 
                   className=" self-start font-arya font-bold text-black hover:underline">
                 Veja mais {'>'}
+                </a>
+              </div>
+            </Card>
+
+            {/* Card 4 */}
+            <Card BackgroundImage="/assets/midias_assets/card_midia_4.jpg" className="w-[20rem] h-[25rem]">
+              <div className="w-[20rem] flex flex-col absolute -bottom-10 right-0 p-4 bg-[#6366F1] rounded-lg shadow-md">
+                <h1 className="self-start font-poppins font-bold text-black text-left mb-2">Acesse os materiais de discipulado da memorial</h1>
+                <a 
+                  href="https://drive.google.com/drive/folders/1PZQ0YW_lXkPnqDkIVSgH9XavP4aKn0Fx?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer" 
+                  className="self-start font-arya font-bold text-black hover:underline">
+                  Veja mais {'>'}
                 </a>
               </div>
             </Card>

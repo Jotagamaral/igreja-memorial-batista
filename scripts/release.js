@@ -29,7 +29,7 @@ console.log(`🚀 Versão incrementada para v${version} no package.json`);
 console.log('🔒 Verificando e corrigindo vulnerabilidades de dependências (npm audit fix)...');
 try {
   execSync('npm audit fix', { cwd: rootDir, stdio: 'inherit' });
-} catch (err) {
+} catch {
   console.log('⚠️ npm audit fix executado.');
 }
 
