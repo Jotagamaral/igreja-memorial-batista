@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Ministerios from './pages/Ministerios';
 import Midias from './pages/Midias';
 import Igreja from './pages/Igreja';
+import Redirecionador from './pages/Redirecionador';
 
 
 function App() {
@@ -30,7 +31,8 @@ function App() {
             />
             <Route path="/ministerios" element={<Ministerios />} /> 
             <Route path="/midias" element={<Midias />} />
-            <Route path="/igreja" element={<Igreja />} /> 
+            <Route path="/igreja" element={<Igreja />} />
+            <Route path="/idememorial-Edi" element={<Redirecionador />} />
           </Routes>
         </main>
         <Footer />
