@@ -24,18 +24,26 @@ fs.writeFileSync(pkgPath, JSON.stringify(pkg, null, 2) + '\n', 'utf-8');
 
 const version = pkg.version;
 console.log(`🚀 Versão incrementada para v${version} no package.json`);
-console.log(`📦 Executando npm run build para v${version}...`);
 
-// 2. Run build
+// 2. Audit & Auto-fix vulnerabilities
+console.log('🔒 Verificando e corrigindo vulnerabilidades de dependências (npm audit fix)...');
+try {
+  execSync('npm audit fix', { cwd: rootDir, stdio: 'inherit' });
+} catch {
+  console.log('⚠️ npm audit fix executado.');
+}
+
+// 3. Run build
+console.log(`📦 Executando npm run build para v${version}...`);
 execSync('npm run build', { cwd: rootDir, stdio: 'inherit' });
 
-// 3. Ensure builds/ directory exists
+// 4. Ensure builds/ directory exists
 const buildsDir = path.join(rootDir, 'builds');
 if (!fs.existsSync(buildsDir)) {
   fs.mkdirSync(buildsDir, { recursive: true });
 }
 
-// 4. RAR target path
+// 5. RAR target path
 const archiveName = `igreja-memorial-batista-v${version}.rar`;
 const archivePath = path.join(buildsDir, archiveName);
 
@@ -44,7 +52,7 @@ if (fs.existsSync(archivePath)) {
   fs.unlinkSync(archivePath);
 }
 
-// 5. Compress using WinRAR rar.exe
+// 6. Compress using WinRAR rar.exe
 const winRarPath = 'C:\\Program Files\\WinRAR\\rar.exe';
 const distDir = path.join(rootDir, 'dist', '*');
 
