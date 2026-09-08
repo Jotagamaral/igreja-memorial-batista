@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 // Constante configurável contendo a URL de destino
-const LINK_REPOSITORIO = "https://drive.google.com/drive/folders/1akmf4y84Bv9gvOt3r8jAZgKKmM420128?usp=sharing";
+const LINK_REPOSITORIO = "https://drive.google.com/drive/folders/1egWDx33jNdZjH34vUU71hBJibosUKm7P";
 
 const Redirecionador = () => {
   useEffect(() => {
